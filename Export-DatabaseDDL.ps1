@@ -1,18 +1,8 @@
-﻿<#
-.SYNOPSIS
-    Exporta o DDL de cada objeto de um banco MS-SQL, um arquivo .sql por objeto,
-    organizado em uma pasta por tipo de objeto.
+# Export-DatabaseDDL.ps1 - exporta o DDL de cada objeto de um banco MS-SQL,
+# um arquivo .sql por objeto, organizado em uma pasta por tipo.
+# Uso: .\Export-DatabaseDDL.ps1 -ServerInstance "SERVIDOR\INSTANCIA" -Database "BANCO" -TrustServerCertificate
+# Autenticacao SQL: acrescente -Credential (Get-Credential). Permissoes: -IncludePermissions
 
-.EXAMPLE
-    # Autenticacao integrada (Windows)
-    .\Export-DatabaseDDL.ps1 -ServerInstance "SRV01\SQL2019" -Database "MeuBanco"
-
-.EXAMPLE
-    # Autenticacao SQL, pasta de saida customizada, com permissoes
-    $cred = Get-Credential
-    .\Export-DatabaseDDL.ps1 -ServerInstance "srv01,1433" -Database "MeuBanco" `
-        -Credential $cred -OutputPath "C:\DDL\MeuBanco" -IncludePermissions -TrustServerCertificate
-#>
 [CmdletBinding()]
 param(
     [Parameter(Mandatory)][string]$ServerInstance,
