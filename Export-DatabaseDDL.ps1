@@ -53,10 +53,14 @@ if ($TrustServerCertificate) {
 }
 
 $server = New-Object Microsoft.SqlServer.Management.Smo.Server($conn)
-try { $server.SetDefaultInitFields($true) } catch { }   # carrega propriedades em lote (mais rapido)
 
-$db = $server.Databases[$Database]
-if (-not $db) { throw "Banco '$Database' nao encontrado em '$ServerInstance'." }
+# Busca o banco ignorando maiusculas/minusculas e espacos nas pontas
+$db = $server.Databases | Where-Object { $_.Name.Trim() -ieq $Database.Trim() } | Select-Object -First 1
+if (-not $db) {
+    $disponiveis = ($server.Databases | ForEach-Object { $_.Name }) -join ', '
+    throw "Banco '$Database' nao encontrado em '$ServerInstance'. Bancos visiveis para este login: $disponiveis"
+}
+if (-not $db.IsAccessible) { throw "O banco '$($db.Name)' existe, mas este login nao tem acesso a ele." }
 
 # ---------------------------------------------------------------- Opcoes de script
 $opt = New-Object Microsoft.SqlServer.Management.Smo.ScriptingOptions
