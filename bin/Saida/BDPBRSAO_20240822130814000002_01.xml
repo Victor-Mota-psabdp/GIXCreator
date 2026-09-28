@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>PT DJABES TUNAS UTAMA</Party-Name>
+<Party-Address>DS WATESNEGORO WATESNEGORO NGORO KAB. MO . </Party-Address>
+<Party-City>SURABAYA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>ID</Party-Country>
+<PartyLocation-ID>P000043570</PartyLocation-ID>
+<Party-CountryName>Indonesia</Party-CountryName>
+<Party-UnlocCode>IDSUB</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="DeliverTo">
+<Party-Name>PT DJABES TUNAS UTAMA</Party-Name>
+<Party-Address>DS WATESNEGORO WATESNEGORO NGORO KAB. MO . </Party-Address>
+<Party-City>SURABAYA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>ID</Party-Country>
+<PartyLocation-ID>P000043570</PartyLocation-ID>
+<Party-CountryName>Indonesia</Party-CountryName>
+<Party-UnlocCode>IDSUB</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>SAMA S.A.  MINERACOES ASSOCIADAS</Party-Name>
+<Party-Address>OTR MINA DE CANA BRAVA S/N </Party-Address>
+<Party-City>MINACU</Party-City>
+<Party-State-Prov>GO</Party-State-Prov>
+<Party-PostalCode>76450000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>SAM</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>NO REF#</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>545800</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRMQH</Party-UnlocCode><GovIDNumber>15104599000180</GovIDNumber>
+</Parties><Parties type="ShipFrom">
+<Party-Name>SAMA S.A.  MINERACOES ASSOCIADAS</Party-Name>
+<Party-Address>OTR MINA DE CANA BRAVA S/N </Party-Address>
+<Party-City>MINACU</Party-City>
+<Party-State-Prov>GO</Party-State-Prov>
+<Party-PostalCode>76450000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000015577</PartyLocation-ID>
+<Party-GlobalCode>545800</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRMQH</Party-UnlocCode><GovIDNumber>15104599000180</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>PT DJABES TUNAS UTAMA</Party-Name>
+<Party-Address>DS WATESNEGORO WATESNEGORO NGORO KAB. MO . </Party-Address>
+<Party-City>SURABAYA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>ID</Party-Country>
+<PartyLocation-ID>P000043570</PartyLocation-ID>
+<Party-CountryName>Indonesia</Party-CountryName>
+<Party-UnlocCode>IDSUB</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>PT DJABES TUNAS UTAMA</Party-Name>
+<Party-Address>DS WATESNEGORO WATESNEGORO NGORO KAB. MO . </Party-Address>
+<Party-City>SURABAYA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>ID</Party-Country>
+<PartyLocation-ID>P000043570</PartyLocation-ID>
+<Party-CountryName>Indonesia</Party-CountryName>
+<Party-UnlocCode>IDSUB</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>PT DJABES TUNAS UTAMA</Party-Name>
+<Party-Address>DS WATESNEGORO WATESNEGORO NGORO KAB. MO . </Party-Address>
+<Party-City>SURABAYA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>ID</Party-Country>
+<PartyLocation-ID>P000043570</PartyLocation-ID>
+<Party-CountryName>Indonesia</Party-CountryName>
+<Party-UnlocCode>IDSUB</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>RUY SILVA DE ANDRADE</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[ruy.andrade@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>SAMA S.A.  MINERACOES ASSOCIADAS</Party-Name>
+<Party-Address>OTR MINA DE CANA BRAVA S/N </Party-Address>
+<Party-City>MINACU</Party-City>
+<Party-State-Prov>GO</Party-State-Prov>
+<Party-PostalCode>76450000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>05031</Party-ID>
+<PartyLocation-ID>P000015577</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRMQH</Party-UnlocCode><GovIDNumber>15104599000180</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+<Party-Contacts Action='Add' type="CSR">
+<Contact-Name>RUY SILVA DE ANDRADE</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[ruy.andrade@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Buyer">
+<Party-Name>PT DJABES TUNAS UTAMA</Party-Name>
+<Party-Address>DS WATESNEGORO WATESNEGORO NGORO KAB. MO . </Party-Address>
+<Party-City>SURABAYA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>ID</Party-Country>
+<PartyLocation-ID>P000043570</PartyLocation-ID>
+<Party-CountryName>Indonesia</Party-CountryName>
+<Party-UnlocCode>IDSUB</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>PT DJABES TUNAS UTAMA</Party-Name>
+<Party-Address>DS WATESNEGORO WATESNEGORO NGORO KAB. MO . </Party-Address>
+<Party-City>SURABAYA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>ID</Party-Country>
+<PartyLocation-ID>P000043570</PartyLocation-ID>
+<Party-CountryName>Indonesia</Party-CountryName>
+<Party-UnlocCode>IDSUB</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>SAMA S.A.  MINERACOES ASSOCIADAS</Party-Name>
+<Party-Address>OTR MINA DE CANA BRAVA S/N </Party-Address>
+<Party-City>MINACU</Party-City>
+<Party-State-Prov>GO</Party-State-Prov>
+<Party-PostalCode>76450000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000015577</PartyLocation-ID>
+<Party-GlobalCode>545800</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRMQH</Party-UnlocCode><GovIDNumber>15104599000180</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>SAMA S.A.  MINERACOES ASSOCIADAS</Party-Name>
+<Party-Address>OTR MINA DE CANA BRAVA S/N </Party-Address>
+<Party-City>MINACU</Party-City>
+<Party-State-Prov>GO</Party-State-Prov>
+<Party-PostalCode>76450000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000015577</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRMQH</Party-UnlocCode><GovIDNumber>15104599000180</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMSAM202407004BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000015577</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>COSU6389914980</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>COSU6389914980</ReferenceNumber>
+</References><References type= 'InvoiceNumber'>
+<ReferenceNumber>785E24</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>785E24</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>785E24</ReferenceNumber>
+<ReferenceDate>20240107</ReferenceDate>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>785E24</ReferenceNumber>
+<ReferenceDate>20240107</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>SAM</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>FCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber>Green</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>785E24</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>6389914980</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>785E24</ReferenceNumber>
+<ReferenceDate>20240107</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMSAM202407004BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>4-Billing</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>785E24</ReferenceNumber>
+<ReferenceDate>20240107</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber>785E24</InvoiceNumber>
+<TermsofSaleCode></TermsofSaleCode>
+<TermsofSaleDesc></TermsofSaleDesc>
+<FinalTermsofSaleCode></FinalTermsofSaleCode>
+<FinalTermsofSaleDesc></FinalTermsofSaleDesc>
+<TermsofPaymentCode></TermsofPaymentCode>
+<TermsofPaymentDescription></TermsofPaymentDescription><InvoiceAmount>0</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20240701</CIDate><FOBAmount>0</FOBAmount><FOBCurrency>USD</FOBCurrency></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>MINACU</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BR</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>SURABAYA</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>IDSUB</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>SANTOS</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSSZ</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20240712</OriginDate>
+<OriginDate type='Actual'>20240714</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>SURABAYA</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>IDSUB</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>ID</DestinationCountryCode>
+<DestinationDate type='Estimated'>20240921</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>COSCO CONTAINER LINES</CarrierName>
+<CarrierCode type='SCAC'>COSU</CarrierCode>
+</Carrier><Vessel>
+<VesselName>COSCO SHIPPING BRAZIL</VesselName>
+<VesselCode type='Lloyds'>08208232</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='MasterBillofLadingNumber'>
+<ReferenceNumber>COSU6389914980</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber>COSU6389914980</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[003E]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FreightAmount'><ReferenceNumber>4914.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>6389914980</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>2</EquipmentQuantity>
+<EquipmentSize>40</EquipmentSize>
+<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+<EquipmentType>4010</EquipmentType>
+<EquipmentDescription>40ft - High Cube</EquipmentDescription>
+<SubstituteEquipmentDescription></SubstituteEquipmentDescription>
+</EquipmentSummary><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>13620</MeasurementValue></Measurements>
+<EquipmentInitial>DFSU</EquipmentInitial>
+<EquipmentNumber>7441721</EquipmentNumber>
+<SealNumber>578572</SealNumber>
+<EquipmentType>4010</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>SANTOS</Location>
+<LocationUnlocCd>BRSSZ</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20240711</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>13620</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>27.6</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Amounts><AmountType>SolasVrfdGrMass</AmountType><AmountValue>31040</AmountValue><AmountUnit>KG</AmountUnit></Amounts><Dates><Type>SolasVerfictnDt</Type><Date>20240708</Date><Time>0000</Time></Dates><References type='SolasRespPrty'><ReferenceNumber>Marcondes Braga de Moraes</ReferenceNumber></References><References type='SolasMthd'><ReferenceNumber>2</ReferenceNumber></References><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20240724</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>13620</MeasurementValue></Measurements>
+<EquipmentInitial>BSIU</EquipmentInitial>
+<EquipmentNumber>9562156</EquipmentNumber>
+<SealNumber>586172</SealNumber>
+<EquipmentType>4010</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>SANTOS</Location>
+<LocationUnlocCd>BRSSZ</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20240711</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>13620</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>27.6</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Amounts><AmountType>SolasVrfdGrMass</AmountType><AmountValue>31010</AmountValue><AmountUnit>KG</AmountUnit></Amounts><Dates><Type>SolasVerfictnDt</Type><Date>20240708</Date><Time>0000</Time></Dates><References type='SolasRespPrty'><ReferenceNumber>Marcondes Braga de Moraes</ReferenceNumber></References><References type='SolasMthd'><ReferenceNumber>2</ReferenceNumber></References><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20240724</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+N/I
+]]></Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20240705</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20240706</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingRetreivedDate'/>
+<StatusDate>20240708</StatusDate>
+</Status><Status>
+<StatusType type='DocsRcvdDate'/>
+<StatusDate>20240707</StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20240712</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20240921</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfExitDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfOriginDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='BillofLadingActionDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20240921</StatusDate>
+</Status><Status>
+<StatusType type='BLDate'/>
+<StatusDate>20240714</StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPermissionToExportReleaseDate'/>
+<StatusDate>20240711</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20240711</StatusDate>
+<StatusTime>1800</StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20240704</StatusDate>
+<StatusTime>1800</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20240704</StatusDate>
+<StatusTime>1800</StatusTime>
+</Status>
+<Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20240705</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20240716</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20240926</StatusDate>
+</Status><Status>
+<StatusType type='CustomsReleaseDate'/>
+<StatusDate>20240711</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsEntryPermitReleaseDate'/>
+<StatusDate>20240711</StatusDate>
+</Status>
+<Status>
+<StatusType type='ActCarrierPaymentDate'/>
+<StatusDate>20240717</StatusDate>
+</Status>
+<Status>
+<StatusType type='DraftBOLInstrRecvdDt'/>
+<StatusDate>20240708</StatusDate>
+</Status>
+<Status>
+<StatusType type='DraftBOLInstrRecvdDt'/>
+<StatusDate>20240708</StatusDate>
+</Status>
+<Status>
+<StatusType type='OpenGateDate'/>
+<StatusDate>20240710</StatusDate>
+</Status>
+<Status>
+<StatusType type='AtTerminalDate'/>
+<StatusDate>20240710</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='CertOriginApplied' />
+<StatusDate>20240718</StatusDate>
+</Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20240822</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20240107</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20240107</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[4914.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[4914.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[4.5]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[27240]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>MINACU</LocationName>
+<LocationUnlocCode>BR</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>MINACU</LocationCountryName><LocationCode></LocationCode>
+</Locations><Locations>
+<LocationType>PierTerminal</LocationType><LocationName>SANTOS BRASIL</LocationName>
+<LocationUnlocCode></LocationUnlocCode>
+<LocationCountryCode></LocationCountryCode>
+<LocationCountryName></LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>TypSvc</CodesNamesType><CodesNamesName><![CDATA[CUSTOM HOUSE BROKERAGE]]></CodesNamesName><CodesNamesCode>2</CodesNamesCode></CodesNames></Header><Detail><ProductDetail>
+<LineItemNo>1</LineItemNo>
+<Measurements type='GrsWtKgs'><MeasurementValue>27240</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue></Measurements></ProductDetail></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>27240</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>60053.304</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>0</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>0</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>27.600</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>1.00</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer></Request>

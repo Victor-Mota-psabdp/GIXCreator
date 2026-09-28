@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<ControlNumber>b59a5df8-d703-4df5-ac3f-3342bd47efbe</ControlNumber>
+<UniqueMessageID>b59a5df8-d703-4df5-ac3f-3342bd47efbe</UniqueMessageID>
+<FromIdentifier>ATL</FromIdentifier>
+<ToIdentifier>Integration</ToIdentifier>
+<Customer>DOW</Customer>
+<Timestamp>20210305T181712</Timestamp>
+<PrimaryKey>38491805</PrimaryKey>
+<SecondaryKey>EMARG202103018AR</SecondaryKey>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>DOW BRASIL INDUSTRIA E COMERCIO DE PRODUTOS QUIMICOS LTDA.</Party-Name>
+<Party-Address>R JOSE LUIZ MARCELINO  2240 ITAJAI SANTA CATARINA</Party-Address>
+<Party-City>ITAJAI</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>01795739</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRITJ</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON 355 PISO 355 </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>D6WPG0001</PartyLocation-ID>
+<Party-GlobalCode>696528</Party-GlobalCode><Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>DOW BRASIL INDUSTRIA E COMERCIO DE PRODUTOS QUIMICOS LTDA.</Party-Name>
+<Party-Address>R JOSE LUIZ MARCELINO  2240 ITAJAI SANTA CATARINA</Party-Address>
+<Party-City>ITAJAI</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>01795739</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRITJ</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>DOW BRASIL INDUSTRIA E COMERCIO DE PRODUTOS QUIMICOS LTDA.</Party-Name>
+<Party-Address>R JOSE LUIZ MARCELINO  2240 ITAJAI SANTA CATARINA</Party-Address>
+<Party-City>ITAJAI</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000001366</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRITJ</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>DOW BRASIL INDUSTRIA E COMERCIO DE PRODUTOS QUIMICOS LTDA.</Party-Name>
+<Party-Address>R JOSE LUIZ MARCELINO  2240 ITAJAI SANTA CATARINA</Party-Address>
+<Party-City>ITAJAI</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000001366</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRITJ</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP INTERNATIONAL SRL - ARGENTINA </Party-Name>
+<Party-Address>BOUCHARD  680 PISO 3</Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>C1106ABJ</Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<Party-ID type="PartnerID">BDPARBUE</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>OMAR PEREZ</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[omar.perez@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP INTERNATIONAL SRL - ARGENTINA </Party-Name>
+<Party-Address>BOUCHARD  680 PISO 3</Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>C1106ABJ</Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P15498</PartyLocation-ID>
+<Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30710500211</GovIDNumber>
+</Parties><Parties type="Buyer">
+<Party-Name>DOW BRASIL INDUSTRIA E COMERCIO DE PRODUTOS QUIMICOS LTDA.</Party-Name>
+<Party-Address>R JOSE LUIZ MARCELINO  2240 ITAJAI SANTA CATARINA</Party-Address>
+<Party-City>ITAJAI</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>01795739</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRITJ</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>DOW BRASIL INDUSTRIA E COMERCIO DE PRODUTOS QUIMICOS LTDA.</Party-Name>
+<Party-Address>R JOSE LUIZ MARCELINO  2240 ITAJAI SANTA CATARINA</Party-Address>
+<Party-City>ITAJAI</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>01795739</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRITJ</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON 355 PISO 355 </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000003566</PartyLocation-ID>
+<Party-GlobalCode>696528</Party-GlobalCode><Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON 355 PISO 355 </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000003566</PartyLocation-ID>
+<Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMARG202103018AR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000003566</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>38491805</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>38491805</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[CONTRACTLOGIN]]></ReferenceNumber></References><References type= 'GovernmentPermissionToExportSubmissionNumber'>
+<ReferenceNumber>21003EC01000839F</ReferenceNumber>
+</References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>4005916897</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>38491805</ReferenceNumber>
+<ReferenceDate>20210304</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INTER-COMPANY</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>568197-568196-568194-568193-562752-562752</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>38491805</ReferenceNumber>
+<ReferenceDate>20210304</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>D6WPG0001</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>05</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>AR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>38491805</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>LM0189084</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>38491805</ReferenceNumber>
+<ReferenceDate>20210304</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMARG202103018AR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Origen</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>38491805</ReferenceNumber>
+<ReferenceDate>20210304</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>FOB</TermsofSaleCode>
+<TermsofSaleDesc>FOB</TermsofSaleDesc>
+<FinalTermsofSaleCode>FOB</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>FOB</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>5.15</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20210304</CIDate><FOBAmount>5.15</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>154301</ProductCode><BrandName><![CDATA[PE HDPE 35060L BLK-154301]]></BrandName><InvoiceDesc><![CDATA[PE HDPE 35060L BLK-154301]]></InvoiceDesc><BilledQuantity>5.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>1.03</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>5.15</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'></Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>BUENOS AIRES</OriginName>
+</Origin>
+<OriginCodeType Type='ScheduleD'>
+<OriginCode>35701</OriginCode>
+</OriginCodeType><OriginCodeType Type='UNLOCCode'>
+<OriginCode>ARBUE</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>AR</OriginCountryCode><OriginDate type='Estimated'>20210315</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>ITAJAI</DestinationName>
+</Destination>
+<DestinationCodeType Type='ScheduleK'>
+<DestinationCode>35138</DestinationCode>
+</DestinationCodeType><DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>BRITJ</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>BR</DestinationCountryCode>
+<DestinationDate type='Estimated'>20210321</DestinationDate>
+<TypeofMoveDescription>PORT TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>LOGIN LOGISTICA</CarrierName>
+<CarrierCode type='SCAC'>1293321</CarrierCode>
+</Carrier><Vessel>
+<VesselName>MERCOSUL GUARANI</VesselName>
+<VesselCode type='Lloyds'>07817115</VesselCode></Vessel>
+<PrepaidorCollect>C</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[035]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>D119</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>0.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>1659372</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>LM0189084</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>1</EquipmentQuantity>
+<EquipmentSize>40</EquipmentSize>
+<EquipmentContainerTypeRequest>ADD</EquipmentContainerTypeRequest>
+<EquipmentType>CONTAINER</EquipmentType>
+</EquipmentSummary><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks>
+N/I
+</Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20210308</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20210308</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPaymentStatementSubmissionDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20210315</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20210321</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20210321</StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPermissionToExportReleaseDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20210312</StatusDate>
+<StatusTime></StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20210313</StatusDate>
+<StatusTime>0000</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20210310</StatusDate>
+<StatusTime>2200</StatusTime>
+</Status>
+<Status>
+<StatusType type='BookingConfirmationDate'/>
+<StatusDate>20210331</StatusDate>
+</Status><Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20210308</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20210314</StatusDate>
+</Status><Status>
+<StatusType type='TransETDDate'/>
+<StatusDate>20210327</StatusDate>
+</Status><Status>
+<StatusType type='TransETADate'/>
+<StatusDate>20210325</StatusDate>
+</Status><Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20210303</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsReleaseDate'/>
+<StatusDate>20210304</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsEntryPermitReleaseDate'/>
+<StatusDate>20210304</StatusDate>
+</Status>
+<Status>
+<StatusType type='GovernmentPermissionToExportSubmissionDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20210305</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[5.15]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[125300]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>BAHIA BLANCA</LocationName>
+<LocationUnlocCode>ARBHI</LocationUnlocCode>
+<LocationCountryCode>AR</LocationCountryCode>
+<LocationCountryName>BAHIA BLANCA</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[Fernando Rossi]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>154301</ProductCode>
+<BrandName><![CDATA[PE HDPE 35060L BLK-154301]]></BrandName>
+<InvoiceDesc><![CDATA[PE HDPE 35060L BLK-154301]]></InvoiceDesc>
+<BLDesc>N/I</BLDesc>
+<Compliance>
+<ClassificationNumber>39012029</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>5</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>1.03</Price>
+<ProductAmount>5.15</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>AR</CountryofOriginCode>
+<CountryofOriginName>ARGENTINA</CountryofOriginName>
+<NoOfPkgs>0.0002</NoOfPkgs><TypePkgCode>VL</TypePkgCode>
+<TypePkgDesc>BULK</TypePkgDesc>
+<NoOfPlts>0.0002</NoOfPlts><Measurements type='GrsWtKgs'>
+<MeasurementValue>125300</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>125000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>5</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>5</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>5.15</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>7959</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[CONTRACTLOGIN]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>5.15</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>POLIMEROS DE ETILENO EN FORMAS PRIMARIAS LOS DEMAS</ProductCodesNamesName><ProductCodesNamesCode>39012029</ProductCodesNamesCode></ProductCodesNames></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>125300</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>276236.38</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>125000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>275575</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue>5</MeasurementValue>
+</Measurements>
+</Footer></Request>

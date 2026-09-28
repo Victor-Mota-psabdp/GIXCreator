@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>DOW QUIMICA DE COLOMBIA S.A.</Party-Name>
+<Party-Address>KILOMETRO 14 MANONAL 0 PLANT A932</Party-Address>
+<Party-City>CARTAGENA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>CO</Party-Country>
+<PartyLocation-ID>P000027020</PartyLocation-ID>
+<Party-CountryName>Colombia</Party-CountryName>
+<Party-UnlocCode>COCTG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="DeliverTo">
+<Party-Name>DOW QUIMICA DE COLOMBIA S.A.</Party-Name>
+<Party-Address>KILOMETRO 14 MANONAL 0 PLANT A932</Party-Address>
+<Party-City>CARTAGENA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>CO</Party-Country>
+<PartyLocation-ID>P000027020</PartyLocation-ID>
+<Party-CountryName>Colombia</Party-CountryName>
+<Party-UnlocCode>COCTG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460902</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>CSR</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>NO REF#</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>475403</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>53877627000949</GovIDNumber>
+</Parties><Parties type="ShipFrom">
+<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460902</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000009033</PartyLocation-ID>
+<Party-GlobalCode>475403</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>53877627000949</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>DOW QUIMICA DE COLOMBIA S.A.</Party-Name>
+<Party-Address>KILOMETRO 14 MANONAL 0 PLANT A932</Party-Address>
+<Party-City>CARTAGENA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>CO</Party-Country>
+<PartyLocation-ID>P000027020</PartyLocation-ID>
+<Party-CountryName>Colombia</Party-CountryName>
+<Party-UnlocCode>COCTG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>DOW QUIMICA DE COLOMBIA S.A.</Party-Name>
+<Party-Address>KILOMETRO 14 MANONAL 0 PLANT A932</Party-Address>
+<Party-City>CARTAGENA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>CO</Party-Country>
+<PartyLocation-ID>P000027020</PartyLocation-ID>
+<Party-CountryName>Colombia</Party-CountryName>
+<Party-UnlocCode>COCTG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>DOW QUIMICA DE COLOMBIA S.A.</Party-Name>
+<Party-Address>KILOMETRO 14 MANONAL 0 PLANT A932</Party-Address>
+<Party-City>CARTAGENA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>CO</Party-Country>
+<PartyLocation-ID>P000027020</PartyLocation-ID>
+<Party-CountryName>Colombia</Party-CountryName>
+<Party-UnlocCode>COCTG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>PALOMA COLETO BERRAQUERO VITAL</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Paloma.Vital@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460902</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>BC26</Party-ID>
+<PartyLocation-ID>P000009033</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>53877627000949</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+<Party-Contacts Action='Add' type="CSR">
+<Contact-Name>PALOMA COLETO BERRAQUERO VITAL</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Paloma.Vital@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Buyer">
+<Party-Name>DOW QUIMICA DE COLOMBIA S.A.</Party-Name>
+<Party-Address>KILOMETRO 14 MANONAL 0 PLANT A932</Party-Address>
+<Party-City>CARTAGENA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>CO</Party-Country>
+<PartyLocation-ID>P000027020</PartyLocation-ID>
+<Party-CountryName>Colombia</Party-CountryName>
+<Party-UnlocCode>COCTG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>DOW QUIMICA DE COLOMBIA S.A.</Party-Name>
+<Party-Address>KILOMETRO 14 MANONAL 0 PLANT A932</Party-Address>
+<Party-City>CARTAGENA</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>CO</Party-Country>
+<PartyLocation-ID>P000027020</PartyLocation-ID>
+<Party-CountryName>Colombia</Party-CountryName>
+<Party-UnlocCode>COCTG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460902</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000009033</PartyLocation-ID>
+<Party-GlobalCode>475403</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>53877627000949</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460902</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000009033</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>53877627000949</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMCSR202304051BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000009033</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>0042596716</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>0042596716</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>4007656315</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>0042596716</ReferenceNumber>
+<ReferenceDate>20230412</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INTER-COMPANY</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>357580-357580</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>0042596716</ReferenceNumber>
+<ReferenceDate>20230412</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>CSR</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>FCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>4007656315</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>SSZ1364890</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>0042596716</ReferenceNumber>
+<ReferenceDate>20230412</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMCSR202304051BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>8-Closed by Financial Items</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>0042596716</ReferenceNumber>
+<ReferenceDate>20230412</ReferenceDate>
+</References><References type='STOInd'><ReferenceNumber><![CDATA[Y]]></ReferenceNumber> </References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CFR</TermsofSaleCode>
+<TermsofSaleDesc>CFR</TermsofSaleDesc>
+<FinalTermsofSaleCode>CFR</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CFR</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>53.28</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20230412</CIDate><FOBAmount>53.28</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>99029707</ProductCode><BrandName><![CDATA[PUP 2120L DRBL200KG99029707 (99029707) (99029707) (99029707) (99029707)]]></BrandName><InvoiceDesc><![CDATA[PUP 2120L DRBL200KG99029707 (99029707) (99029707) (99029707) (99029707)]]></InvoiceDesc><BilledQuantity>24.00</BilledQuantity>
+<BilledQuantityUnit>DR</BilledQuantityUnit><Price>2.22</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>53.28</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>GUARUJA</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRGUR</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>CARTAGENA</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>COCTG</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>SANTOS</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSSZ</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20170730</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>CARTAGENA</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>COCTG</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>CO</DestinationCountryCode>
+<DestinationDate type='Estimated'>20170730</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>CMA-CGM</CarrierName>
+<CarrierCode type='SCAC'>CMDU</CarrierCode>
+</Carrier><Vessel>
+<VesselName>TO BE CONFIRMED</VesselName>
+<VesselCode type='Lloyds'>00000</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[0]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>BC26</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>2255.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>SSZ1364890</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>1</EquipmentQuantity>
+<EquipmentSize>20</EquipmentSize>
+<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+<EquipmentType>2200</EquipmentType>
+<EquipmentDescription>20ft - Dry Van</EquipmentDescription>
+<SubstituteEquipmentDescription></SubstituteEquipmentDescription>
+</EquipmentSummary><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>10320</MeasurementValue></Measurements>
+<EquipmentInitial>CMAU</EquipmentInitial>
+<EquipmentNumber>0184392</EquipmentNumber>
+<SealNumber>L1591366</SealNumber>
+<EquipmentType>2200</EquipmentType><EquipmentSize>20</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>SANTOS</Location>
+<LocationUnlocCd>BRSSZ</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20230606</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>10320</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>0</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20170811</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+N/I
+]]></Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20170723</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20170723</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BkngCnfrmtnRcvdSS'/>
+<StatusDate>20230504</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingRetreivedDate'/>
+<StatusDate>20230602</StatusDate>
+</Status><Status>
+<StatusType type='DocsRcvdDate'/>
+<StatusDate>20230601</StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20170730</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20170730</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20230504</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20170730</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20230412</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20230606</StatusDate>
+<StatusTime>1200</StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20230602</StatusDate>
+<StatusTime>1200</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20230602</StatusDate>
+<StatusTime>1200</StatusTime>
+</Status>
+<Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20170723</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20170803</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20170804</StatusDate>
+</Status><Status>
+<StatusType type='ActBookedDate'/>
+<StatusDate>20230504</StatusDate>
+</Status>
+<Status>
+<StatusType type='DraftBOLInstrRecvdDt'/>
+<StatusDate>20230413</StatusDate>
+</Status>
+<Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20230424</StatusDate>
+</Status>
+<Status>
+<StatusType type='DraftBOLInstrRecvdDt'/>
+<StatusDate>20230602</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20240618</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20230413</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20230413</StatusDate>
+</Status><NonConformance>
+<ReasonCode>TRRB011</ReasonCode>
+<ReasonDesc>TRRB011-DID NOT PICK UP AT PLANT</ReasonDesc>
+<Date>20230606</Date>
+</NonConformance><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[2255.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[2255.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[53.28]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[1]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[10320]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>GUARUJA</LocationName>
+<LocationUnlocCode>BRGUR</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>GUARUJA</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>TypSvc</CodesNamesType><CodesNamesName><![CDATA[CUSTOM HOUSE BROKERAGE]]></CodesNamesName><CodesNamesCode>2</CodesNamesCode></CodesNames><BDPInvoice><InvoiceNumber>EMCSR202304051BRA</InvoiceNumber><InvoiceDate>20230822</InvoiceDate><InvoiceTotal>250.00</InvoiceTotal><Charges><Type>N</Type><Code>XCA</Code><Description>STATEMENT OF ACCOUNT</Description><Amount>250.00</Amount><Currency>BRL</Currency><VendorNumber></VendorNumber><VendorName></VendorName><PrepaidAmount>250.00</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><VoidedFlagYN>N</VoidedFlagYN><InvoiceTotalCurrency>BRL</InvoiceTotalCurrency></BDPInvoice></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>99029707</ProductCode>
+<BrandName><![CDATA[PUP 2120L DRBL200KG99029707 (99029707) (99029707) (99029707) (99029707)]]></BrandName>
+<InvoiceDesc><![CDATA[PUP 2120L DRBL200KG99029707 (99029707) (99029707) (99029707) (99029707)]]></InvoiceDesc>
+<BLDesc>N/I</BLDesc>
+<Compliance>
+<ClassificationNumber>39072939</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>24</BilledQuantity>
+<BilledQuantityUnit>DR</BilledQuantityUnit>
+<Price>2.22</Price>
+<ProductAmount>53.28</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<NoOfPkgs>24</NoOfPkgs><TypePkgCode>DRM</TypePkgCode>
+<TypePkgDesc>DRUM</TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>10320</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>9600</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>24</PrimaryRptQty><PrimaryRptQtyUOM>DR</PrimaryRptQtyUOM><SecondaryRptQty>24</SecondaryRptQty><SecondaryRptQtyUOM>DR</SecondaryRptQtyUOM><EnterValue>53.28</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00017334</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductReferences type="PONumber">
+<ProductReferenceNumber>4007656315</ProductReferenceNumber></ProductReferences><ProductReferences type="PurchaseOrderNumber">
+<ProductReferenceNumber>0042596716</ProductReferenceNumber></ProductReferences><ProductReferences type="OrderNumber">
+<ProductReferenceNumber>0042596716</ProductReferenceNumber></ProductReferences><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>53.28</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS</ProductCodesNamesName><ProductCodesNamesCode>39072939</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20170723</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates><ProductFees><Description>DEVOLUÇÃO DE CNTR - CHB</Description><Code>XNT</Code><Amount>250.00</Amount><SeqNumber>1</SeqNumber></ProductFees></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>10320</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>22751.472</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>9600</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>21164.16</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>1.00</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer></Request>

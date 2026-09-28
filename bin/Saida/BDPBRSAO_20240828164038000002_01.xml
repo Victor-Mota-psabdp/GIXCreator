@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>CORTEVA AGRISCIENCE LLC ID 35-1781118-02</Party-Name>
+<Party-Address>9330 ZIONSVILLE RD. 46268 ATTN: ALIX SKILLMAN, BLDG</Party-Address>
+<Party-City>INDIANAPOLIS</Party-City>
+<Party-State-Prov>IN</Party-State-Prov>
+<Party-PostalCode>46268   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000032870</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIND</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="DeliverTo">
+<Party-Name>CORTEVA AGRISCIENCE LLC ID 35-1781118-02</Party-Name>
+<Party-Address>9330 ZIONSVILLE RD. 46268 ATTN: ALIX SKILLMAN, BLDG</Party-Address>
+<Party-City>INDIANAPOLIS</Party-City>
+<Party-State-Prov>IN</Party-State-Prov>
+<Party-PostalCode>46268   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000032870</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIND</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>CTVA PROTECAO DE CULTIVOS LTDA.</Party-Name>
+<Party-Address>AV CONSTANTE PAVAN 4327 BLOCO A  BLOCO B SA</Party-Address>
+<Party-City>PAULINIA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>13148198</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>CTV</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>TAMIRES SILVA</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-Contacts Action='Add' type='CusRep'><Contact-Name>TAMIRES SILVA</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>1137036</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRPAU</Party-UnlocCode><GovIDNumber>47180625006349</GovIDNumber>
+</Parties><Parties type="ShipFrom">
+<Party-Name>CTVA PROTECAO DE CULTIVOS LTDA.</Party-Name>
+<Party-Address>AV CONSTANTE PAVAN 4327 BLOCO A  BLOCO B SA</Party-Address>
+<Party-City>PAULINIA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>13148198</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000044285</PartyLocation-ID>
+<Party-GlobalCode>1137036</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRPAU</Party-UnlocCode><GovIDNumber>47180625006349</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>CORTEVA AGRISCIENCE LLC ID 35-1781118-02</Party-Name>
+<Party-Address>9330 ZIONSVILLE RD. 46268 ATTN: ALIX SKILLMAN, BLDG</Party-Address>
+<Party-City>INDIANAPOLIS</Party-City>
+<Party-State-Prov>IN</Party-State-Prov>
+<Party-PostalCode>46268   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000032870</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIND</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>CORTEVA AGRISCIENCE LLC ID 35-1781118-02</Party-Name>
+<Party-Address>9330 ZIONSVILLE RD. 46268 ATTN: ALIX SKILLMAN, BLDG</Party-Address>
+<Party-City>INDIANAPOLIS</Party-City>
+<Party-State-Prov>IN</Party-State-Prov>
+<Party-PostalCode>46268   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000032870</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIND</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>CORTEVA AGRISCIENCE LLC ID 35-1781118-02</Party-Name>
+<Party-Address>9330 ZIONSVILLE RD. 46268 ATTN: ALIX SKILLMAN, BLDG</Party-Address>
+<Party-City>INDIANAPOLIS</Party-City>
+<Party-State-Prov>IN</Party-State-Prov>
+<Party-PostalCode>46268   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000032870</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIND</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type='CSR'><Party-Name>Sao Paulo Office</Party-Name><Party-Address>Rua Geraldo Flausino 78 - Andar</Party-Address><Party-City>Sao Paulo</Party-City><Party-State-Prov>SP</Party-State-Prov><Party-PostalCode>04575060</Party-PostalCode><Party-Country>BR</Party-Country><PartyLocation-ID>BDPBRSAO</PartyLocation-ID><Party-Contacts Action='Add' type='ACAS'><Contact-Name>Joao Djalma</Contact-Name><Contact-CommunicationAddress type='Email'>joao.djalma@bdpint.com</Contact-CommunicationAddress><Contact-CommunicationAddress type='Telephone'>+55-11-5504-3417</Contact-CommunicationAddress><ContactFirstName>Joao</ContactFirstName><ContactLastName>Djalma</ContactLastName></Party-Contacts><Party-CountryName>Brazil</Party-CountryName><Party-UnlocCode>BRSAO</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber></Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>MISLENE OLIVEIRA DOS SANTOS</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Mislene.Santos@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>CTVA PROTECAO DE CULTIVOS LTDA.</Party-Name>
+<Party-Address>AV CONSTANTE PAVAN 4327 BLOCO A  BLOCO B SA</Party-Address>
+<Party-City>PAULINIA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>13148198</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>05031</Party-ID>
+<PartyLocation-ID>P000044285</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRPAU</Party-UnlocCode><GovIDNumber>47180625006349</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+<Party-Contacts Action='Add' type="CSR">
+<Contact-Name>MISLENE OLIVEIRA DOS SANTOS</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Mislene.Santos@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Buyer">
+<Party-Name>CORTEVA AGRISCIENCE LLC ID 35-1781118-02</Party-Name>
+<Party-Address>9330 ZIONSVILLE RD. 46268 ATTN: ALIX SKILLMAN, BLDG</Party-Address>
+<Party-City>INDIANAPOLIS</Party-City>
+<Party-State-Prov>IN</Party-State-Prov>
+<Party-PostalCode>46268   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000032870</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIND</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>CORTEVA AGRISCIENCE LLC ID 35-1781118-02</Party-Name>
+<Party-Address>9330 ZIONSVILLE RD. 46268 ATTN: ALIX SKILLMAN, BLDG</Party-Address>
+<Party-City>INDIANAPOLIS</Party-City>
+<Party-State-Prov>IN</Party-State-Prov>
+<Party-PostalCode>46268   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000032870</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIND</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>CTVA PROTECAO DE CULTIVOS LTDA.</Party-Name>
+<Party-Address>AV CONSTANTE PAVAN 4327 BLOCO A  BLOCO B SA</Party-Address>
+<Party-City>PAULINIA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>13148198</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000044285</PartyLocation-ID>
+<Party-GlobalCode>1137036</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRPAU</Party-UnlocCode><GovIDNumber>47180625006349</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>CTVA PROTECAO DE CULTIVOS LTDA.</Party-Name>
+<Party-Address>AV CONSTANTE PAVAN 4327 BLOCO A  BLOCO B SA</Party-Address>
+<Party-City>PAULINIA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>13148198</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000044285</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRPAU</Party-UnlocCode><GovIDNumber>47180625006349</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EACTV202408007BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>FFD</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000044285</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>22015001060</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>22015001060</ReferenceNumber>
+</References><References type= 'InvoiceNumber'>
+<ReferenceNumber>9900039214-9364-66-67-69-70-71-72-76-9432</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>5500006120-6501-02-03-04-</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>5500006120</ReferenceNumber>
+<ReferenceDate>20240823</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INTER-COMPANY</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>UN-UN</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>5500006120</ReferenceNumber>
+<ReferenceDate>20240823</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>CTV</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>LCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>5500006120-6501-02-03-04-</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>C</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>Y</ReferenceNumber>
+</References><References type= 'ConsolNumber'>
+<ReferenceNumber>EAVCP202408018</ReferenceNumber>
+</References><References type= 'ConsolStatus'>
+<ReferenceNumber>Booking</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>EACTV202408007BR</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>5500006120</ReferenceNumber>
+<ReferenceDate>20240823</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EACTV202408007BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Booking</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>5500006120</ReferenceNumber>
+<ReferenceDate>20240823</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber>9900039214-9364-66-67-69-70-71-72-76-9432</InvoiceNumber>
+<TermsofSaleCode>CIP</TermsofSaleCode>
+<TermsofSaleDesc>CIP</TermsofSaleDesc>
+<FinalTermsofSaleCode>CIP</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CIP</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>3519900</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20230723</CIDate><FOBAmount>3451084.80</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>1513772</ProductCode><BrandName><![CDATA[AMINOCYCLOPYRACHLOR BAGPPR 500KG BRA (1513772)]]></BrandName><InvoiceDesc><![CDATA[AMINOCYCLOPYRACHLOR BAGPPR 500KG BRA (1513772)]]></InvoiceDesc><BilledQuantity>30000.00</BilledQuantity>
+<BilledQuantityUnit>DR</BilledQuantityUnit><Price>117.33</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>3519900.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='A' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>PAULINIA</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRPUI</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>MIAMI</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>USMIA</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='A' LegType='First'>
+<OriginCodeType Type="UNLOCCode">
+<OriginCode>BRVCP</OriginCode>
+</OriginCodeType>
+<OriginCodeType Type="IATACode">
+<OriginCode>VCP</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode>
+<OriginDate type='Estimated'>20240903</OriginDate>
+<OriginTime type='Estimated'>0000</OriginTime>
+<DestinationCodeType Type="UNLOCCode">
+<DestinationCode>USMIA</DestinationCode>
+</DestinationCodeType>
+<DestinationCodeType Type="IATACode">
+<DestinationCode>MIA</DestinationCode>
+</DestinationCodeType>
+<DestinationCodeType Type='ScheduleK'>
+<DestinationCode>5201</DestinationCode>
+</DestinationCodeType><DestinationCountryCode>US</DestinationCountryCode>
+<DestinationDate type='Estimated'>20240903</DestinationDate>
+<DestinationTime type='Estimated'>0000</DestinationTime>
+<TypeofMoveDescription>AIRPORT TO AIRPORT H/H (DUP)</TypeofMoveDescription>
+<TypeofMoveCode Type='AA'></TypeofMoveCode>
+<Carrier>
+<CarrierName>ATLAS AIR CARGO</CarrierName>
+<CarrierCode type='SCAC'>5Y</CarrierCode>
+</Carrier><PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='MasterAirwayBill'>
+<ReferenceNumber>369-90516930</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='MasterBillofLadingNumber'>
+<ReferenceNumber>369-90516930</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseAirwayBill'>
+<ReferenceNumber>22015001060</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber>22015001060</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FlightNumber'>
+<ReferenceNumber><![CDATA[5Y32]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FreightAmount'><ReferenceNumber>68815.20</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>BOPT</ReferenceNumber>
+</ReferenceType><ReferenceType type='HouseCarrier'>
+<ReferenceNumber>BDP TRANSPORT.</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'HouseBookingNumber'>
+<ReferenceNumber>EACTV202408007BR</ReferenceNumber>
+</ReferenceType><ReferenceType type='BookingNumber'>
+<ReferenceNumber>369-90516930</ReferenceNumber>
+</ReferenceType>
+</Transportation><EquipmentSummary>
+<EquipmentQuantity></EquipmentQuantity>
+<EquipmentSize></EquipmentSize>
+<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+<EquipmentType></EquipmentType>
+<EquipmentDescription>LCL</EquipmentDescription>
+<SubstituteEquipmentDescription></SubstituteEquipmentDescription>
+</EquipmentSummary><Equipment><EquipmentNumber></EquipmentNumber><SealNumber></SealNumber><SealNumber></SealNumber><EquipmentType></EquipmentType><EquipmentSize></EquipmentSize></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+AMINOCYCLOPYRACHLOR SACO 500KG HERBICIDA
+]]></Marks><Status>
+<StatusType type='FlightEstimatedTimeofDeparture'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20240830</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20240830</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20240903</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20230723</StatusDate>
+</Status><Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20240830</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20240905</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20240908</StatusDate>
+</Status><Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20240828</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20240823</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20240823</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[68815.20]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[68815.20]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[3451084.80]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[32460]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ChargableRateAmount]]></AmountType><AmountValue><![CDATA[2.12]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ChargeableWeight]]></AmountType><AmountValue><![CDATA[32460.000]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>PAULINIA</LocationName>
+<LocationUnlocCode>BRPUI</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>PAULINIA</LocationCountryName><LocationCode></LocationCode>
+</Locations><Locations>
+<LocationType>PierTerminal</LocationType><LocationName>AEROP. BRASIL VIRACOPOS S/A</LocationName>
+<LocationUnlocCode></LocationUnlocCode>
+<LocationCountryCode></LocationCountryCode>
+<LocationCountryName></LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[AMINOCYCLOPYRACHLOR SACO 500KG HERBICIDA]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>TypSvc</CodesNamesType><CodesNamesName><![CDATA[BDP NORMAL WITH CHB]]></CodesNamesName><CodesNamesCode>6</CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>1513772</ProductCode>
+<BrandName><![CDATA[AMINOCYCLOPYRACHLOR BAGPPR 500KG BRA (1513772)]]></BrandName>
+<InvoiceDesc><![CDATA[AMINOCYCLOPYRACHLOR BAGPPR 500KG BRA (1513772)]]></InvoiceDesc>
+<BLDesc>AMINOCYCLOPYRACHLOR SACO 500KG HERBICIDA</BLDesc>
+<Compliance>
+<ClassificationNumber>29335929</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>30000</BilledQuantity>
+<BilledQuantityUnit>DR</BilledQuantityUnit>
+<Price>117.33</Price>
+<ProductAmount>3519900</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<NoOfPkgs>30000</NoOfPkgs><TypePkgCode>DRM</TypePkgCode>
+<TypePkgDesc>DRUM</TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>30000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>32460</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>30000</PrimaryRptQty><PrimaryRptQtyUOM>DR</PrimaryRptQtyUOM><SecondaryRptQty>30000</SecondaryRptQty><SecondaryRptQtyUOM>DR</SecondaryRptQtyUOM><EnterValue>3519900</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductReferences type="PONumber">
+<ProductReferenceNumber>5500006120-6501-02-03-04-</ProductReferenceNumber></ProductReferences><ProductReferences type="PurchaseOrderNumber">
+<ProductReferenceNumber>5500006120</ProductReferenceNumber></ProductReferences><ProductReferences type="OrderNumber">
+<ProductReferenceNumber>5500006120</ProductReferenceNumber></ProductReferences><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>3519900</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTS.COMPOST.HETEROC.CICLO PIRIMIDINA,HALOG.LIG.COVALEN</ProductCodesNamesName><ProductCodesNamesCode>29335929</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20240830</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>32460</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>71561.316</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>32460</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>71561.316</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>60.00</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>32460</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>60.00</MeasurementValue>
+</Measurements>
+</Footer></Request>

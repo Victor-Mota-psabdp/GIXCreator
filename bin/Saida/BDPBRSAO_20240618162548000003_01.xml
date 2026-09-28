@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Original" Type="Import"><Parties type="Consignee">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>ATL</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>NO REF#</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>94920</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="DeliverTo">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>ATL</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>NO REF#</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>94920</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>BYK GARDNER GMBH </Party-Name>
+<Party-Address>POSTFACH  9 70</Party-Address>
+<Party-City>GERETSRIED</Party-City>
+<Party-State-Prov>BY</Party-State-Prov>
+<Party-PostalCode>82534   </Party-PostalCode>
+<Party-Country>DE</Party-Country>
+<PartyLocation-ID>P000043894</PartyLocation-ID>
+<Party-CountryName>Germany</Party-CountryName>
+<Party-UnlocCode>DEGED</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="ShipFrom">
+<Party-Name>BYK GARDNER GMBH </Party-Name>
+<Party-Address>POSTFACH  9 70</Party-Address>
+<Party-City>GERETSRIED</Party-City>
+<Party-State-Prov>BY</Party-State-Prov>
+<Party-PostalCode>82534   </Party-PostalCode>
+<Party-Country>DE</Party-Country>
+<PartyLocation-ID>P000043894</PartyLocation-ID>
+<Party-CountryName>Germany</Party-CountryName>
+<Party-UnlocCode>DEGED</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P20882</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P20882</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P20882</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>JULIANO CESAR SOARES SANTOS</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Juliano.Santos@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>05031</Party-ID>
+<PartyLocation-ID>P20882</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+<Party-Contacts Action='Add' type="CSR">
+<Contact-Name>JULIANO CESAR SOARES SANTOS</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Juliano.Santos@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Buyer">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>ATL</PartyLocation-ID>
+<Party-GlobalCode>94920</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>SHERWIN WILLIAMS DO BRASIL IND. E COM. LTDA</Party-Name>
+<Party-Address>ESTRADA DO MONTANHAO 3000 </Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09791-25</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>ATL</PartyLocation-ID>
+<Party-GlobalCode>94920</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>060872306004076</GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>BYK GARDNER GMBH </Party-Name>
+<Party-Address>POSTFACH  9 70</Party-Address>
+<Party-City>GERETSRIED</Party-City>
+<Party-State-Prov>BY</Party-State-Prov>
+<Party-PostalCode>82534   </Party-PostalCode>
+<Party-Country>DE</Party-Country>
+<PartyLocation-ID>P000043894</PartyLocation-ID>
+<Party-CountryName>Germany</Party-CountryName>
+<Party-UnlocCode>DEGED</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>BYK GARDNER GMBH </Party-Name>
+<Party-Address>POSTFACH  9 70</Party-Address>
+<Party-City>GERETSRIED</Party-City>
+<Party-State-Prov>BY</Party-State-Prov>
+<Party-PostalCode>82534   </Party-PostalCode>
+<Party-Country>DE</Party-Country>
+<PartyLocation-ID>P000043894</PartyLocation-ID>
+<Party-CountryName>Germany</Party-CountryName>
+<Party-UnlocCode>DEGED</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRIM</Process>
+<Status/>
+<SystemCode Code ='BRIM'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>IAATL202309033BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000043894</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type='BDPClientCode'><ReferenceNumber>ATL</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>LCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>DE</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ImportForwarderRefNbr'>
+<ReferenceNumber>IAATL202309033BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Booking</ReferenceNumber>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<InvoiceAmount>0</InvoiceAmount><CurrencyCode></CurrencyCode><CIDate></CIDate><FOBAmount>0</FOBAmount><FOBCurrency></FOBCurrency></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='A' LegType='First'>
+<OriginCodeType Type="UNLOCCode">
+<OriginCode>DEHAM</OriginCode>
+</OriginCodeType>
+<OriginCodeType Type="IATACode">
+<OriginCode>HAM</OriginCode>
+</OriginCodeType>
+<OriginCodeType Type='ScheduleD'>
+<OriginCode>42879</OriginCode>
+</OriginCodeType><OriginCountryCode>DE</OriginCountryCode>
+<OriginDate type='Estimated'>20230930</OriginDate>
+<OriginTime type='Estimated'>0000</OriginTime>
+<DestinationCodeType Type="UNLOCCode">
+<DestinationCode>BRVCP</DestinationCode>
+</DestinationCodeType>
+<DestinationCodeType Type="IATACode">
+<DestinationCode>VCP</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>BR</DestinationCountryCode>
+<DestinationDate type='Estimated'>20231002</DestinationDate>
+<DestinationTime type='Estimated'>0000</DestinationTime>
+<TypeofMoveDescription>AIRPORT TO AIRPORT H/H (DUP)</TypeofMoveDescription>
+<TypeofMoveCode Type='AA'></TypeofMoveCode>
+<Carrier>
+<CarrierName></CarrierName>
+<CarrierCode type='SCAC'></CarrierCode>
+</Carrier><PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='MasterAirwayBill'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='MasterBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseAirwayBill'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FlightNumber'>
+<ReferenceNumber><![CDATA[]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FreightAmount'><ReferenceNumber>0.00</ReferenceNumber>
+</ReferenceType>
+</Transportation><EquipmentSummary>
+<EquipmentQuantity></EquipmentQuantity>
+<EquipmentSize></EquipmentSize>
+<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+<EquipmentType></EquipmentType>
+<EquipmentDescription>LCL</EquipmentDescription>
+<SubstituteEquipmentDescription></SubstituteEquipmentDescription>
+</EquipmentSummary><Equipment><EquipmentNumber></EquipmentNumber><SealNumber></SealNumber><SealNumber></SealNumber><EquipmentType></EquipmentType><EquipmentSize></EquipmentSize></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+N/I
+]]></Marks><Status>
+<StatusType type='FlightEstimatedTimeofDeparture'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20230923</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActCustomsPortDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstCustomsPortDate'/>
+<StatusDate>20231003</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='OriginalETADate'/>
+<StatusDate>20231002</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='EstimatedPortofEntryDate'/>
+<StatusDate>20231002</StatusDate>
+</Status><Status>
+<StatusType type='EstCityOfDischargeArrivalDate '/>
+<StatusDate>20231002</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20231002</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20231014</StatusDate>
+</Status><Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20240618</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20230918</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20230918</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[1]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ChargableRateAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ChargeableWeight]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>TypSvc</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>DestinationInlandCarrier</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail><ProductDetail>
+<LineItemNo>1</LineItemNo>
+<Measurements type='GrsWtKgs'><MeasurementValue>1</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>1</MeasurementValue></Measurements></ProductDetail></Detail><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>1</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>1.00</MeasurementValue>
+</Measurements>
+</Footer></Request>

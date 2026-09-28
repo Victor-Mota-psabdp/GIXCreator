@@ -1,0 +1,43 @@
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\XML_ODS.exe
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\XML_ODS.pdb
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\XML_ODS.xml
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\Interop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\Interop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\Interop.Scripting.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\AxInterop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\AxInterop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\Interop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\Interop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\Interop.Scripting.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\AxInterop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\AxInterop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\Project1.vbproj.ResolveComReference.cache
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\XML_ODS.Form1.resources
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\Project1.vbproj.GenerateResource.Cache
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\XML_ODS.exe
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\XML_ODS.xml
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\obj\Debug\XML_ODS.pdb
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\DLLConexao.dll
+\\192.168.11.252\ti$\Desenv\IT\Projetos_Andamento\VB6\XML LLP_POxContainer\XML_ODS.NET\bin\DLLConexao.pdb
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\XML_ODS.exe
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\XML_ODS.xml
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\XML_ODS.pdb
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\XML_ODS.exe
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\XML_ODS.pdb
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\XML_ODS.xml
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\DLLConexao.pdb
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\Interop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\Interop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\Interop.Scripting.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\AxInterop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\bin\AxInterop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\Interop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\Interop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\Interop.Scripting.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\AxInterop.InetCtlsObjects.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\AxInterop.MSFlexGridLib.dll
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\Project1.vbproj.ResolveComReference.cache
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\XML_ODS.Form1.resources
+\\192.168.11.252\ti$\Desenv\IT\Integracoes\XML_ODS.NET\obj\Debug\Project1.vbproj.GenerateResource.Cache

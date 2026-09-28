@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Original" Type="Import"><Parties type="Consignee">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>SWB</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>BRUNA SOUZA</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-Contacts Action='Add' type='CusRep'><Contact-Name>BRUNA SOUZA</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>1062820</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="DeliverTo">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>SWB</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>BRUNA SOUZA</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-Contacts Action='Add' type='CusRep'><Contact-Name>BRUNA SOUZA</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>1062820</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>THE VALSPAR CORPORATION MINEAPOLIS</Party-Name>
+<Party-Address>1101 SOUTH 312 3 STREET</Party-Address>
+<Party-City>MINNEAPOLIS</Party-City>
+<Party-State-Prov>KS</Party-State-Prov>
+<Party-PostalCode>55415   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000044067</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIPS</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="ShipFrom">
+<Party-Name>THE VALSPAR CORPORATION MINEAPOLIS</Party-Name>
+<Party-Address>1101 SOUTH 312 3 STREET</Party-Address>
+<Party-City>MINNEAPOLIS</Party-City>
+<Party-State-Prov>KS</Party-State-Prov>
+<Party-PostalCode>55415   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000044067</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIPS</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000042814</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000042814</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000042814</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>GIOVANNA S. FERREIRA</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[giovanna.ferreira@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>SWB-SBC</Party-ID>
+<PartyLocation-ID>P000042814</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+<Party-Contacts Action='Add' type="CSR">
+<Contact-Name>GIOVANNA S. FERREIRA</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[giovanna.ferreira@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Buyer">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>SWB</PartyLocation-ID>
+<Party-GlobalCode>1062820</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>SHERWINWILLIAMS DO BRASIL INDÚSTRIA E COMÉRCIO LTDA.</Party-Name>
+<Party-Address>ESTRADA DOS CASA 5050 ANEXO PUERTA B</Party-Address>
+<Party-City>SAO BERNARDO DO CAMPO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09840900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>SWB</PartyLocation-ID>
+<Party-GlobalCode>1062820</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQSB</Party-UnlocCode><GovIDNumber>60872306016163</GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>THE VALSPAR CORPORATION MINEAPOLIS</Party-Name>
+<Party-Address>1101 SOUTH 312 3 STREET</Party-Address>
+<Party-City>MINNEAPOLIS</Party-City>
+<Party-State-Prov>KS</Party-State-Prov>
+<Party-PostalCode>55415   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000044067</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIPS</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>THE VALSPAR CORPORATION MINEAPOLIS</Party-Name>
+<Party-Address>1101 SOUTH 312 3 STREET</Party-Address>
+<Party-City>MINNEAPOLIS</Party-City>
+<Party-State-Prov>KS</Party-State-Prov>
+<Party-PostalCode>55415   </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000044067</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USIPS</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRIM</Process>
+<Status/>
+<SystemCode Code ='BRIM'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>IASWB202410003BR</ReferenceNumber>
+</References><References type= 'ImprtLicNeededInd'>
+<ReferenceNumber>Y</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000044067</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[LI COTA  EXTARIFÁRIO: EX 001  POLIISOCIANATO ALIFÁTICO A BASE DE DIISOCIANATO DE HEXAMETILENO, APRESENTADO EM FORMA LÍQUID]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>196184 B</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>196184 B</ReferenceNumber>
+<ReferenceDate>20240310</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>SAMPLES</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>UN-UN</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>196184 B</ReferenceNumber>
+<ReferenceDate>20240310</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>SWB</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>LCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>US</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>196184 B</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>196184 B</ReferenceNumber>
+<ReferenceDate>20240310</ReferenceDate>
+</References><References type= 'ImportForwarderRefNbr'>
+<ReferenceNumber>IASWB202410003BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Booking</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>196184 B</ReferenceNumber>
+<ReferenceDate>20240310</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CPT</TermsofSaleCode>
+<TermsofSaleDesc>CPT</TermsofSaleDesc>
+<FinalTermsofSaleCode>CPT</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CPT</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>8</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20240924</CIDate><FOBAmount>7.00</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>47400 - UH80</ProductCode><BrandName><![CDATA[47400  UH80 / AMOSTRA CATALISADOR ISOCIANATO.]]></BrandName><InvoiceDesc><![CDATA[47400  UH80 / AMOSTRA CATALISADOR ISOCIANATO.]]></InvoiceDesc><BilledQuantity>8.00</BilledQuantity>
+<BilledQuantityUnit>L</BilledQuantityUnit><Price>1.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>8.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='A' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>NEW YORK (JFK)</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>USNYC</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>SAO BERNARDO DO CAMPO</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>BRQSB</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='A' LegType='First'>
+<OriginCodeType Type="UNLOCCode">
+<OriginCode>USNYC</OriginCode>
+</OriginCodeType>
+<OriginCodeType Type="IATACode">
+<OriginCode>JFK</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>US</OriginCountryCode>
+<OriginDate type='Estimated'>20241005</OriginDate>
+<OriginTime type='Estimated'>0000</OriginTime>
+<DestinationCodeType Type="UNLOCCode">
+<DestinationCode>BRSAO</DestinationCode>
+</DestinationCodeType>
+<DestinationCodeType Type="IATACode">
+<DestinationCode>GRU</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>BR</DestinationCountryCode>
+<DestinationDate type='Estimated'>20241009</DestinationDate>
+<DestinationTime type='Estimated'>0000</DestinationTime>
+<TypeofMoveDescription>AIRPORT TO AIRPORT H/H (DUP)</TypeofMoveDescription>
+<TypeofMoveCode Type='AA'></TypeofMoveCode>
+<Carrier>
+<CarrierName></CarrierName>
+<CarrierCode type='SCAC'></CarrierCode>
+</Carrier><PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='MasterAirwayBill'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='MasterBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseAirwayBill'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FlightNumber'>
+<ReferenceNumber><![CDATA[]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FreightAmount'><ReferenceNumber>1.00</ReferenceNumber>
+</ReferenceType>
+</Transportation><EquipmentSummary>
+<EquipmentQuantity></EquipmentQuantity>
+<EquipmentSize></EquipmentSize>
+<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+<EquipmentType></EquipmentType>
+<EquipmentDescription>LCL</EquipmentDescription>
+<SubstituteEquipmentDescription></SubstituteEquipmentDescription>
+</EquipmentSummary><Equipment><EquipmentNumber></EquipmentNumber><SealNumber></SealNumber><SealNumber></SealNumber><EquipmentType></EquipmentType><EquipmentSize></EquipmentSize></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+ATRIBUTOS/NVE: AA 9999 (OUTROS)DESTAQUE: NAO SE APLICAEXTARIFÁRIO: EX 001  POLIISOCIANATO ALIFÁTICO A BASE DE DIISOCIANATO DE HEXAMETILENO, APRESENTADO EM FORMA LÍQUID
+]]></Marks><Status>
+<StatusType type='FlightEstimatedTimeofDeparture'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20240928</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActCustomsPortDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstCustomsPortDate'/>
+<StatusDate>20241010</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='OriginalETADate'/>
+<StatusDate>20241009</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='EstimatedPortofEntryDate'/>
+<StatusDate>20241009</StatusDate>
+</Status><Status>
+<StatusType type='EstCityOfDischargeArrivalDate '/>
+<StatusDate>20241009</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20241009</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20240924</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20241021</StatusDate>
+</Status><Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20241005</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20240310</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20240310</StatusDate>
+</Status><NonConformance>
+<ReasonCode>ESDI019</ReasonCode>
+<ReasonDesc>ESDI019-RECEIVED INACCURATE DOCS  1ST TIME (RETURNED FOR CORRECTION)</ReasonDesc>
+<Date>20241003</Date>
+</NonConformance><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[1.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[1.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[7.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[44]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ChargableRateAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ChargeableWeight]]></AmountType><AmountValue><![CDATA[0.000]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DestinationInland</LocationType><LocationName>SAO BERNARDO DO CAMPO</LocationName>
+<LocationUnlocCode>BRQSB</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>SAO BERNARDO DO CAMPO</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[ATRIBUTOS/NVE: AA 9999 (OUTROS)DESTAQUE: NAO SE APLICAEXTARIFÁRIO: EX 001  POLIISOCIANATO ALIFÁTICO A BASE DE DIISOCIANATO DE HEXAMETILENO, APRESENTADO EM FORMA LÍQUID]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>TypSvc</CodesNamesType><CodesNamesName><![CDATA[CUSTOM HOUSE BROKERAGE]]></CodesNamesName><CodesNamesCode>2</CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>DestinationInlandCarrier</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>47400 - UH80</ProductCode>
+<BrandName><![CDATA[47400  UH80 / AMOSTRA CATALISADOR ISOCIANATO.]]></BrandName>
+<InvoiceDesc><![CDATA[47400  UH80 / AMOSTRA CATALISADOR ISOCIANATO.]]></InvoiceDesc>
+<BLDesc>ATRIBUTOS/NVE: AA 9999 (OUTROS)DESTAQUE: NAO SE APLICAEXTARIFÁRIO: EX 001  POLIISOCIANATO ALIFÁTICO A BASE DE DIISOCIANATO DE HEXAMETILENO, APRESENTADO EM FORMA LÍQUID</BLDesc>
+<Compliance>
+<ClassificationNumber>39119029</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>8</BilledQuantity>
+<BilledQuantityUnit>L</BilledQuantityUnit>
+<Price>1</Price>
+<ProductAmount>8</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>US</CountryofOriginCode>
+<CountryofOriginName>UNITED STATES</CountryofOriginName>
+<NoOfPkgs>8</NoOfPkgs><TypePkgCode>LBK</TypePkgCode>
+<TypePkgDesc>LIQUID</TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>1</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>1</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>8</PrimaryRptQty><PrimaryRptQtyUOM>L</PrimaryRptQtyUOM><SecondaryRptQty>8</SecondaryRptQty><SecondaryRptQtyUOM>L</SecondaryRptQtyUOM><EnterValue>8</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[LI COTA  EXTARIFÁRIO: EX 001  POLIISOCIANATO ALIFÁTICO A BASE DE DIISOCIANATO DE HEXAMETILENO, APRESENTADO EM FORMA LÍQUID]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>1263</UNNumber><Class type='UN'>3</Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <PackageGroup>III</PackageGroup><HazmatMaterialName><![CDATA[TINTA]]></HazmatMaterialName><HazmatDesc><![CDATA[PAINT // 47400  UH80 / AMOSTRA CATALISADOR ISOCIANATO. ]]></HazmatDesc><HazmatContact>08007208000</HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductReferences type="PONumber">
+<ProductReferenceNumber>196184 B</ProductReferenceNumber></ProductReferences><ProductReferences type="PurchaseOrderNumber">
+<ProductReferenceNumber>196184 B</ProductReferenceNumber></ProductReferences><ProductReferences type="OrderNumber">
+<ProductReferenceNumber>196184 B</ProductReferenceNumber></ProductReferences><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>8</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS POLITERPENOS,ETC.SEM CARGA,EM FORMAS PRIMARIAS</ProductCodesNamesName><ProductCodesNamesCode>39119029</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20240928</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>1</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>1.00</MeasurementValue>
+</Measurements>
+</Footer></Request>

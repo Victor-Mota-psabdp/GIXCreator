@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<ControlNumber>e0390709-6454-441c-a3e3-d46c4d14e5c4</ControlNumber>
+<UniqueMessageID>e0390709-6454-441c-a3e3-d46c4d14e5c4</UniqueMessageID>
+<FromIdentifier>ATL</FromIdentifier>
+<ToIdentifier>Integration</ToIdentifier>
+<Customer>DOW</Customer>
+<Timestamp>20210223T220931</Timestamp>
+<PrimaryKey>0038398285</PrimaryKey>
+<SecondaryKey>EMCSR202102060BR</SecondaryKey>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>SOLEXX SRL</Party-Name>
+<Party-Address>MONTEVIDEO (1192) 5 B  </Party-Address>
+<Party-City>CAPITAL FEDERAL</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>01807817</PartyLocation-ID>
+<Party-CountryName>ARGENTINA</Party-CountryName>
+<Party-UnlocCode>AR</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>ROHM AND HAAS QUIMICA LTDA</Party-Name>
+<Party-Address>AV PRES HUMBERTO ALENCAR CASTELO BRANCO 3200 </Party-Address>
+<Party-City>JACAREI</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>12321150</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>BDP</PartyLocation-ID>
+<Party-GlobalCode>545682</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRJCE</Party-UnlocCode><GovIDNumber>00310651000340</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>SOLEXX SRL</Party-Name>
+<Party-Address>MONTEVIDEO (1192) 5 B  </Party-Address>
+<Party-City>CAPITAL FEDERAL</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>01807817</PartyLocation-ID>
+<Party-CountryName>ARGENTINA</Party-CountryName>
+<Party-UnlocCode>AR</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>SOLEXX SRL</Party-Name>
+<Party-Address>MONTEVIDEO (1192) 5 B  </Party-Address>
+<Party-City>CAPITAL FEDERAL</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000038682</PartyLocation-ID>
+<Party-CountryName>ARGENTINA</Party-CountryName>
+<Party-UnlocCode>AR</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>SOLEXX SRL</Party-Name>
+<Party-Address>MONTEVIDEO (1192) 5 B  </Party-Address>
+<Party-City>CAPITAL FEDERAL</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000038682</PartyLocation-ID>
+<Party-CountryName>ARGENTINA</Party-CountryName>
+<Party-UnlocCode>AR</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>ANDREA ROSA RAMOS BARRETO</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[andrea.barreto@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+</Parties><Parties type="Buyer">
+<Party-Name>SOLEXX SRL</Party-Name>
+<Party-Address>MONTEVIDEO (1192) 5 B  </Party-Address>
+<Party-City>CAPITAL FEDERAL</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>01807817</PartyLocation-ID>
+<Party-CountryName>ARGENTINA</Party-CountryName>
+<Party-UnlocCode>AR</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>SOLEXX SRL</Party-Name>
+<Party-Address>MONTEVIDEO (1192) 5 B  </Party-Address>
+<Party-City>CAPITAL FEDERAL</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>01807817</PartyLocation-ID>
+<Party-CountryName>ARGENTINA</Party-CountryName>
+<Party-UnlocCode>AR</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>ROHM AND HAAS QUIMICA LTDA</Party-Name>
+<Party-Address>AV PRES HUMBERTO ALENCAR CASTELO BRANCO 3200 </Party-Address>
+<Party-City>JACAREI</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>12321150</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000009039</PartyLocation-ID>
+<Party-GlobalCode>545682</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRJCE</Party-UnlocCode><GovIDNumber>00310651000340</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>ROHM AND HAAS QUIMICA LTDA</Party-Name>
+<Party-Address>AV PRES HUMBERTO ALENCAR CASTELO BRANCO 3200 </Party-Address>
+<Party-City>JACAREI</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>12321150</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000009039</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRJCE</Party-UnlocCode><GovIDNumber>00310651000340</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMCSR202102060BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000009039</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>0038398285</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>0038398285</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[FRETE ALL IN PAGO PELO BID AMGC0000184 - TEM CO]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>0112171098</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>38398285</ReferenceNumber>
+<ReferenceDate>20210217</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INDENT</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>429241-429241</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>38398285</ReferenceNumber>
+<ReferenceDate>20210217</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>BDP</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>05</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>0038398285</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>1SSZ027248</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>38398285</ReferenceNumber>
+<ReferenceDate>20210217</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMCSR202102060BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Booking</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>38398285</ReferenceNumber>
+<ReferenceDate>20210217</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CPT</TermsofSaleCode>
+<TermsofSaleDesc>CPT</TermsofSaleDesc>
+<FinalTermsofSaleCode>CPT</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CPT</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>27788</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20210217</CIDate><FOBAmount>27293</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>10093073</ProductCode><BrandName><![CDATA[ROPAQUE(TM) ULTRA OPAQUE POLYM     ER10093073 (10093073 )]]></BrandName><InvoiceDesc><![CDATA[ROPAQUE(TM) ULTRA OPAQUE POLYM     ER10093073 (10093073 )]]></InvoiceDesc><BilledQuantity>6.00</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit><Price>1050.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6300.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>2</LineItemNo><ProductCode>10096825</ProductCode><BrandName><![CDATA[PRIMAL(TM) TT93510096825]]></BrandName><InvoiceDesc><![CDATA[PRIMAL(TM) TT93510096825]]></InvoiceDesc><BilledQuantity>2.00</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit><Price>1800.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>3600.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>3</LineItemNo><ProductCode>10097327</ProductCode><BrandName><![CDATA[FASTRACK(TM) 2706 EMULSION 10     00KG RIGID BULK CONTAINER HAZA     RDOUS  GOODS INFO NOT REGULATE]]></BrandName><InvoiceDesc><![CDATA[FASTRACK(TM) 2706 EMULSION 10     00KG RIGID BULK CONTAINER HAZA     RDOUS  GOODS INFO NOT REGULATE]]></InvoiceDesc><BilledQuantity>6.00</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit><Price>1950.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>11700.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>4</LineItemNo><ProductCode>10268981</ProductCode><BrandName><![CDATA[OROTAN 930 DISPERSANT 1190KG      RIGID BULK CONTAINER HAZARDOU     S  GOODS INFO NOT REGULATED FO (]]></BrandName><InvoiceDesc><![CDATA[OROTAN 930 DISPERSANT 1190KG      RIGID BULK CONTAINER HAZARDOU     S  GOODS INFO NOT REGULATED FO (]]></InvoiceDesc><BilledQuantity>4.00</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit><Price>1547.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6188.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'></Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>SANTOS</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSSZ</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20210304</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>BUENOS AIRES</DestinationName>
+</Destination>
+<DestinationCodeType Type='ScheduleK'>
+<DestinationCode>35705</DestinationCode>
+</DestinationCodeType><DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>ARBUE</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>AR</DestinationCountryCode>
+<DestinationDate type='Estimated'>20210308</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>ALIANCA</CarrierName>
+<CarrierCode type='SCAC'>707488</CarrierCode>
+</Carrier><Vessel>
+<VesselName>NORTHERN MAJESTIC</VesselName>
+<VesselCode type='Lloyds'>08606460</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[106S]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>B040</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>495.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>1875991</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>1SSZ027248</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>1</EquipmentQuantity>
+<EquipmentSize>20</EquipmentSize>
+<EquipmentContainerTypeRequest>ADD</EquipmentContainerTypeRequest>
+<EquipmentType>CONTAINER</EquipmentType>
+</EquipmentSummary><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks>
+N/I
+</Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20210225</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20210225</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BkngCnfrmtnRcvdSS'/>
+<StatusDate>20210219</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingRetreivedDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20210308</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20210219</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20210308</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20210217</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20210301</StatusDate>
+<StatusTime>1500</StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20210301</StatusDate>
+<StatusTime>1700</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20210225</StatusDate>
+<StatusTime>1500</StatusTime>
+</Status>
+<Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20210225</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20210308</StatusDate>
+</Status><Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20210218</StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookedDate'/>
+<StatusDate>20210219</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20131002</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20040412</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20210223</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20210219</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20210219</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[5.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[5.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[27293.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[19860.84]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>JACAREI</LocationName>
+<LocationUnlocCode>BRJCE</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>JACAREI</LocationCountryName><LocationCode></LocationCode>
+</Locations><Locations>
+<LocationType>PierTerminal</LocationType><LocationName>SANTOS BRASIL</LocationName>
+<LocationUnlocCode></LocationUnlocCode>
+<LocationCountryCode></LocationCountryCode>
+<LocationCountryName></LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>10093073</ProductCode>
+<BrandName><![CDATA[ROPAQUE(TM) ULTRA OPAQUE POLYM     ER10093073 (10093073 )]]></BrandName>
+<InvoiceDesc><![CDATA[ROPAQUE(TM) ULTRA OPAQUE POLYM     ER10093073 (10093073 )]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>39069011</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>6</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit>
+<Price>1050</Price>
+<ProductAmount>6300</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<NoOfPkgs>6</NoOfPkgs><TypePkgCode></TypePkgCode>
+<TypePkgDesc></TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>6300</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>6000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>6</PrimaryRptQty><PrimaryRptQtyUOM>CH</PrimaryRptQtyUOM><SecondaryRptQty>6</SecondaryRptQty><SecondaryRptQtyUOM>CH</SecondaryRptQtyUOM><EnterValue>6300</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00017092</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[FRETE ALL IN PAGO PELO BID AMGC0000184 - TEM CO]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>17.250</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6300</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS POLIMEROS DE ESTIRENO,EM FORMAS PRIMARIAS</ProductCodesNamesName><ProductCodesNamesCode>39039090</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20210225</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>2</LineItemNo>
+<ProductCode>10096825</ProductCode>
+<BrandName><![CDATA[PRIMAL(TM) TT93510096825]]></BrandName>
+<InvoiceDesc><![CDATA[PRIMAL(TM) TT93510096825]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>39069011</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>2</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit>
+<Price>1800</Price>
+<ProductAmount>3600</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<NoOfPkgs>2</NoOfPkgs><TypePkgCode></TypePkgCode>
+<TypePkgDesc></TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>2100</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>2000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>2</PrimaryRptQty><PrimaryRptQtyUOM>CH</PrimaryRptQtyUOM><SecondaryRptQty>2</SecondaryRptQty><SecondaryRptQtyUOM>CH</SecondaryRptQtyUOM><EnterValue>3600</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00017092</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[FRETE ALL IN PAGO PELO BID AMGC0000184 - TEM CO]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>17.250</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>3600</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS POLIMEROS DE ESTIRENO,EM FORMAS PRIMARIAS</ProductCodesNamesName><ProductCodesNamesCode>39039090</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20210225</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>3</LineItemNo>
+<ProductCode>10097327</ProductCode>
+<BrandName><![CDATA[FASTRACK(TM) 2706 EMULSION 10     00KG RIGID BULK CONTAINER HAZA     RDOUS  GOODS INFO NOT REGULATE]]></BrandName>
+<InvoiceDesc><![CDATA[FASTRACK(TM) 2706 EMULSION 10     00KG RIGID BULK CONTAINER HAZA     RDOUS  GOODS INFO NOT REGULATE]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>39069011</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>6</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit>
+<Price>1950</Price>
+<ProductAmount>11700</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<NoOfPkgs>6</NoOfPkgs><TypePkgCode></TypePkgCode>
+<TypePkgDesc></TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>6420</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>6000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>6</PrimaryRptQty><PrimaryRptQtyUOM>CH</PrimaryRptQtyUOM><SecondaryRptQty>6</SecondaryRptQty><SecondaryRptQtyUOM>CH</SecondaryRptQtyUOM><EnterValue>11700</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00017092</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[FRETE ALL IN PAGO PELO BID AMGC0000184 - TEM CO]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>17.250</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>11700</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS POLIMEROS DE ESTIRENO,EM FORMAS PRIMARIAS</ProductCodesNamesName><ProductCodesNamesCode>39039090</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20210225</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>4</LineItemNo>
+<ProductCode>10268981</ProductCode>
+<BrandName><![CDATA[OROTAN 930 DISPERSANT 1190KG      RIGID BULK CONTAINER HAZARDOU     S  GOODS INFO NOT REGULATED FO (]]></BrandName>
+<InvoiceDesc><![CDATA[OROTAN 930 DISPERSANT 1190KG      RIGID BULK CONTAINER HAZARDOU     S  GOODS INFO NOT REGULATED FO (]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>39069011</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>4</BilledQuantity>
+<BilledQuantityUnit>CH</BilledQuantityUnit>
+<Price>1547</Price>
+<ProductAmount>6188</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<NoOfPkgs>4</NoOfPkgs><TypePkgCode></TypePkgCode>
+<TypePkgDesc></TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>5040.84</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>4760</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>4</PrimaryRptQty><PrimaryRptQtyUOM>CH</PrimaryRptQtyUOM><SecondaryRptQty>4</SecondaryRptQty><SecondaryRptQtyUOM>CH</SecondaryRptQtyUOM><EnterValue>6188</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00017092</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[FRETE ALL IN PAGO PELO BID AMGC0000184 - TEM CO]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>17.250</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6188</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS POLIMEROS DE ESTIRENO,EM FORMAS PRIMARIAS</ProductCodesNamesName><ProductCodesNamesCode>39039090</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20210225</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>19860.84</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>43785.207864</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>18760</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>41358.296</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>17.250</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer></Request>

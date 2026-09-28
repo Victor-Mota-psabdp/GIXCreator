@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<ControlNumber>cb98e09a-db43-47a4-b64d-2b290f0c7719</ControlNumber>
+<UniqueMessageID>cb98e09a-db43-47a4-b64d-2b290f0c7719</UniqueMessageID>
+<FromIdentifier>ATL</FromIdentifier>
+<ToIdentifier>Integration</ToIdentifier>
+<Customer>INTTRA</Customer>
+<Timestamp>20230623T205518</Timestamp>
+<PrimaryKey>EMARC202306003BR</PrimaryKey>
+<SecondaryKey>20230623055518683</SecondaryKey>
+<Header RequestType="BookingRequest" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>ARCHROMA PERU S.A</Party-Name>
+<Party-Address>CNPJ: </Party-Address>
+<Party-Address>CAL AFIRMADO LOTE  Z I , 21 -   CEP:         </Party-Address>
+<Party-Address>CALLAO</Party-Address>
+<Party-City />
+<Party-State-Prov />
+<Party-PostalCode />
+<Party-Country />
+<PartyLocation-ID />
+<GovIDNumber />
+</Parties><Parties type="DeliverTo">
+<Party-Name>ARCHROMA PERU S.A</Party-Name>
+<Party-Address>CNPJ: </Party-Address>
+<Party-Address>CAL AFIRMADO LOTE  Z I , 21 -   CEP:         </Party-Address>
+<Party-Address>CALLAO</Party-Address>
+<Party-City />
+<Party-State-Prov />
+<Party-PostalCode />
+<Party-Country />
+<PartyLocation-ID />
+<GovIDNumber />
+</Parties><Parties type="Notify">
+<Party-Name>ARCHROMA PERU S.A</Party-Name>
+<Party-Address>CAL AFIRMADO LOTE  Z I , 21 -   CEP:         </Party-Address>
+<Party-Address>CALLAO</Party-Address>
+<Party-City />
+<Party-State-Prov />
+<Party-PostalCode />
+<Party-Country />
+<PartyLocation-ID />
+<GovIDNumber />
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D  12O ANDAR</Party-Address>
+<Party-City>SÃO PAULO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>04726170</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>CARLOS EDUARDO</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[carlos.eduardo@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="ExporterShipper">
+<Party-Name>SPICE INDUSTRIA QUIMICA LTDA</Party-Name>
+<Party-Address>17701516000590</Party-Address>
+<Party-Address>AV. JORGE BEI MALUF, 2175 -   CEP: 08686000</Party-Address>
+<Party-Address>SUZANO</Party-Address>
+<Party-City />
+<Party-State-Prov />
+<Party-PostalCode />
+<Party-Country />
+<PartyLocation-ID />
+<GovIDNumber />
+</Parties><Parties type="Shipper">
+<Party-Name>SPICE INDUSTRIA QUIMICA LTDA</Party-Name>
+<Party-Address>17701516000590</Party-Address>
+<Party-Address>AV. JORGE BEI MALUF, 2175 -   CEP: 08686000</Party-Address>
+<Party-Address>SUZANO</Party-Address>
+<Party-City />
+<Party-State-Prov />
+<Party-PostalCode />
+<Party-Country />
+<PartyLocation-ID />
+<GovIDNumber />
+</Parties><Parties type="Forwarder">
+<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D  12O ANDAR</Party-Address>
+<Party-City>SÃO PAULO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>04726170</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>CARLOS EDUARDO</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[carlos.eduardo@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Carrier">
+<Party-Name>HAPAG-LLOYD</Party-Name>
+<Party-Address/>
+<Party-City>Santos</Party-City>
+<Party-State-Prov/>
+<Party-PostalCode/>
+<Party-Country/>
+<Party-ID/>
+<PartyLocation-ID>BRSSZ</PartyLocation-ID>
+<Party-GlobalCode/></Parties><Parties type="CarrierAgntNewPrty">
+<Party-Name>HAPAG-LLOYD</Party-Name>
+<Party-Address/>
+<Party-City>Santos</Party-City>
+<Party-State-Prov/>
+<Party-PostalCode/>
+<Party-Country/>
+<Party-ID/>
+<PartyLocation-ID>BRSSZ</PartyLocation-ID>
+<Party-GlobalCode/></Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMARC202306003BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000021439</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>CEX-19/119069T</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>CEX-19/119069T</ReferenceNumber>
+<ReferenceDate>20230616</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INTER-COMPANY</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>UN-UN</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>CEX-19/119069T</ReferenceNumber>
+<ReferenceDate>20230616</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>ARC</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>FCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>CEX-19/119069T</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>BN10032089</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'BookingNumber'>
+<ReferenceNumber>BN10032089</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CarrierContractNbr'>
+<ReferenceNumber>12345</ReferenceNumber>
+</References><References type= 'MasterBillOfLading'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'Forwarder_Reference_Number'>
+<ReferenceNumber>EMARC202306003BR</ReferenceNumber>
+</References><References type= 'Shipper_Reference_Number'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>CEX-19/119069T</ReferenceNumber>
+<ReferenceDate>20230616</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMARC202306003BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>CEX-19/119069T</ReferenceNumber>
+<ReferenceDate>20230616</ReferenceDate>
+</References><References type='STOInd'><ReferenceNumber><![CDATA[]]></ReferenceNumber> </References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CIF</TermsofSaleCode>
+<TermsofSaleDesc>CIF</TermsofSaleDesc>
+<FinalTermsofSaleCode>CIF</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CIF</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>6382</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20230627</CIDate><FOBAmount>6282</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>10240914301</ProductCode><BrandName><![CDATA[LYOGEN FPS3X LIQ]]></BrandName><InvoiceDesc><![CDATA[LYOGEN FPS3X LIQ]]></InvoiceDesc><BilledQuantity>400.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>2.85</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1140.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>2</LineItemNo><ProductCode>21772612237</ProductCode><BrandName><![CDATA[DRIMAREN ROJO INTENSO HF4GB GR 0025]]></BrandName><InvoiceDesc><![CDATA[DRIMAREN ROJO INTENSO HF4GB GR 0025]]></InvoiceDesc><BilledQuantity>400.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>11.23</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>4492.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>3</LineItemNo><ProductCode>23937326450</ProductCode><BrandName><![CDATA[IMACOL MPE.BR LIQ 0200]]></BrandName><InvoiceDesc><![CDATA[IMACOL MPE.BR LIQ 0200]]></InvoiceDesc><BilledQuantity>600.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>1.25</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>750.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>SANTOS</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSSZ</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>CALLAO</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>PECLL</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>SANTOS</OriginName>
+</Origin>
+<OriginCodeType Type='ScheduleD'>
+<OriginCode>35177</OriginCode>
+</OriginCodeType><OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSSZ</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20230701</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>CALLAO</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>PECLL</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>PE</DestinationCountryCode>
+<DestinationDate type='Estimated'>20230710</DestinationDate>
+<TypeofMoveCode Type="PP"/>
+<TypeofMoveDescription>PORT TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>HAPAG-LLOYD</CarrierName>
+<CarrierCode type='SCAC'>HLCU</CarrierCode>
+</Carrier><Vessel>
+<VesselName>TEMPANOS</VesselName>
+<VesselCode type='Lloyds'>00000</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[2212N]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FreightAmount'><ReferenceNumber>100.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>HLCU</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrier'>
+<ReferenceNumber>HLCU</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>BN10032089</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>2</EquipmentQuantity>
+<EquipmentSize>20</EquipmentSize>
+<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+<EquipmentType>2000</EquipmentType>
+<EquipmentDescription>20ft - Box</EquipmentDescription>
+<SubstituteEquipmentDescription></SubstituteEquipmentDescription>
+</EquipmentSummary><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>700</MeasurementValue></Measurements>
+<EquipmentInitial>CADU</EquipmentInitial>
+<EquipmentNumber>1234668</EquipmentNumber>
+<SealNumber></SealNumber>
+<EquipmentType>2000</EquipmentType><EquipmentSize>20</EquipmentSize><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>700</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>0</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>14.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20230713</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>700</MeasurementValue></Measurements>
+<EquipmentInitial>TRIU</EquipmentInitial>
+<EquipmentNumber>1234568</EquipmentNumber>
+<SealNumber></SealNumber>
+<EquipmentType>2000</EquipmentType><EquipmentSize>20</EquipmentSize><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>700</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>0</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>14.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue></AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20230713</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+HANDLING INFORMATION
+]]></Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20230624</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20230624</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BkngCnfrmtnRcvdSS'/>
+<StatusDate>20230621</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingRetreivedDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20230701</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20230710</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20230621</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20230710</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20230627</StatusDate>
+</Status><Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20230624</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20230705</StatusDate>
+</Status><Status>
+<StatusType type='ActBookedDate'/>
+<StatusDate>20230621</StatusDate>
+</Status>
+<Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20230621</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20230623</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20230616</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20230616</StatusDate>
+</Status><Documents>
+<DocumentType>Bill Of lading original</DocumentType><DocumentDesc>Document Not freighted</DocumentDesc><OriginalOrCopy>3</OriginalOrCopy><DocumentNumber></DocumentNumber>
+</Documents><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[100.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[100.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[6282.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[2]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[1400]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>SANTOS</LocationName>
+<LocationUnlocCode>BRSSZ</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>SANTOS</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[HANDLING INFORMATION]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>10240914301</ProductCode>
+<BrandName><![CDATA[LYOGEN FPS3X LIQ]]></BrandName>
+<InvoiceDesc><![CDATA[LYOGEN FPS3X LIQ]]></InvoiceDesc>
+<BLDesc><![CDATA[HANDLING INFORMATION]]></BLDesc>
+<Compliance>
+<ClassificationNumber>32041600</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>400</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>2.85</Price>
+<ProductAmount>1140</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>1512.8</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>1400</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>400</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>400</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1140</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductEquipment><Prod-EquipNo>CADU1234668</Prod-EquipNo><Prod-EquipSealNo></Prod-EquipSealNo><Prod-EquipType>20ft - Box</Prod-EquipType><Prod-EquipTypeCode>2000</Prod-EquipTypeCode><Prod-EquipSize>20</Prod-EquipSize></ProductEquipment><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1140</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>CORANTES REAGENTES E SUAS PREPARACOES</ProductCodesNamesName><ProductCodesNamesCode>32041600</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20230624</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActGoodsAvailableForShippingDate</ProductDatesType><ProductDatesDate>20230627</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>EstGoodsAvailableForShippingDate</ProductDatesType><ProductDatesDate>20230628</ProductDatesDate></ProductDates><InnerPackage><PackageType>Caixa de Madeira</PackageType><PackageCount>12</PackageCount></InnerPackage><InnerPackage><PackageType>Caixa de Madeira</PackageType><PackageCount>2</PackageCount></InnerPackage></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>2</LineItemNo>
+<ProductCode>21772612237</ProductCode>
+<BrandName><![CDATA[DRIMAREN ROJO INTENSO HF4GB GR 0025]]></BrandName>
+<InvoiceDesc><![CDATA[DRIMAREN ROJO INTENSO HF4GB GR 0025]]></InvoiceDesc>
+<BLDesc><![CDATA[HANDLING INFORMATION]]></BLDesc>
+<Compliance>
+<ClassificationNumber>32041600</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>400</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>11.23</Price>
+<ProductAmount>4492</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>1512.8</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>1400</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>400</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>400</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>4492</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductEquipment><Prod-EquipNo>TRIU1234568</Prod-EquipNo><Prod-EquipSealNo></Prod-EquipSealNo><Prod-EquipType>20ft - Box</Prod-EquipType><Prod-EquipTypeCode>2000</Prod-EquipTypeCode><Prod-EquipSize>20</Prod-EquipSize></ProductEquipment><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>4492</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>CORANTES REAGENTES E SUAS PREPARACOES</ProductCodesNamesName><ProductCodesNamesCode>32041600</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20230624</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActGoodsAvailableForShippingDate</ProductDatesType><ProductDatesDate>20230627</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>EstGoodsAvailableForShippingDate</ProductDatesType><ProductDatesDate>20230628</ProductDatesDate></ProductDates><InnerPackage><PackageType>Caixa de Madeira</PackageType><PackageCount>12</PackageCount></InnerPackage><InnerPackage><PackageType>Caixa de Madeira</PackageType><PackageCount>2</PackageCount></InnerPackage></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>3</LineItemNo>
+<ProductCode>23937326450</ProductCode>
+<BrandName><![CDATA[IMACOL MPE.BR LIQ 0200]]></BrandName>
+<InvoiceDesc><![CDATA[IMACOL MPE.BR LIQ 0200]]></InvoiceDesc>
+<BLDesc><![CDATA[HANDLING INFORMATION]]></BLDesc>
+<Compliance>
+<ClassificationNumber>32041600</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>600</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>1.25</Price>
+<ProductAmount>750</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>1512.8</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>1400</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>600</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>600</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>750</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductEquipment><Prod-EquipNo>TRIU1234568</Prod-EquipNo><Prod-EquipSealNo></Prod-EquipSealNo><Prod-EquipType>20ft - Box</Prod-EquipType><Prod-EquipTypeCode>2000</Prod-EquipTypeCode><Prod-EquipSize>20</Prod-EquipSize></ProductEquipment><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>750</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>CORANTES REAGENTES E SUAS PREPARACOES</ProductCodesNamesName><ProductCodesNamesCode>32041600</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20230624</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActGoodsAvailableForShippingDate</ProductDatesType><ProductDatesDate>20230627</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>EstGoodsAvailableForShippingDate</ProductDatesType><ProductDatesDate>20230628</ProductDatesDate></ProductDates><InnerPackage><PackageType>Caixa de Madeira</PackageType><PackageCount>12</PackageCount></InnerPackage><InnerPackage><PackageType>Caixa de Madeira</PackageType><PackageCount>2</PackageCount></InnerPackage></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>4200</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>9259.32</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>4200</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>9259.32</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue>14</MeasurementValue>
+</Measurements>
+</Footer></Request>

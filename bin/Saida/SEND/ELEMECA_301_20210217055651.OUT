@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<ControlNumber>e3a2dc3c-63c6-4241-998b-e36391a67357</ControlNumber>
+<UniqueMessageID>e3a2dc3c-63c6-4241-998b-e36391a67357</UniqueMessageID>
+<FromIdentifier>ATL</FromIdentifier>
+<ToIdentifier>Integration</ToIdentifier>
+<Customer>DOW</Customer>
+<Timestamp>20210217T205651</Timestamp>
+<PrimaryKey>38225321</PrimaryKey>
+<SecondaryKey>EMARG202101178AR</SecondaryKey>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>THUAN PHONG PLASTIC COMPANY</Party-Name>
+<Party-Address>272 HOA BINH STREET,HIEP TAN       WARD,  </Party-Address>
+<Party-City>HO CHI MINH CITY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00004302</PartyLocation-ID>
+<Party-CountryName>VI</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON PISO 355  </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>D6WPG0001</PartyLocation-ID>
+<Party-GlobalCode>696541</Party-GlobalCode><Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>THUAN PHONG PLASTIC COMPANY</Party-Name>
+<Party-Address>272 HOA BINH STREET,HIEP TAN       WARD,  </Party-Address>
+<Party-City>HO CHI MINH CITY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00004302</PartyLocation-ID>
+<Party-CountryName>VI</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>DOW CHEMICAL PACIFIC LIMITED</Party-Name>
+<Party-Address>UNIT 1512, L 15, TWR II, GRAND     CENTURY,193 PRI</Party-Address>
+<Party-City>MONG KOK</Party-City>
+<Party-State-Prov></Party-State-Prov>
+<Party-PostalCode></Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>130799</PartyLocation-ID>
+<Party-CountryName>HONG KONG</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode>
+<GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>THUAN PHONG PLASTIC COMPANY</Party-Name>
+<Party-Address>272 HOA BINH STREET,HIEP TAN       WARD,  </Party-Address>
+<Party-City>HO CHI MINH CITY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P000003349</PartyLocation-ID>
+<Party-CountryName>VI</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP INTERNATIONAL SRL - ARGENTINA </Party-Name>
+<Party-Address>BOUCHARD  680 PISO 3</Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>C1106ABJ</Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<Party-ID type="PartnerID">BDPARBUE</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>JONATHAN ZENTENO</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[jonathan.zenteno@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP INTERNATIONAL SRL - ARGENTINA </Party-Name>
+<Party-Address>BOUCHARD  680 PISO 3</Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>C1106ABJ</Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P15498</PartyLocation-ID>
+<Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30710500211</GovIDNumber>
+</Parties><Parties type="Buyer">
+<Party-Name>THUAN PHONG PLASTIC COMPANY</Party-Name>
+<Party-Address>272 HOA BINH STREET,HIEP TAN       WARD,  </Party-Address>
+<Party-City>HO CHI MINH CITY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00004302</PartyLocation-ID>
+<Party-CountryName>VI</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>THUAN PHONG PLASTIC COMPANY</Party-Name>
+<Party-Address>272 HOA BINH STREET,HIEP TAN       WARD,  </Party-Address>
+<Party-City>HO CHI MINH CITY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00004302</PartyLocation-ID>
+<Party-CountryName>VI</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON PISO 355  </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000003505</PartyLocation-ID>
+<Party-GlobalCode>696541</Party-GlobalCode><Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON PISO 355  </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000003505</PartyLocation-ID>
+<Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMARG202101178AR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000003505</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>38225321</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>38225321</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[CONTRACT AMGC0000184]]></ReferenceNumber></References><References type= 'GovernmentPermissionToExportSubmissionNumber'>
+<ReferenceNumber>21033EC01000499K</ReferenceNumber>
+</References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>4005810972</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>38225321</ReferenceNumber>
+<ReferenceDate>20210121</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INTER-COMPANY</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>256929-256927-256926-253914-253914</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>38225321</ReferenceNumber>
+<ReferenceDate>20210121</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>D6WPG0001</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>05</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>AR</ReferenceNumber>
+</References><References type= 'BDPBillingInvoiceNumber'>
+<ReferenceNumber>005-00001215</ReferenceNumber>
+<ReferenceDate>20210205</ReferenceDate>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>38225321</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>1BUE001653</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>38225321</ReferenceNumber>
+<ReferenceDate>20210121</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMARG202101178AR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Origen</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>38225321</ReferenceNumber>
+<ReferenceDate>20210121</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CIF</TermsofSaleCode>
+<TermsofSaleDesc>CIF</TermsofSaleDesc>
+<FinalTermsofSaleCode>CIF</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CIF</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>4702500</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20210119</CIDate><FOBAmount>4696308</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>99168473</ProductCode><BrandName><![CDATA[BYNEL(TM) 41E1352 ADHESIVE RE-99168473]]></BrandName><InvoiceDesc><![CDATA[BYNEL(TM) 41E1352 ADHESIVE RE-99168473]]></InvoiceDesc><BilledQuantity>99000.00</BilledQuantity>
+<BilledQuantityUnit>BG</BilledQuantityUnit><Price>47.50</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>4702500.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'></Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>BUENOS AIRES</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>ARBUE</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>AR</OriginCountryCode><OriginDate type='Estimated'>20210216</OriginDate>
+<OriginDate type='Actual'>20210216</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>DALIAN</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>CNDAL</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>CN</DestinationCountryCode>
+<DestinationDate type='Estimated'>20210403</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>HAMBURG SUD</CarrierName>
+<CarrierCode type='SCAC'>820009</CarrierCode>
+</Carrier><Vessel>
+<VesselName>MAERSK LEBU</VesselName>
+<VesselCode type='Lloyds'>08211526</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[107E]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>D176</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>6192.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>1659372</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>1BUE001653</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>1</EquipmentQuantity>
+<EquipmentSize>40</EquipmentSize>
+<EquipmentContainerTypeRequest>ADD</EquipmentContainerTypeRequest>
+<EquipmentType>CONTAINER</EquipmentType>
+</EquipmentSummary><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>25121.25</MeasurementValue></Measurements>
+<EquipmentInitial>TLLU</EquipmentInitial>
+<EquipmentNumber>8255658</EquipmentNumber>
+<SealNumber>AAU50675</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>25121.25</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210214</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>25121.25</MeasurementValue></Measurements>
+<EquipmentInitial>MSKU</EquipmentInitial>
+<EquipmentNumber>0694273</EquipmentNumber>
+<SealNumber>AAU50676</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>25121.25</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210214</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>25121.25</MeasurementValue></Measurements>
+<EquipmentInitial>MSKU</EquipmentInitial>
+<EquipmentNumber>9364143</EquipmentNumber>
+<SealNumber>AAU50677</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>25121.25</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210214</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>25121.25</MeasurementValue></Measurements>
+<EquipmentInitial>MSKU</EquipmentInitial>
+<EquipmentNumber>8877590</EquipmentNumber>
+<SealNumber>AAU50678</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>25121.25</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210214</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks>
+N/I
+</Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20210126</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20210127</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPaymentStatementSubmissionDate'/>
+<StatusDate>20210127</StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20210403</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfExitDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfOriginDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20210209</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20210403</StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPermissionToExportReleaseDate'/>
+<StatusDate>20210127</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20210119</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20210212</StatusDate>
+<StatusTime></StatusTime>
+</Status><Status>
+<StatusType type='BookingConfirmationDate'/>
+<StatusDate>20210401</StatusDate>
+</Status><Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20210126</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20210315</StatusDate>
+</Status><Status>
+<StatusType type='TransETDDate'/>
+<StatusDate>20210214</StatusDate>
+</Status><Status>
+<StatusType type='TransETADate'/>
+<StatusDate>20210212</StatusDate>
+</Status><Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20210121</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsReleaseDate'/>
+<StatusDate>20210127</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsEntryPermitReleaseDate'/>
+<StatusDate>20210127</StatusDate>
+</Status>
+<Status>
+<StatusType type='GovernmentPermissionToExportSubmissionDate'/>
+<StatusDate>20210127</StatusDate>
+</Status><Status>
+<StatusType type='CertOriginApplied' />
+<StatusDate>20210127</StatusDate>
+</Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20210217</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20210121</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20210121</StatusDate>
+</Status><Status>
+<StatusType type='BDPBillingInvoiceDateActual'/>
+<StatusDate>20210205</StatusDate>
+<StatusTime></StatusTime>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[6192.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[6192.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[4696308.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[8]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[100485]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>LA PLATA</LocationName>
+<LocationUnlocCode>ARLPG</LocationUnlocCode>
+<LocationCountryCode>AR</LocationCountryCode>
+<LocationCountryName>LA PLATA</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[Fernando Rossi]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><BDPInvoice><InvoiceNumber>005-00001215</InvoiceNumber><InvoiceDate>20210205</InvoiceDate><InvoiceTotal>563399.55</InvoiceTotal><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SP1</Code><Description>. SOLICITUD PARTICULAR 1 (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><Charges><Type>N</Type><Code>T6T</Code><Description>. HONORARIO MPC DOW TO DOW (*)</Description><Amount>11497.95</Amount><Currency>ARG</Currency><VendorNumber>P000003487</VendorNumber><VendorName>PBBPOLISUR S.R.L.      </VendorName><PrepaidAmount>11497.95</PrepaidAmount><CollectAmount>0.00</CollectAmount></Charges><VoidedFlagYN>N</VoidedFlagYN><InvoiceTotalCurrency>ARG</InvoiceTotalCurrency></BDPInvoice></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>99168473</ProductCode>
+<BrandName><![CDATA[BYNEL(TM) 41E1352 ADHESIVE RE-99168473]]></BrandName>
+<InvoiceDesc><![CDATA[BYNEL(TM) 41E1352 ADHESIVE RE-99168473]]></InvoiceDesc>
+<BLDesc>N/I</BLDesc>
+<Compliance>
+<ClassificationNumber>39014000</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>3960</BilledQuantity>
+<BilledQuantityUnit>BG</BilledQuantityUnit>
+<Price>47.5</Price>
+<ProductAmount>188100</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>AR</CountryofOriginCode>
+<CountryofOriginName>ARGENTINA</CountryofOriginName>
+<NoOfPkgs>158.4</NoOfPkgs><TypePkgCode>BG</TypePkgCode>
+<TypePkgDesc>Bags</TypePkgDesc>
+<NoOfPlts>158.4</NoOfPlts><Measurements type='GrsWtKgs'>
+<MeasurementValue>100485</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>99000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>3960</PrimaryRptQty><PrimaryRptQtyUOM>BG</PrimaryRptQtyUOM><SecondaryRptQty>3960</SecondaryRptQty><SecondaryRptQtyUOM>BG</SecondaryRptQtyUOM><EnterValue>188100</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00026846</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[CONTRACT AMGC0000184]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>188100</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>ELITE 5860</ProductCodesNamesName><ProductCodesNamesCode>39014000</ProductCodesNamesCode></ProductCodesNames></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>100485</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>221529.231</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>99000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>218255.4</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue>72</MeasurementValue>
+</Measurements>
+</Footer></Request>

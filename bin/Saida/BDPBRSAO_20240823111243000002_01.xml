@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Original" Type="Import"><Parties type="Consignee">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>NVS</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>NO REF#</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>961864</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="DeliverTo">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>NVS</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>NO REF#</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>961864</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>NOVUS INTERNATIONAL INC.-TAX ID: 43-1575758</Party-Name>
+<Party-Address>20 RESEARCH PARK DRIVE - -</Party-Address>
+<Party-City>MISSOURI</Party-City>
+<Party-State-Prov>--</Party-State-Prov>
+<Party-PostalCode>00063304</Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P18791</PartyLocation-ID>
+<Party-CountryName>USA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="ShipFrom">
+<Party-Name>NOVUS INTERNATIONAL INC.-TAX ID: 43-1575758</Party-Name>
+<Party-Address>20 RESEARCH PARK DRIVE - -</Party-Address>
+<Party-City>MISSOURI</Party-City>
+<Party-State-Prov>--</Party-State-Prov>
+<Party-PostalCode>00063304</Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P18791</PartyLocation-ID>
+<Party-CountryName>USA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000039537</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000039537</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000039537</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>LUCAS ANDRADE</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[lucas.andrade@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>05031</Party-ID>
+<PartyLocation-ID>P000039537</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+<Party-Contacts Action='Add' type="CSR">
+<Contact-Name>LUCAS ANDRADE</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[lucas.andrade@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Buyer">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>NVS</PartyLocation-ID>
+<Party-GlobalCode>961864</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>NOVUS DO BRASIL COMERCIO E IMPORTACAO LTDA</Party-Name>
+<Party-Address>ROD PE 60 S/N KM 14 BLOCO A ARMZ 0</Party-Address>
+<Party-City>IPOJUCA</Party-City>
+<Party-State-Prov>PE</Party-State-Prov>
+<Party-PostalCode>55594900</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>NVS</PartyLocation-ID>
+<Party-GlobalCode>961864</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRIPO</Party-UnlocCode><GovIDNumber>66659863000930</GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>NOVUS INTERNATIONAL INC.-TAX ID: 43-1575758</Party-Name>
+<Party-Address>20 RESEARCH PARK DRIVE - -</Party-Address>
+<Party-City>MISSOURI</Party-City>
+<Party-State-Prov>--</Party-State-Prov>
+<Party-PostalCode>00063304</Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P18791</PartyLocation-ID>
+<Party-CountryName>USA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>NOVUS INTERNATIONAL INC.-TAX ID: 43-1575758</Party-Name>
+<Party-Address>20 RESEARCH PARK DRIVE - -</Party-Address>
+<Party-City>MISSOURI</Party-City>
+<Party-State-Prov>--</Party-State-Prov>
+<Party-PostalCode>00063304</Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P18791</PartyLocation-ID>
+<Party-CountryName>USA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRIM</Process>
+<Status/>
+<SystemCode Code ='BRIM'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>IMNVS202407002BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P18791</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>10220322006</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>10220322006</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>4400059196</ReferenceNumber>
+</References><References type='BDPClientCode'><ReferenceNumber>NVS</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>FCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>US</ReferenceNumber>
+</References><References type= 'BDPBillingInvoiceNumber'>
+<ReferenceNumber>IMNVS202407002BRA</ReferenceNumber>
+<ReferenceDate>20240716</ReferenceDate>
+</References><References type= 'BDPBillingInvoiceNumber'>
+<ReferenceNumber>IMNVS202407002BRA</ReferenceNumber>
+<ReferenceDate>20240815</ReferenceDate>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>4400059196</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>C</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>Y</ReferenceNumber>
+</References><References type= 'ConsolNumber'>
+<ReferenceNumber>IMSAP202407001</ReferenceNumber>
+</References><References type= 'ConsolStatus'>
+<ReferenceNumber>Arrived</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>IMNVS202407002BR</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ImportForwarderRefNbr'>
+<ReferenceNumber>IMNVS202407002BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>3-Clearance</ReferenceNumber>
+</References><References type= 'HouseBillOfLading'>
+<ReferenceNumber>10220322006</ReferenceNumber>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CFR</TermsofSaleCode>
+<TermsofSaleDesc>CFR</TermsofSaleDesc>
+<FinalTermsofSaleCode>CFR</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CFR</FinalTermsofSaleDesc>
+<TermsofPaymentCode></TermsofPaymentCode>
+<TermsofPaymentDescription></TermsofPaymentDescription><InvoiceAmount>0</InvoiceAmount><CurrencyCode></CurrencyCode><CIDate></CIDate><FOBAmount>0</FOBAmount><FOBCurrency></FOBCurrency></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>HOUSTON</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>USHOU</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>SUAPE</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>BRSUA</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'><Destination LocationType='PortofEntry'>
+<DestinationName>SUAPE</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>BRSUA</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>HOUSTON</OriginName>
+</Origin>
+<OriginCodeType Type='ScheduleD'>
+<OriginCode>5301</OriginCode>
+</OriginCodeType><OriginCodeType Type='UNLOCCode'>
+<OriginCode>USHOU</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>US</OriginCountryCode><OriginDate type='Estimated'>20240622</OriginDate>
+<OriginDate type='Actual'>20240622</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>SUAPE</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>BRSUA</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>BR</DestinationCountryCode>
+<DestinationDate type='Estimated'>20240710</DestinationDate>
+<DestinationDate type='Actual'>20240710</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>HAPAG-LLOYD</CarrierName>
+<CarrierCode type='SCAC'>HLCU</CarrierCode>
+</Carrier><Vessel>
+<VesselName>MSC PHOENIX</VesselName>
+<VesselCode type='Lloyds'>00000</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='MasterBillofLadingNumber'>
+<ReferenceNumber>HLCUBSC2405BLPY7</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber>10220322006</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[2423S]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FreightAmount'><ReferenceNumber>1472.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>BOPT</ReferenceNumber>
+</ReferenceType><ReferenceType type='HouseCarrier'>
+<ReferenceNumber>BDP TRANSPORT.</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'HouseBookingNumber'>
+<ReferenceNumber>IMNVS202407002BR</ReferenceNumber>
+</ReferenceType><ReferenceType type='BookingNumber'>
+<ReferenceNumber>67617601</ReferenceNumber>
+</ReferenceType>
+</Transportation><EquipmentSummary>
+<EquipmentQuantity>1</EquipmentQuantity>
+<EquipmentSize>20</EquipmentSize>
+<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+<EquipmentType>2200</EquipmentType>
+<EquipmentDescription>20ft - Dry Van</EquipmentDescription>
+<SubstituteEquipmentDescription></SubstituteEquipmentDescription>
+</EquipmentSummary><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>20660</MeasurementValue></Measurements>
+<EquipmentInitial>CAAU</EquipmentInitial>
+<EquipmentNumber>2085958</EquipmentNumber>
+<SealNumber>0005019</SealNumber>
+<EquipmentType>2200</EquipmentType><EquipmentSize>20</EquipmentSize><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>20660</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>20</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>0.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>0.00</AmountValue></Amounts><Dates><Type>EstFreeTimeExpirationDate</Type><Date>20240802</Date><Time></Time></Dates><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20240704</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+N/I
+]]></Marks><Status>
+<StatusType type='BillofLadingBackDate'/>
+<StatusDate>20240621</StatusDate>
+</Status>
+<Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20240615</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate>20240710</StatusDate>
+</Status><Status>
+<StatusType type='ActCustomsPortDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstCustomsPortDate'/>
+<StatusDate>20240712</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20240710</StatusDate>
+</Status><Status>
+<StatusType type='OriginalETADate'/>
+<StatusDate>20240709</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfExitDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfOriginDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='EstimatedPortofEntryDate'/>
+<StatusDate>20240710</StatusDate>
+</Status><Status>
+<StatusType type='EstCityOfDischargeArrivalDate '/>
+<StatusDate>20240710</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20240710</StatusDate>
+</Status><Status>
+<StatusType type='BLDate'/>
+<StatusDate>20240622</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20240715</StatusDate>
+</Status><Status>
+<StatusType type='ActCarrierPaymentDate'/>
+<StatusDate>20240715</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20240823</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20240507</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20240507</StatusDate>
+</Status><Status>
+<StatusType type='BDPBillingInvoiceDateActual'/>
+<StatusDate>20240815</StatusDate>
+<StatusTime></StatusTime>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[1472.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[1472.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[1]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[20660]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DestinationInland</LocationType><LocationName>SUAPE</LocationName>
+<LocationUnlocCode>BRSUA</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>SUAPE</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>TypSvc</CodesNamesType><CodesNamesName><![CDATA[BDP NORMAL]]></CodesNamesName><CodesNamesCode>1</CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>DestinationInlandCarrier</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><BDPInvoice><InvoiceNumber>IMNVS202407002BRA</InvoiceNumber><InvoiceDate>20240711</InvoiceDate><InvoiceTotal>2585.00</InvoiceTotal><Charges><Type>N</Type><Code>157</Code><Description>DESCONSOLIDAÇÃO OCEAN 1 - BDP</Description><Amount>180.00</Amount><Currency>USD</Currency><VendorNumber></VendorNumber><VendorName></VendorName><PrepaidAmount>0.00</PrepaidAmount><CollectAmount>180.00</CollectAmount></Charges><Charges><Type>N</Type><Code>BLF</Code><Description>BL FEE</Description><Amount>180.00</Amount><Currency>USD</Currency><VendorNumber></VendorNumber><VendorName></VendorName><PrepaidAmount>0.00</PrepaidAmount><CollectAmount>180.00</CollectAmount></Charges><Charges><Type>N</Type><Code>JU3</Code><Description>HANDLING</Description><Amount>495.00</Amount><Currency>BRL</Currency><VendorNumber>P000019476</VendorNumber><VendorName>LIBRA SERVICOS DE NAVEGACAO LTDA</VendorName><PrepaidAmount>0.00</PrepaidAmount><CollectAmount>495.00</CollectAmount></Charges><Charges><Type>N</Type><Code>SI2</Code><Description>TAXA SISCARGA BDP</Description><Amount>40.00</Amount><Currency>USD</Currency><VendorNumber></VendorNumber><VendorName></VendorName><PrepaidAmount>0.00</PrepaidAmount><CollectAmount>40.00</CollectAmount></Charges><Charges><Type>N</Type><Code>VGP</Code><Description>THC 1</Description><Amount>1690.00</Amount><Currency>BRL</Currency><VendorNumber>P000019476</VendorNumber><VendorName>LIBRA SERVICOS DE NAVEGACAO LTDA</VendorName><PrepaidAmount>0.00</PrepaidAmount><CollectAmount>1690.00</CollectAmount></Charges><VoidedFlagYN>N</VoidedFlagYN><InvoiceTotalCurrency>USD</InvoiceTotalCurrency></BDPInvoice><BDPInvoice><InvoiceNumber>IMNVS202407002BRB</InvoiceNumber><InvoiceDate>20240724</InvoiceDate><InvoiceTotal>128.50</InvoiceTotal><Charges><Type>N</Type><Code>236</Code><Description>PROFIT SHRING/COMISSION</Description><Amount>128.50</Amount><Currency>USD</Currency><VendorNumber></VendorNumber><VendorName></VendorName><PrepaidAmount>0.00</PrepaidAmount><CollectAmount>128.50</CollectAmount></Charges><VoidedFlagYN>N</VoidedFlagYN><InvoiceTotalCurrency>USD</InvoiceTotalCurrency></BDPInvoice><BDPInvoice><InvoiceNumber>IMNVS202407002BRC</InvoiceNumber><InvoiceDate>20240814</InvoiceDate><InvoiceTotal>113.00</InvoiceTotal><Charges><Type>N</Type><Code>DEM</Code><Description>DEMURRAGE 1</Description><Amount>113.00</Amount><Currency>USD</Currency><VendorNumber></VendorNumber><VendorName></VendorName><PrepaidAmount>0.00</PrepaidAmount><CollectAmount>113.00</CollectAmount></Charges><VoidedFlagYN>N</VoidedFlagYN><InvoiceTotalCurrency>USD</InvoiceTotalCurrency></BDPInvoice></Header><Detail><ProductDetail>
+<LineItemNo>1</LineItemNo>
+<Measurements type='GrsWtKgs'><MeasurementValue>20660</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>20000</MeasurementValue></Measurements></ProductDetail></Detail><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>20000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>800.00</MeasurementValue>
+</Measurements>
+</Footer></Request>

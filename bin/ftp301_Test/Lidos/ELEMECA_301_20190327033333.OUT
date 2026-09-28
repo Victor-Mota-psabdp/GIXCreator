@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>PACTIROL SA</Party-Name>
+<Party-Address>216663020017                              </Party-Address>
+<Party-City>MONTEVIDEO</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>02353405</PartyLocation-ID>
+<Party-CountryName>UR</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>PERFORMANCE MATERIALS DO BRASIL COMERCIO DE PLASTICOS E POLI</Party-Name>
+<Party-Address>AL ITAPECURU 506 SALA 2 BLOCO C</Party-Address>
+<Party-City>BARUERI</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>06454080</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>ECP</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRBRI</Party-UnlocCode><GovIDNumber>26355738000165</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>PACTIROL SA</Party-Name>
+<Party-Address>216663020017                              </Party-Address>
+<Party-City>MONTEVIDEO</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>02353405</PartyLocation-ID>
+<Party-CountryName>UR</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>PACTIROL SA</Party-Name>
+<Party-Address>216663020017                              </Party-Address>
+<Party-City>MONTEVIDEO</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P000033075</PartyLocation-ID>
+<Party-CountryName>UR</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>PACTIROL SA</Party-Name>
+<Party-Address>216663020017                              </Party-Address>
+<Party-City>MONTEVIDEO</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P000033075</PartyLocation-ID>
+<Party-CountryName>UR</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D - 12  ANDAR</Party-Address>
+<Party-City>SAO PAULO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>04726170</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>ANDERSON LIMA</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[anderson.lima@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D - 12  ANDAR</Party-Address>
+<Party-City>SAO PAULO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>04726170</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSAO</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+</Parties><Parties type="Buyer">
+<Party-Name>PACTIROL SA</Party-Name>
+<Party-Address>216663020017                              </Party-Address>
+<Party-City>MONTEVIDEO</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>02353405</PartyLocation-ID>
+<Party-CountryName>UR</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>PACTIROL SA</Party-Name>
+<Party-Address>216663020017                              </Party-Address>
+<Party-City>MONTEVIDEO</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>02353405</PartyLocation-ID>
+<Party-CountryName>UR</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>PERFORMANCE MATERIALS DO BRASIL COMERCIO DE PLASTICOS E POLI</Party-Name>
+<Party-Address>AL ITAPECURU 506 SALA 2 BLOCO C</Party-Address>
+<Party-City>BARUERI</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>06454080</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000033073</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRBRI</Party-UnlocCode><GovIDNumber>26355738000165</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>PERFORMANCE MATERIALS DO BRASIL COMERCIO DE PLASTICOS E POLI</Party-Name>
+<Party-Address>AL ITAPECURU 506 SALA 2 BLOCO C</Party-Address>
+<Party-City>BARUERI</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>06454080</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000033073</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRBRI</Party-UnlocCode><GovIDNumber>26355738000165</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMECP201903001BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000033073</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>0032253058</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>0032253058</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>0108251500</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>32253058</ReferenceNumber>
+<ReferenceDate>20190327</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INDENT</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>180451</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>32253058</ReferenceNumber>
+<ReferenceDate>20190327</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>ECP</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>FCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>0032253058</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>9SSZ000001</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>32253058</ReferenceNumber>
+<ReferenceDate>20190327</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMECP201903001BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>32253058</ReferenceNumber>
+<ReferenceDate>20190327</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CPT</TermsofSaleCode>
+<TermsofSaleDesc>CPT</TermsofSaleDesc>
+<FinalTermsofSaleCode>CPT</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CPT</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>82800</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20190327</CIDate><FOBAmount>81800.00</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>89001241</ProductCode><BrandName><![CDATA[ELVALOY(TM) 5170 COPOLYMER89001241]]></BrandName><InvoiceDesc><![CDATA[ELVALOY(TM) 5170 COPOLYMER89001241]]></InvoiceDesc><BilledQuantity>16.00</BilledQuantity>
+<BilledQuantityUnit>PF</BilledQuantityUnit><Price>5175.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>82800.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>GUARULHOS</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSAO</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>MONTEVIDEO</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>UYMVDMVD</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>SANTOS</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSSZ</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20190330</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>MONTEVIDEO</DestinationName>
+</Destination>
+<DestinationCodeType Type='ScheduleK'>
+<DestinationCode>35525</DestinationCode>
+</DestinationCodeType><DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>UYMVDMVD</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>UY</DestinationCountryCode>
+<DestinationDate type='Estimated'>20190415</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>ALIANCA</CarrierName>
+<CarrierCode type='SCAC'>707488</CarrierCode>
+</Carrier><Vessel>
+<VesselName>ALIANCA IPANEMA</VesselName>
+<VesselCode type='Lloyds'>07820461</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[TEST1]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>H801</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>1000.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>1875991</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>9ssz000001</ReferenceNumber>
+</ReferenceType></Transportation><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks>
+N/I
+</Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20190323</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20190323</StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20190330</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20190415</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20190327</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20190415</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20190327</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20190929</StatusDate>
+<StatusTime>1100</StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20190329</StatusDate>
+<StatusTime>1700</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20190328</StatusDate>
+<StatusTime>1100</StatusTime>
+</Status>
+<Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20190323</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20190403</StatusDate>
+</Status><Status>
+<StatusType type='ActBookedDate'/>
+<StatusDate>20190327</StatusDate>
+</Status>
+<Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20190315</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20131002</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20101007</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20190327</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20190327</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20190327</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[1000.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[1000.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[81800.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[20520]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>GUARULHOS</LocationName>
+<LocationUnlocCode>BRSAO</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>GUARULHOS</LocationCountryName><LocationCode></LocationCode>
+</Locations><Locations>
+<LocationType>PierTerminal</LocationType><LocationName>TECON</LocationName>
+<LocationUnlocCode></LocationUnlocCode>
+<LocationCountryCode></LocationCountryCode>
+<LocationCountryName></LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>89001241</ProductCode>
+<BrandName><![CDATA[ELVALOY(TM) 5170 COPOLYMER89001241]]></BrandName>
+<InvoiceDesc><![CDATA[ELVALOY(TM) 5170 COPOLYMER89001241]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>39013090</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>16</BilledQuantity>
+<BilledQuantityUnit>PF</BilledQuantityUnit>
+<Price>5175</Price>
+<ProductAmount>82800</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<NoOfPkgs>16</NoOfPkgs><TypePkgCode></TypePkgCode>
+<TypePkgDesc></TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>20520</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>20000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>16</PrimaryRptQty><PrimaryRptQtyUOM>PF</PrimaryRptQtyUOM><SecondaryRptQty>16</SecondaryRptQty><SecondaryRptQtyUOM>PF</SecondaryRptQtyUOM><EnterValue>82800</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>3082</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S. ]]></HazmatMaterialName><HazmatDesc><![CDATA[HAZARDOUS GOODS INFO UN3082 ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S. (Cyclosiloxane), 9, III IMDG UN3082 ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID, N.O.S. (Cyclosiloxane), 9, III, Marine pollutant,F-A, S-F, Stowage category AUruguay]]></HazmatDesc><HazmatContact>1-888-862-7770</HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.00</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>82800</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>COPOLIMERO ETILENO/ACETATO VINILA,EM OUTS.FORMAS PRIMAR</ProductCodesNamesName><ProductCodesNamesCode>39013090</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20190323</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>20520</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>45238.392</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>20000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>44092</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer></Request>

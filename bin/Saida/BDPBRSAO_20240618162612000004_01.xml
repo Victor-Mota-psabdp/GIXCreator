@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<Header RequestType="Shipment" Action="Cancel" Type="Export"><Parties type="Consignee">
+<Party-Name>STARCHEM LLC</Party-Name>
+<Party-Address>10150 GREENVILLE HWY 29385-9528 </Party-Address>
+<Party-City>WELLFORD</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000023041</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USWEF</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="DeliverTo">
+<Party-Name>STARCHEM LLC</Party-Name>
+<Party-Address>10150 GREENVILLE HWY 29385-9528 </Party-Address>
+<Party-City>WELLFORD</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000023041</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USWEF</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>BLUE CUBE BRASIL COMERCIO DE PRODUTOS QUIMICOS LTDA</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460006</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>BCB</PartyLocation-ID>
+<Party-Contacts Action='Add' type='CSR'><Contact-Name>NO REF#</Contact-Name>
+<Contact-CommunicationAddress type='Email'></Contact-CommunicationAddress>
+</Party-Contacts><Party-GlobalCode>623251</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>20920259000168</GovIDNumber>
+</Parties><Parties type="ShipFrom">
+<Party-Name>BLUE CUBE BRASIL COMERCIO DE PRODUTOS QUIMICOS LTDA</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460006</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000022921</PartyLocation-ID>
+<Party-GlobalCode>623251</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>20920259000168</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>STARCHEM LLC</Party-Name>
+<Party-Address>10150 GREENVILLE HWY 29385-9528 </Party-Address>
+<Party-City>WELLFORD</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000023041</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USWEF</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>STARCHEM LLC</Party-Name>
+<Party-Address>10150 GREENVILLE HWY 29385-9528 </Party-Address>
+<Party-City>WELLFORD</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000023041</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USWEF</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>STARCHEM LLC</Party-Name>
+<Party-Address>10150 GREENVILLE HWY 29385-9528 </Party-Address>
+<Party-City>WELLFORD</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000023041</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USWEF</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>WESLEY DE NEGREIROS VIEIRA</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Wesley.Vieira@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>BLUE CUBE BRASIL COMERCIO DE PRODUTOS QUIMICOS LTDA</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460006</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>BB37</Party-ID>
+<PartyLocation-ID>P000022921</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>20920259000168</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+<Party-Contacts Action='Add' type="CSR">
+<Contact-Name>WESLEY DE NEGREIROS VIEIRA</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[Wesley.Vieira@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Buyer">
+<Party-Name>STARCHEM LLC</Party-Name>
+<Party-Address>10150 GREENVILLE HWY 29385-9528 </Party-Address>
+<Party-City>WELLFORD</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000023041</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USWEF</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>STARCHEM LLC</Party-Name>
+<Party-Address>10150 GREENVILLE HWY 29385-9528 </Party-Address>
+<Party-City>WELLFORD</Party-City>
+<Party-State-Prov>SC</Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000023041</PartyLocation-ID>
+<Party-CountryName>United States</Party-CountryName>
+<Party-UnlocCode>USWEF</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>BLUE CUBE BRASIL COMERCIO DE PRODUTOS QUIMICOS LTDA</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460006</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000022921</PartyLocation-ID>
+<Party-GlobalCode>623251</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>20920259000168</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>BLUE CUBE BRASIL COMERCIO DE PRODUTOS QUIMICOS LTDA</Party-Name>
+<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+<Party-City>GUARUJA</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>11460006</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000022921</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRGUR</Party-UnlocCode><GovIDNumber>20920259000168</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMBCB202309001BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000022921</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>EXFU 830099-8</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>EXFU 830099-8</ReferenceNumber>
+<ReferenceDate>20230915</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INDENT</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>UN-UN</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>EXFU 830099-8</ReferenceNumber>
+<ReferenceDate>20230915</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>BCB</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>FCL</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'CustomsEntrytypeCode'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>EXFU 830099-8</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber></ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>EXFU 830099-8</ReferenceNumber>
+<ReferenceDate>20230915</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMBCB202309001BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>9-Cancelled Job</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>EXFU 830099-8</ReferenceNumber>
+<ReferenceDate>20230915</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>FOB</TermsofSaleCode>
+<TermsofSaleDesc>FOB</TermsofSaleDesc>
+<FinalTermsofSaleCode>FOB</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>FOB</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>3510</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20230914</CIDate><FOBAmount>3509.00</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>00024291</ProductCode><BrandName><![CDATA[BENZYLTRIMETHYLAMMONIUM CHL 00009833R002]]></BrandName><InvoiceDesc><![CDATA[BENZYLTRIMETHYLAMMONIUM CHL 00009833R002]]></InvoiceDesc><BilledQuantity>3250.00</BilledQuantity>
+<BilledQuantityUnit>LB</BilledQuantityUnit><Price>1.08</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>3510.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'><Origin Type='PlaceofReceipt'>
+<OriginName>GUARUJA</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRGUR</OriginCode>
+</OriginCodeType>
+<Destination LocationType='PlaceofDelivery'>
+<DestinationName>CHARLESTON</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>USCHS</DestinationCode>
+</DestinationCodeType>
+</Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>SANTOS</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRSSZ</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20170730</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>CHARLESTON</DestinationName>
+</Destination>
+<DestinationCodeType Type='ScheduleK'>
+<DestinationCode>1601</DestinationCode>
+</DestinationCodeType><DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>USCHS</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>US</DestinationCountryCode>
+<DestinationDate type='Estimated'>20171231</DestinationDate>
+<TypeofMoveDescription>PORT TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>TO BE CONFIRMED</CarrierName>
+<CarrierCode type='SCAC'></CarrierCode>
+</Carrier><Vessel>
+<VesselName>TO BE CONFIRMED</VesselName>
+<VesselCode type='Lloyds'>00000</VesselCode></Vessel>
+<PrepaidorCollect>C</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[0]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='FreightAmount'><ReferenceNumber>1.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type= 'BookingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType></Transportation><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+N/I
+]]></Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20170723</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20170723</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingRetreivedDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20170730</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20171231</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20171231</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20230914</StatusDate>
+</Status><Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20170723</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20170803</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20180105</StatusDate>
+</Status><Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20090701</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20021119</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20240618</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20230915</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20230915</StatusDate>
+</Status><NonConformance>
+<ReasonCode>ESBK038</ReasonCode>
+<ReasonDesc>ESBK038-CANCELLED BOOKING - CUSTOMER REQUEST</ReasonDesc>
+<Date>20240103</Date>
+</NonConformance><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[3509.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[3250]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>GUARUJA</LocationName>
+<LocationUnlocCode>BRGUR</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>GUARUJA</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>TypSvc</CodesNamesType><CodesNamesName><![CDATA[CUSTOM HOUSE BROKERAGE]]></CodesNamesName><CodesNamesCode>2</CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>00024291</ProductCode>
+<BrandName><![CDATA[BENZYLTRIMETHYLAMMONIUM CHL 00009833R002]]></BrandName>
+<InvoiceDesc><![CDATA[BENZYLTRIMETHYLAMMONIUM CHL 00009833R002]]></InvoiceDesc>
+<BLDesc>N/I</BLDesc>
+<Compliance>
+<ClassificationNumber>29239090</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>3250</BilledQuantity>
+<BilledQuantityUnit>LB</BilledQuantityUnit>
+<Price>1.08</Price>
+<ProductAmount>3510</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRAZIL</CountryofOriginName>
+<NoOfPkgs>3250</NoOfPkgs><TypePkgCode>LB</TypePkgCode>
+<TypePkgDesc>LB</TypePkgDesc>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>16.326530612244897959183673469</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>16.326530612244897959183673469</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>3250</PrimaryRptQty><PrimaryRptQtyUOM>LB</PrimaryRptQtyUOM><SecondaryRptQty>3250</SecondaryRptQty><SecondaryRptQtyUOM>LB</SecondaryRptQtyUOM><EnterValue>3510</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00007974</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>2810</UNNumber><Class type='UN'>6,1</Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <PackageGroup>III</PackageGroup><HazmatMaterialName><![CDATA[BENZYLTRIMETHYLAMMONIUM CHL 00]]></HazmatMaterialName><HazmatDesc><![CDATA[BENZYLTRIMETHYLAMMONIUM CHL 00009833R002]]></HazmatDesc><HazmatContact>1155043400</HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductReferences type="PONumber">
+<ProductReferenceNumber>EXFU 830099-8</ProductReferenceNumber></ProductReferences><ProductReferences type="PurchaseOrderNumber">
+<ProductReferenceNumber>EXFU 830099-8</ProductReferenceNumber></ProductReferences><ProductReferences type="OrderNumber">
+<ProductReferenceNumber>EXFU 830099-8</ProductReferenceNumber></ProductReferences><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>3.250</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>3510</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SAIS E HIDROXIDOS DE AMONIO QUATERNARIOS</ProductCodesNamesName><ProductCodesNamesCode>29239090</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20170723</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>3250</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>7164.95</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>16.326530612244897959183673469</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>35.9934693877551</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>3.250</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicMeters'>
+<MeasurementValue>1.00</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer></Request>

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<ControlNumber>0d298076-7ce0-473b-9f7f-8f191ce007ca</ControlNumber>
+<UniqueMessageID>0d298076-7ce0-473b-9f7f-8f191ce007ca</UniqueMessageID>
+<FromIdentifier>ATL</FromIdentifier>
+<ToIdentifier>Integration</ToIdentifier>
+<Customer>DOW</Customer>
+<Timestamp>20221004T191906</Timestamp>
+<PrimaryKey>0041633966</PrimaryKey>
+<SecondaryKey>EMCSR202209103BR</SecondaryKey>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>DOW SILICONES CORPORATION</Party-Name>
+<Party-Address>2651 SALZBURG RD.  </Party-Address>
+<Party-City>MIDLAND</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>02145996</PartyLocation-ID>
+<Party-CountryName>UNITED STATES</Party-CountryName>
+<Party-UnlocCode>USIAL</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>PALMYRA DO BRASIL INDUSTRIA E COMERCIO DE SILICIO METALICO E</Party-Name>
+<Party-Address>ROD BR 499 S/N </Party-Address>
+<Party-City>SANTOS DUMONT</Party-City>
+<Party-State-Prov>MG</Party-State-Prov>
+<Party-PostalCode>36240000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>CSR</PartyLocation-ID>
+<Party-GlobalCode>545707</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSDO</Party-UnlocCode><GovIDNumber>04872297001612</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>DOW SILICONES CORPORATION</Party-Name>
+<Party-Address>2651 SALZBURG RD.  </Party-Address>
+<Party-City>MIDLAND</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>02145996</PartyLocation-ID>
+<Party-CountryName>UNITED STATES</Party-CountryName>
+<Party-UnlocCode>USIAL</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>DOW SILICONES CORPORATION</Party-Name>
+<Party-Address>2651 SALZBURG RD.  </Party-Address>
+<Party-City>MIDLAND</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000038108</PartyLocation-ID>
+<Party-CountryName>UNITED STATES</Party-CountryName>
+<Party-UnlocCode>USIAL</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>DOW SILICONES CORPORATION</Party-Name>
+<Party-Address>2651 SALZBURG RD.  </Party-Address>
+<Party-City>MIDLAND</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>P000038108</PartyLocation-ID>
+<Party-CountryName>UNITED STATES</Party-CountryName>
+<Party-UnlocCode>USIAL</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>JULIANA DA SILVA LIMA</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[juliana.lima@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="Plant">
+<Party-Name>PALMYRA DO BRASIL INDUSTRIA E COMERCIO DE SILICIO METALICO E</Party-Name>
+<Party-Address>ROD BR 499 S/N </Party-Address>
+<Party-City>SANTOS DUMONT</Party-City>
+<Party-State-Prov>MG</Party-State-Prov>
+<Party-PostalCode>36240000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type='PlantCode'>I932</Party-ID>
+<PartyLocation-ID>P000038092</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSDO</Party-UnlocCode><GovIDNumber>04872297001612</GovIDNumber>
+</Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA</Party-Name>
+<Party-Address>R MANOEL COELHO 600 PAVMTO3 SALA 316A</Party-Address>
+<Party-City>SAO CAETANO DO SUL</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>09510101</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRQCX</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+</Parties><Parties type="Buyer">
+<Party-Name>DOW SILICONES CORPORATION</Party-Name>
+<Party-Address>2651 SALZBURG RD.  </Party-Address>
+<Party-City>MIDLAND</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>02145996</PartyLocation-ID>
+<Party-CountryName>UNITED STATES</Party-CountryName>
+<Party-UnlocCode>USIAL</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>DOW SILICONES CORPORATION</Party-Name>
+<Party-Address>2651 SALZBURG RD.  </Party-Address>
+<Party-City>MIDLAND</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>US</Party-Country>
+<PartyLocation-ID>02145996</PartyLocation-ID>
+<Party-CountryName>UNITED STATES</Party-CountryName>
+<Party-UnlocCode>USIAL</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>PALMYRA DO BRASIL INDUSTRIA E COMERCIO DE SILICIO METALICO E</Party-Name>
+<Party-Address>ROD BR 499 S/N </Party-Address>
+<Party-City>SANTOS DUMONT</Party-City>
+<Party-State-Prov>MG</Party-State-Prov>
+<Party-PostalCode>36240000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000038092</PartyLocation-ID>
+<Party-GlobalCode>545707</Party-GlobalCode><Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSDO</Party-UnlocCode><GovIDNumber>04872297001612</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>PALMYRA DO BRASIL INDUSTRIA E COMERCIO DE SILICIO METALICO E</Party-Name>
+<Party-Address>ROD BR 499 S/N </Party-Address>
+<Party-City>SANTOS DUMONT</Party-City>
+<Party-State-Prov>MG</Party-State-Prov>
+<Party-PostalCode>36240000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000038092</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSDO</Party-UnlocCode><GovIDNumber>04872297001612</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMCSR202209103BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000038092</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>0041633966</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>0041633966</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>4007215249</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>41633966</ReferenceNumber>
+<ReferenceDate>20220923</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INTER-COMPANY</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>248056-248055-248054-248053-248052-248051-248050-248049-248048-247973-247973</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>41633966</ReferenceNumber>
+<ReferenceDate>20220923</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>CSR</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>05</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>0041633966</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>241ISZ2142368</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>41633966</ReferenceNumber>
+<ReferenceDate>20220923</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMCSR202209103BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Booking</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>41633966</ReferenceNumber>
+<ReferenceDate>20220923</ReferenceDate>
+</References><References type='STOInd'><ReferenceNumber><![CDATA[Y]]></ReferenceNumber> </References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CFR</TermsofSaleCode>
+<TermsofSaleDesc>CFR</TermsofSaleDesc>
+<FinalTermsofSaleCode>CFR</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CFR</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>11188800</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20220923</CIDate><FOBAmount>11118800</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>2</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>3</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>4</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>5</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>6</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>7</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>8</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>9</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>10</LineItemNo><ProductCode>4076911</ProductCode><BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName><InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc><BilledQuantity>27000.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>41.44</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>1118880.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'></Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>RIO DE JANEIRO</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRRIO</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20221025</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>NEW ORLEANS</DestinationName>
+</Destination>
+<DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>USMSY</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>US</DestinationCountryCode>
+<DestinationDate type='Estimated'>20221117</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>MSC-MEDITERRANEAN SHIPPING CO</CarrierName>
+<CarrierCode type='SCAC'>573542</CarrierCode>
+</Carrier><Vessel>
+<VesselName>TEMPANOS </VesselName>
+<VesselCode type='Lloyds'>00000</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[2237N]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>HI87</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>7000</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>2501693</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>241ISZ2142368</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>10</EquipmentQuantity>
+<EquipmentSize>40</EquipmentSize>
+<EquipmentContainerTypeRequest>ADD</EquipmentContainerTypeRequest>
+<EquipmentType>CONTAINER</EquipmentType>
+</EquipmentSummary><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks><![CDATA[
+N/I
+]]></Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20221018</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20221018</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BkngCnfrmtnRcvdSS'/>
+<StatusDate>20220922</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingRetreivedDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20221025</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20221117</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20220922</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20221117</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20220923</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20221021</StatusDate>
+<StatusTime>1100</StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20221018</StatusDate>
+<StatusTime>1200</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20221018</StatusDate>
+<StatusTime>1100</StatusTime>
+</Status>
+<Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20221018</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20221029</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20221122</StatusDate>
+</Status><Status>
+<StatusType type='BOLSubmitDate'/>
+<StatusDate>20221003</StatusDate>
+</Status>
+<Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20220921</StatusDate>
+</Status>
+<Status>
+<StatusType type='DraftBOLInstrRecvdDt'/>
+<StatusDate>20220826</StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookedDate'/>
+<StatusDate>20220922</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20131002</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20040412</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20221004</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20220927</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20220927</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[70000.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[70000.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[11118800.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[10]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[270000]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>RIO DE JANEIRO</LocationName>
+<LocationUnlocCode>BRRIO</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>RIO DE JANEIRO</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>2</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>3</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>4</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>5</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>6</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>7</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>8</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>9</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>10</LineItemNo>
+<ProductCode>4076911</ProductCode>
+<BrandName><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></BrandName>
+<InvoiceDesc><![CDATA[GMID 4076911   DOWSIL  SILÍCIO METÁLICO]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>27000</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>41.44</Price>
+<ProductAmount>1118880</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>27000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>27000</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>27000</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>1118880</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>26800</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>1118880</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20221018</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>270000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>595242</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>270000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>595242</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer></Request>

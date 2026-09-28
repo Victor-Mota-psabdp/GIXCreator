@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+	<ControlNumber>86d42499-6b53-4bb7-8558-bacb6b85d924</ControlNumber>
+	<UniqueMessageID>86d42499-6b53-4bb7-8558-bacb6b85d924</UniqueMessageID>
+	<FromIdentifier>ATL</FromIdentifier>
+	<ToIdentifier>Integration</ToIdentifier>
+	<Customer>INTTRA</Customer>
+	<Timestamp>20221208T212107</Timestamp>
+	<PrimaryKey>EMCSR202211004BR</PrimaryKey>
+	<SecondaryKey>20221208062107783</SecondaryKey>
+	<Header RequestType="BookingRequest"
+	        Action="Original"
+	        Type="Export">
+		<Parties type="Consignee">
+			<Party-Name>PBBPOLISUR S.R.L. GARIN GARIN WHSE</Party-Name>
+			<Party-Address>CALLE 13 N  379  </Party-Address>
+			<Party-City>GARIN</Party-City>
+			<Party-State-Prov>  </Party-State-Prov>
+			<Party-PostalCode>B1619LUF</Party-PostalCode>
+			<Party-Country>AR</Party-Country>
+			<PartyLocation-ID>P000039475</PartyLocation-ID>
+			<Party-CountryName>Argentina</Party-CountryName>
+			<Party-UnlocCode>AR</Party-UnlocCode>
+			<GovIDNumber/>
+		</Parties>
+		<Parties type="Exporter">
+			<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+			<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+			<Party-City>GUARUJA</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>11460902</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<PartyLocation-ID>BDP</PartyLocation-ID>
+			<Party-Contacts Action='Add'
+			                type='CSR'>
+				<Contact-Name>NO REF#</Contact-Name>
+				<Contact-CommunicationAddress type='Email'/>
+			</Party-Contacts>
+			<Party-GlobalCode>475403</Party-GlobalCode>
+			<Party-CountryName>Brazil</Party-CountryName>
+			<Party-UnlocCode>BRGUR</Party-UnlocCode>
+			<GovIDNumber>53877627000949</GovIDNumber>
+		</Parties>
+		<Parties type="ShipTo">
+			<Party-Name>PBBPOLISUR S.R.L. GARIN GARIN WHSE</Party-Name>
+			<Party-Address>CALLE 13 N  379  </Party-Address>
+			<Party-City>GARIN</Party-City>
+			<Party-State-Prov>  </Party-State-Prov>
+			<Party-PostalCode>B1619LUF</Party-PostalCode>
+			<Party-Country>AR</Party-Country>
+			<PartyLocation-ID>P000039475</PartyLocation-ID>
+			<Party-CountryName>Argentina</Party-CountryName>
+			<Party-UnlocCode>AR</Party-UnlocCode>
+			<GovIDNumber/>
+		</Parties>
+		<Parties type="SoldTo">
+			<Party-Name>PBBPOLISUR S.R.L. GARIN GARIN WHSE</Party-Name>
+			<Party-Address>CALLE 13 N  379  </Party-Address>
+			<Party-City>GARIN</Party-City>
+			<Party-State-Prov>  </Party-State-Prov>
+			<Party-PostalCode>B1619LUF</Party-PostalCode>
+			<Party-Country>AR</Party-Country>
+			<PartyLocation-ID>P000039475</PartyLocation-ID>
+			<Party-CountryName>Argentina</Party-CountryName>
+			<Party-UnlocCode>AR</Party-UnlocCode>
+			<GovIDNumber/>
+		</Parties>
+		<Parties type="Notify">
+			<Party-Name>PBBPOLISUR S.R.L. GARIN GARIN WHSE</Party-Name>
+			<Party-Address>CALLE 13 N  379  </Party-Address>
+			<Party-City>GARIN</Party-City>
+			<Party-State-Prov>  </Party-State-Prov>
+			<Party-PostalCode>B1619LUF</Party-PostalCode>
+			<Party-Country>AR</Party-Country>
+			<PartyLocation-ID>P000039475</PartyLocation-ID>
+			<Party-CountryName>Argentina</Party-CountryName>
+			<Party-UnlocCode>AR</Party-UnlocCode>
+			<GovIDNumber/>
+		</Parties>
+		<Parties type="Partner">
+			<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+			<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D - 12º ANDAR</Party-Address>
+			<Party-City>SÃO PAULO</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>04726170</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<Party-ID type="PartnerID">BDPBRSAO</Party-ID>
+			<Party-Contacts Action='Add'
+			                type="CSR">
+				<Contact-Name>ROSANGELA APARE. SILVA SANTOS</Contact-Name>
+				<Contact-CommunicationAddress type="Email"><![CDATA[rosangela.santos@bdpint.com]]></Contact-CommunicationAddress>
+			</Party-Contacts>
+		</Parties>
+		<Parties type="Plant">
+			<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+			<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+			<Party-City>GUARUJA</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>11460902</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<Party-ID type='PlantCode'>BC26</Party-ID>
+			<PartyLocation-ID>P000009033</PartyLocation-ID>
+			<Party-CountryName>Brazil</Party-CountryName>
+			<Party-UnlocCode>BRGUR</Party-UnlocCode>
+			<GovIDNumber>53877627000949</GovIDNumber>
+		</Parties>
+		<Parties type="BDPRepresentative">
+			<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+			<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D - 12º ANDAR</Party-Address>
+			<Party-City>SÃO PAULO</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>04726170</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<PartyLocation-ID>10017</PartyLocation-ID>
+			<Party-CountryName>Brazil</Party-CountryName>
+			<Party-UnlocCode>BRSAO</Party-UnlocCode>
+			<GovIDNumber>03706460000128</GovIDNumber>
+		</Parties>
+		<Parties type="Buyer">
+			<Party-Name>PBBPOLISUR S.R.L. GARIN GARIN WHSE</Party-Name>
+			<Party-Address>CALLE 13 N  379  </Party-Address>
+			<Party-City>GARIN</Party-City>
+			<Party-State-Prov>  </Party-State-Prov>
+			<Party-PostalCode>B1619LUF</Party-PostalCode>
+			<Party-Country>AR</Party-Country>
+			<PartyLocation-ID>P000039475</PartyLocation-ID>
+			<Party-CountryName>Argentina</Party-CountryName>
+			<Party-UnlocCode>AR</Party-UnlocCode>
+			<GovIDNumber/>
+		</Parties>
+		<Parties type="Importer">
+			<Party-Name>PBBPOLISUR S.R.L. GARIN GARIN WHSE</Party-Name>
+			<Party-Address>CALLE 13 N  379  </Party-Address>
+			<Party-City>GARIN</Party-City>
+			<Party-State-Prov>  </Party-State-Prov>
+			<Party-PostalCode>B1619LUF</Party-PostalCode>
+			<Party-Country>AR</Party-Country>
+			<PartyLocation-ID>P000039475</PartyLocation-ID>
+			<Party-CountryName>Argentina</Party-CountryName>
+			<Party-UnlocCode>AR</Party-UnlocCode>
+			<GovIDNumber/>
+		</Parties>
+		<Parties type="Seller">
+			<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+			<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+			<Party-City>GUARUJA</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>11460902</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<PartyLocation-ID>P000009033</PartyLocation-ID>
+			<Party-GlobalCode>475403</Party-GlobalCode>
+			<Party-CountryName>Brazil</Party-CountryName>
+			<Party-UnlocCode>BRGUR</Party-UnlocCode>
+			<GovIDNumber>53877627000949</GovIDNumber>
+		</Parties>
+		<Parties type="Supplier">
+			<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+			<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+			<Party-City>GUARUJA</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>11460902</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<PartyLocation-ID>P000009033</PartyLocation-ID>
+			<Party-CountryName>Brazil</Party-CountryName>
+			<Party-UnlocCode>BRGUR</Party-UnlocCode>
+			<GovIDNumber>53877627000949</GovIDNumber>
+		</Parties>
+		<Parties type="ExporterShipper">
+			<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+			<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+			<Party-City>GUARUJA</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>11460902</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<PartyLocation-ID>P000009033</PartyLocation-ID>
+			<Party-CountryName>Brazil</Party-CountryName>
+			<Party-UnlocCode>BRGUR</Party-UnlocCode>
+			<GovIDNumber>53877627000949</GovIDNumber>
+		</Parties>
+		<Parties type="Shipper">
+			<Party-Name>DOW BRASIL SUDESTE INDUSTRIAL LTDA.</Party-Name>
+			<Party-Address>AV SANTOS DUMONT 4444 </Party-Address>
+			<Party-City>GUARUJA</Party-City>
+			<Party-State-Prov>SP</Party-State-Prov>
+			<Party-PostalCode>11460902</Party-PostalCode>
+			<Party-Country>BR</Party-Country>
+			<PartyLocation-ID>P000009033</PartyLocation-ID>
+			<Party-GlobalCode>475403</Party-GlobalCode>
+			<Party-CountryName>Brazil</Party-CountryName>
+			<Party-UnlocCode>BRGUR</Party-UnlocCode>
+			<GovIDNumber>53877627000949</GovIDNumber>
+		</Parties>
+		<Parties type="Forwarder">
+			<Party-Name>PBBPOLISUR S.R.L. GARIN GARIN WHSE</Party-Name>
+			<Party-Address>CALLE 13 N  379  </Party-Address>
+			<Party-City>GARIN</Party-City>
+			<Party-State-Prov>  </Party-State-Prov>
+			<Party-PostalCode>B1619LUF</Party-PostalCode>
+			<Party-Country>AR</Party-Country>
+			<PartyLocation-ID>P000039475</PartyLocation-ID>
+			<Party-CountryName>Argentina</Party-CountryName>
+			<Party-UnlocCode>AR</Party-UnlocCode>
+			<GovIDNumber/>
+		</Parties>
+		<Parties type="Carrier">
+			<Party-Name>HAPAG-LLOYD</Party-Name>
+			<Party-Address/>
+			<Party-City>Santos</Party-City>
+			<Party-State-Prov/>
+			<Party-PostalCode/>
+			<Party-Country/>
+			<Party-ID/>
+			<PartyLocation-ID>BRSSZ</PartyLocation-ID>
+			<Party-GlobalCode/>
+		</Parties>
+		<Parties type="CarrierAgntNewPrty">
+			<Party-Name>HAPAG-LLOYD</Party-Name>
+			<Party-Address/>
+			<Party-City>Santos</Party-City>
+			<Party-State-Prov/>
+			<Party-PostalCode/>
+			<Party-Country/>
+			<Party-ID/>
+			<PartyLocation-ID>BRSSZ</PartyLocation-ID>
+			<Party-GlobalCode/>
+		</Parties>
+		<ProcessingInstructions>
+			<Process>BRTP</Process>
+			<Status/>
+			<SystemCode Code='BRTP'/>
+			<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+		</ProcessingInstructions>
+		<References type='BDPJobNumber'>
+			<ReferenceNumber>EMCSR202211004BR</ReferenceNumber>
+		</References>
+		<References type='OperatingUnitClassification'>
+			<ReferenceNumber>CHB</ReferenceNumber>
+		</References>
+		<References type='SellerCode'>
+			<ReferenceNumber>P000009033</ReferenceNumber>
+		</References>
+		<References type='ShipmentNumber'>
+			<ReferenceNumber/>
+		</References>
+		<References type='SAPShipmentNumber'>
+			<ReferenceNumber/>
+		</References>
+		<References type='GeneralDescription'>
+			<ReferenceNumber> <![CDATA[]]></ReferenceNumber>
+		</References>
+		<References type='PurchaseOrderNumber'>
+			<ReferenceNumber>4007238307</ReferenceNumber>
+		</References>
+		<References type='OrderNumber'>
+			<ReferenceNumber>40072383SI</ReferenceNumber>
+			<ReferenceDate>20221114</ReferenceDate>
+		</References>
+		<References type='OrderType'>
+			<ReferenceNumber>INDENT</ReferenceNumber>
+		</References>
+		<References type='DeliveryOrderNumber'>
+			<ReferenceNumber>UN-UN</ReferenceNumber>
+		</References>
+		<References type='SellerReferenceNumber'>
+			<ReferenceNumber>40072383SI</ReferenceNumber>
+			<ReferenceDate>20221114</ReferenceDate>
+		</References>
+		<References type='BDPClientCode'>
+			<ReferenceNumber>BDP</ReferenceNumber>
+		</References>
+		<References type='CargoType'>
+			<ReferenceNumber>FCL</ReferenceNumber>
+			<ReferenceDate/>
+		</References>
+		<References type='ManifestHoldIndYN'>
+			<ReferenceNumber>N</ReferenceNumber>
+			<ReferenceDate/>
+		</References>
+		<References type='CustomsEntrytypeCode'>
+			<ReferenceNumber/>
+			<ReferenceDate/>
+		</References>
+		<References type='CountryOfExportUNLOCCode'>
+			<ReferenceNumber>BR</ReferenceNumber>
+		</References>
+		<References type='BuyerReferenceNumber'>
+			<ReferenceNumber>4007238307</ReferenceNumber>
+		</References>
+		<References type='DestinationControlIndYN'>
+			<ReferenceNumber>N</ReferenceNumber>
+			<ReferenceDate/>
+		</References>
+		<References type='SupplierRelatedNonrelatedUndYN'>
+			<ReferenceNumber>N</ReferenceNumber>
+			<ReferenceDate/>
+		</References>
+		<References type='ConsolIndicator'>
+			<ReferenceNumber>D</ReferenceNumber>
+		</References>
+		<References type='BDPTransportYN'>
+			<ReferenceNumber>N</ReferenceNumber>
+		</References>
+		<References type='ExpressMBOLInd'>
+			<ReferenceNumber>N</ReferenceNumber>
+		</References>
+		<References type='HouseBookingNumber'>
+			<ReferenceNumber>BN10016823</ReferenceNumber>
+			<ReferenceDate/>
+		</References>
+		<References type='BookingNumber'>
+			<ReferenceNumber>BN10016823</ReferenceNumber>
+			<ReferenceDate/>
+		</References>
+		<References type='CarrierContractNbr'>
+			<ReferenceNumber>123456789</ReferenceNumber>
+		</References>
+		<References type='MasterBillOfLading'>
+			<ReferenceNumber/>
+		</References>
+		<References type='Forwarder_Reference_Number'>
+			<ReferenceNumber>EMCSR202211004BR</ReferenceNumber>
+		</References>
+		<References type='Shipper_Reference_Number'>
+			<ReferenceNumber>4007238307</ReferenceNumber>
+		</References>
+		<References type='SupplierReference'>
+			<ReferenceNumber>40072383SI</ReferenceNumber>
+			<ReferenceDate>20221114</ReferenceDate>
+		</References>
+		<References type='ExportForwarderRefNbr'>
+			<ReferenceNumber>EMCSR202211004BR</ReferenceNumber>
+		</References>
+		<References type='ShipmentStatus'>
+			<ReferenceNumber/>
+		</References>
+		<References type='SalesOrderNumber'>
+			<ReferenceNumber>40072383SI</ReferenceNumber>
+			<ReferenceDate>20221114</ReferenceDate>
+		</References>
+		<References type='STOInd'>
+			<ReferenceNumber><![CDATA[]]></ReferenceNumber>
+		</References>
+		<CommercialInvoice>
+			<InvoiceNumber/>
+			<TermsofSaleCode>CFR</TermsofSaleCode>
+			<TermsofSaleDesc>CFR</TermsofSaleDesc>
+			<FinalTermsofSaleCode>CFR</FinalTermsofSaleCode>
+			<FinalTermsofSaleDesc>CFR</FinalTermsofSaleDesc>
+			<TermsofPaymentCode>281</TermsofPaymentCode>
+			<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription>
+			<InvoiceAmount>80</InvoiceAmount>
+			<CurrencyCode>USD</CurrencyCode>
+			<CIDate>20221201</CIDate>
+			<FOBAmount>80</FOBAmount>
+			<FOBCurrency>USD</FOBCurrency>
+			<ChargeInd>N</ChargeInd>
+			<CIProductDetail action='Add'>
+				<LineItemNo>1</LineItemNo>
+				<ProductCode>151721</ProductCode>
+				<BrandName><![CDATA[PROPYLENE GLYCOL USP/EP (151721)]]></BrandName>
+				<InvoiceDesc><![CDATA[PROPYLENE GLYCOL USP/EP (151721)]]></InvoiceDesc>
+				<BilledQuantity>80.00</BilledQuantity>
+				<BilledQuantityUnit>DR</BilledQuantityUnit>
+				<Price>1.00</Price>
+				<PriceCurrency>USD</PriceCurrency>
+				<Amount>80.00</Amount>
+				<AmountCurrency>USD</AmountCurrency>
+			</CIProductDetail>
+		</CommercialInvoice>
+		<Transportation Responsibility='Carrier'
+		                MethodofTransportation='Ocean'
+		                LegType='Secondary'>
+			<Origin Type='PlaceofReceipt'>
+				<OriginName>GUARUJÁ</OriginName>
+			</Origin>
+			<OriginCodeType Type='UNLOCCode'>
+				<OriginCode>BRGUR</OriginCode>
+			</OriginCodeType>
+			<Destination LocationType='PlaceofDelivery'>
+				<DestinationName>ZARATE</DestinationName>
+			</Destination>
+			<DestinationCodeType Type='UNLOCCode'>
+				<DestinationCode>ARZAE</DestinationCode>
+			</DestinationCodeType>
+		</Transportation>
+		<Transportation Responsibility='Carrier'
+		                MethodofTransportation='Ocean'
+		                LegType='Primary'>
+			<Origin Type='PortofLoad'>
+				<OriginName>SANTOS</OriginName>
+			</Origin>
+			<OriginCodeType Type='UNLOCCode'>
+				<OriginCode>BRSSZ</OriginCode>
+			</OriginCodeType>
+			<OriginCountryCode>BR</OriginCountryCode>
+			<OriginDate type='Estimated'>20221125</OriginDate>
+			<Destination LocationType='PortofDischarge'>
+				<DestinationName>ZARATE</DestinationName>
+			</Destination>
+			<DestinationCodeType Type='ScheduleK'>
+				<DestinationCode>35796</DestinationCode>
+			</DestinationCodeType>
+			<DestinationCodeType Type='UNLOCCode'>
+				<DestinationCode>ARZAE</DestinationCode>
+			</DestinationCodeType>
+			<DestinationCountryCode>AR</DestinationCountryCode>
+			<DestinationDate type='Estimated'>20221225</DestinationDate>
+			<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+			<Carrier>
+				<CarrierName>HAPAG-LLOYD</CarrierName>
+				<CarrierCode type='SCAC'>HLCU</CarrierCode>
+			</Carrier>
+			<Vessel>
+				<VesselName/>
+			</Vessel>
+			<PrepaidorCollect>P</PrepaidorCollect>
+			<ReferenceType type='HouseBillofLadingNumber'>
+				<ReferenceNumber/>
+			</ReferenceType>
+			<ReferenceType type='VoyageNumber'>
+				<ReferenceNumber><![CDATA[]]></ReferenceNumber>
+			</ReferenceType>
+			<ReferenceType type='FreightAmount'>
+				<ReferenceNumber>0.00</ReferenceNumber>
+			</ReferenceType>
+			<ReferenceType type='HouseCarrierSCAC'>
+				<ReferenceNumber>HLCU</ReferenceNumber>
+			</ReferenceType>
+			<ReferenceType type='HouseCarrier'>
+				<ReferenceNumber>HLCU</ReferenceNumber>
+			</ReferenceType>
+			<ReferenceType type='BookingNumber'>
+				<ReferenceNumber>BN10016823</ReferenceNumber>
+			</ReferenceType>
+		</Transportation>
+		<EquipmentSummary>
+			<EquipmentQuantity>1</EquipmentQuantity>
+			<EquipmentSize>20</EquipmentSize>
+			<EquipmentContainerTypeRequest>C</EquipmentContainerTypeRequest>
+			<EquipmentType>2273</EquipmentType>
+			<EquipmentDescription>20ft - ISO Tank</EquipmentDescription>
+			<SubstituteEquipmentDescription/>
+		</EquipmentSummary>
+		<Equipment>
+			<Measurements type='GrossWeightKilograms'>
+				<MeasurementValue>10000</MeasurementValue>
+			</Measurements>
+			<EquipmentInitial>UTCU</EquipmentInitial>
+			<EquipmentNumber>2120125</EquipmentNumber>
+			<SealNumber>12354</SealNumber>
+			<EquipmentType>2273</EquipmentType>
+			<EquipmentSize>20</EquipmentSize>
+			<Amounts>
+				<AmountType>EquipmentTotalWeightKG</AmountType>
+				<AmountValue>10000</AmountValue>
+			</Amounts>
+			<Amounts>
+				<AmountType>EquipmentTotalVolumeMeter</AmountType>
+				<AmountValue>0</AmountValue>
+			</Amounts>
+			<Amounts>
+				<AmountType>EquipmentTotalPackages</AmountType>
+				<AmountValue>1.00</AmountValue>
+			</Amounts>
+			<Amounts>
+				<AmountType>EquipmentTotalPackages</AmountType>
+				<AmountValue>1.00</AmountValue>
+			</Amounts>
+			<Legs>
+				<InterimPointDeptMOT/>
+				<InterimPointDeptVesselName/>
+				<InterimPointDeptVesselCode/>
+				<InterimPointDeptVesFlghtNumber/>
+				<InterimPointDeptCarrierName/>
+				<InterimPointDeptCarrierSCAC/>
+				<InterimPointDeptLocation/>
+				<InterimPointDeptUNLOCCode/>
+				<InterimPointEstDepartureDate>20221207</InterimPointEstDepartureDate>
+				<InterimPointEstDepartureTime/>
+				<InterimPointActDepartureDate/>
+				<InterimPointActDepartureTime/>
+				<InterimPointArrvLocation/>
+				<InterimPointArrvUNLOCCode/>
+				<InterimPointEstArrivalDate/>
+				<InterimPointEstArrivalTime/>
+				<InterimPointActArrivalDate/>
+				<InterimPointActArrivalTime/>
+				<InterimPointBolAwbNumber/>
+				<InterimPointRefNo/>
+				<InterimPointStatusText/>
+				<InterimPointStatusDate/>
+			</Legs>
+		</Equipment>
+		<LetterofCredit>
+			<RequiredYN>N</RequiredYN>
+			<IssueNumber/>
+		</LetterofCredit>
+		<Marks><![CDATA[
+N/I
+]]></Marks>
+		<Status>
+			<StatusType type='ActualPortofLoadDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='DateSailingConfirmed '/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='EstDomesticInlandDeliveryDate'/>
+			<StatusDate>20221118</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='ActPlaceOfReceiptDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='EstPlaceOfReceiptDate'/>
+			<StatusDate>20221118</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='ActUnloadedFromVesselDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='BkngCnfrmtnRcvdSS'/>
+			<StatusDate>20221121</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='ActPortOfExitDate '/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='BillofLadingRetreivedDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='ActVesselDepartureDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='EstPortOfExitDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='LoadedOnVessel'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='ActPortofDepartureDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='EstimatedPortofLoadDate'/>
+			<StatusDate>20221125</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='EstimatedPortofDischargeDate'/>
+			<StatusDate>20221225</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='BolAwbIssueDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='ActDocumentDistributionSentDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='BilledDate'/>
+			<StatusDate/>
+		</Status>
+		<Status>
+			<StatusType type='ActBookingConfirmationDate'/>
+			<StatusDate>20221121</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='RequestedETADestinationDate'/>
+			<StatusDate>20221225</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='OrderReceiveDate'/>
+			<StatusDate>20221201</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='RequestedPlantShipDate'/>
+			<StatusDate>20221118</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='EstDocumentDistributionSentDate'/>
+			<StatusDate>20221129</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='ActBookedDate'/>
+			<StatusDate>20221121</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='BookingDate'/>
+			<StatusDate>20221114</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='SDAPayDt'/>
+			<StatusDate>20090701</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='WarehousePayDt'/>
+			<StatusDate>20021119</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='LastModifiedByDate'/>
+			<StatusDate>20221208</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='LoggedDate'/>
+			<StatusDate>20221114</StatusDate>
+		</Status>
+		<Status>
+			<StatusType type='FileCreationDate'/>
+			<StatusDate>20221114</StatusDate>
+		</Status>
+		<Amounts>
+			<AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType>
+			<AmountValue><![CDATA[0.00]]></AmountValue>
+			<AmountUnit><![CDATA[]]></AmountUnit>
+			<AmountCurrency><![CDATA[USD]]></AmountCurrency>
+			<AmountCode><![CDATA[]]></AmountCode>
+		</Amounts>
+		<Amounts>
+			<AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType>
+			<AmountValue><![CDATA[0.00]]></AmountValue>
+			<AmountUnit><![CDATA[]]></AmountUnit>
+			<AmountCurrency><![CDATA[USD]]></AmountCurrency>
+			<AmountCode><![CDATA[]]></AmountCode>
+			<AmountIndicator><![CDATA[KG]]></AmountIndicator>
+		</Amounts>
+		<Amounts>
+			<AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType>
+			<AmountValue><![CDATA[0.00]]></AmountValue>
+			<AmountUnit><![CDATA[]]></AmountUnit>
+			<AmountCode><![CDATA[]]></AmountCode>
+			<AmountIndicator><![CDATA[KG]]></AmountIndicator>
+		</Amounts>
+		<Amounts>
+			<AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType>
+			<AmountValue><![CDATA[0.00]]></AmountValue>
+			<AmountUnit><![CDATA[]]></AmountUnit>
+			<AmountCode><![CDATA[]]></AmountCode>
+			<AmountIndicator><![CDATA[KG]]></AmountIndicator>
+		</Amounts>
+		<Amounts>
+			<AmountType><![CDATA[ReportableValueAmount]]></AmountType>
+			<AmountValue><![CDATA[80.00]]></AmountValue>
+			<AmountUnit><![CDATA[]]></AmountUnit>
+			<AmountCurrency><![CDATA[USD]]></AmountCurrency>
+			<AmountCode><![CDATA[]]></AmountCode>
+		</Amounts>
+		<Amounts>
+			<AmountType><![CDATA[NumberOfTEUs]]></AmountType>
+			<AmountValue><![CDATA[1]]></AmountValue>
+			<AmountUnit><![CDATA[]]></AmountUnit>
+			<AmountCode><![CDATA[]]></AmountCode>
+		</Amounts>
+		<Amounts>
+			<AmountType><![CDATA[TotalWeightKG]]></AmountType>
+			<AmountValue><![CDATA[10000]]></AmountValue>
+			<AmountUnit><![CDATA[]]></AmountUnit>
+			<AmountCode><![CDATA[]]></AmountCode>
+			<AmountIndicator><![CDATA[KG]]></AmountIndicator>
+		</Amounts>
+		<Locations>
+			<LocationType>DomesticInland</LocationType>
+			<LocationName>GUARUJÁ</LocationName>
+			<LocationUnlocCode>BRGUR</LocationUnlocCode>
+			<LocationCountryCode>BR</LocationCountryCode>
+			<LocationCountryName>GUARUJÁ</LocationCountryName>
+			<LocationCode/>
+		</Locations>
+		<CodesNames>
+			<CodesNamesType>CargoDescription</CodesNamesType>
+			<CodesNamesName><![CDATA[]]></CodesNamesName>
+			<CodesNamesCode/>
+		</CodesNames>
+		<CodesNames>
+			<CodesNamesType>SalesPerson</CodesNamesType>
+			<CodesNamesName><![CDATA[]]></CodesNamesName>
+			<CodesNamesCode/>
+		</CodesNames>
+	</Header>
+	<Detail>
+		<ProductDetail action='Add'>
+			<LineItemNo>1</LineItemNo>
+			<ProductCode>151721</ProductCode>
+			<BrandName><![CDATA[PROPYLENE GLYCOL USP/EP (151721)]]></BrandName>
+			<InvoiceDesc><![CDATA[PROPYLENE GLYCOL USP/EP (151721)]]></InvoiceDesc>
+			<BLDesc><![CDATA[]]></BLDesc>
+			<Compliance>
+				<ClassificationNumber>29053200</ClassificationNumber>
+				<Domestic-Foreign>D</Domestic-Foreign>
+				<DrawbackInd>N</DrawbackInd>
+			</Compliance>
+			<BilledQuantity>80</BilledQuantity>
+			<BilledQuantityUnit>DR</BilledQuantityUnit>
+			<Price>1</Price>
+			<ProductAmount>80</ProductAmount>
+			<CurrencyCode>USD</CurrencyCode>
+			<CountryofOriginCode>BR</CountryofOriginCode>
+			<CountryofOriginName>BRAZIL</CountryofOriginName>
+			<NoOfPkgs>80</NoOfPkgs>
+			<TypePkgCode>DRM</TypePkgCode>
+			<TypePkgDesc>DRUM</TypePkgDesc>
+			<Measurements type='GrsWtKgs'>
+				<MeasurementValue>10000</MeasurementValue>
+			</Measurements>
+			<Measurements type='NetWtKgs'>
+				<MeasurementValue>10000</MeasurementValue>
+			</Measurements>
+			<PrimaryRptQty>80</PrimaryRptQty>
+			<PrimaryRptQtyUOM>DR</PrimaryRptQtyUOM>
+			<SecondaryRptQty>80</SecondaryRptQty>
+			<SecondaryRptQtyUOM>DR</SecondaryRptQtyUOM>
+			<EnterValue>80</EnterValue>
+		</ProductDetail>
+		<ProductReferences type='SBU'>
+			<ProductReferenceNumber>00006340</ProductReferenceNumber>
+		</ProductReferences>
+		<ProductStatements>
+			<ProductStatement> <![CDATA[]]></ProductStatement>
+		</ProductStatements>
+		<HazardousDetail>
+			<UNNumber>NH</UNNumber>
+			<Class type='UN'/>
+			<FlashPoint/>
+			<FlashPointUnit/>
+			<HazmatMaterialName><![CDATA[]]></HazmatMaterialName>
+			<HazmatDesc><![CDATA[]]></HazmatDesc>
+			<HazmatContact/>
+			<HighTemp/>
+			<LowTemp/>
+			<Indicator>Y</Indicator>
+		</HazardousDetail>
+		<ProductEquipment>
+			<Prod-EquipNo>UTCU212012-5</Prod-EquipNo>
+			<Prod-EquipSealNo>12354</Prod-EquipSealNo>
+			<Prod-EquipType>20ft - ISO Tank</Prod-EquipType>
+			<Prod-EquipTypeCode>2273</Prod-EquipTypeCode>
+			<Prod-EquipSize>20</Prod-EquipSize>
+		</ProductEquipment>
+		<InnerPackage>
+			<PackageType>Pallet(s)</PackageType>
+			<PackageCount>1</PackageCount>
+		</InnerPackage>
+		<ProductAmounts>
+			<ProductAmountType>CubicMeterMeasurement</ProductAmountType>
+			<ProductAmountValue>0.000</ProductAmountValue>
+		</ProductAmounts>
+		<ProductAmounts>
+			<ProductAmountType>ReportableValueAmount</ProductAmountType>
+			<ProductAmountValue>80</ProductAmountValue>
+			<ProductAmountCurrency>USD</ProductAmountCurrency>
+		</ProductAmounts>
+		<ProductCodesNames>
+			<ProductCodesNamesType>TariffClassification</ProductCodesNamesType>
+			<ProductCodesNamesName>PROPILENOGLICOL (PROPANO-1,2-DIOL)</ProductCodesNamesName>
+			<ProductCodesNamesCode>29053200</ProductCodesNamesCode>
+		</ProductCodesNames>
+		<ProductCodesNames>
+			<ProductCodesNamesType>OGA</ProductCodesNamesType>
+			<ProductCodesNamesName>PF1</ProductCodesNamesName>
+			<ProductCodesNamesCode>PF1</ProductCodesNamesCode>
+		</ProductCodesNames>
+		<ProductCodesNames>
+			<ProductCodesNamesType>OGA</ProductCodesNamesType>
+			<ProductCodesNamesName>PF2</ProductCodesNamesName>
+			<ProductCodesNamesCode>PF2</ProductCodesNamesCode>
+		</ProductCodesNames>
+		<ProductDates>
+			<ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType>
+			<ProductDatesDate>20221118</ProductDatesDate>
+		</ProductDates>
+		<ProductDates>
+			<ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType>
+			<ProductDatesDate/>
+		</ProductDates>
+		<ProductDates>
+			<ProductDatesType>ActGoodsAvailableForShippingDate</ProductDatesType>
+			<ProductDatesDate>20221210</ProductDatesDate>
+		</ProductDates>
+		<ProductDates>
+			<ProductDatesType>EstGoodsAvailableForShippingDate</ProductDatesType>
+			<ProductDatesDate>20221210</ProductDatesDate>
+		</ProductDates>
+	</Detail>
+	<Footer>
+		<Measurements item='GrossWeightKilograms'>
+			<MeasurementValue>10000</MeasurementValue>
+		</Measurements>
+	</Footer>
+	<Footer>
+		<Measurements item='GrossWeightPounds'>
+			<MeasurementValue>22046</MeasurementValue>
+		</Measurements>
+	</Footer>
+	<Footer>
+		<Measurements item='NetWeightKilograms'>
+			<MeasurementValue>10000</MeasurementValue>
+		</Measurements>
+	</Footer>
+	<Footer>
+		<Measurements item='NetWeightPounds'>
+			<MeasurementValue>22046</MeasurementValue>
+		</Measurements>
+	</Footer>
+	<Footer>
+		<Measurements item='VolumeCubicFeet'>
+			<MeasurementValue>0.000</MeasurementValue>
+		</Measurements>
+	</Footer>
+	<Footer>
+		<Measurements item='NumberofPalletPackages'>
+			<MeasurementValue>1</MeasurementValue>
+		</Measurements>
+	</Footer>
+</Request>

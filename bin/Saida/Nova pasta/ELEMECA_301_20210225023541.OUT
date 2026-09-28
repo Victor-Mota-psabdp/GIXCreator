@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<ControlNumber>28b0a65f-dbe8-4482-add4-340276d39415</ControlNumber>
+<UniqueMessageID>28b0a65f-dbe8-4482-add4-340276d39415</UniqueMessageID>
+<FromIdentifier>ATL</FromIdentifier>
+<ToIdentifier>Integration</ToIdentifier>
+<Customer>DOW</Customer>
+<Timestamp>20210225T173541</Timestamp>
+<PrimaryKey>0034060308</PrimaryKey>
+<SecondaryKey>EMCSR202002005BR</SecondaryKey>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>DOW SILICONES UK LIMITED</Party-Name>
+<Party-Address>CARDIFF RD  </Party-Address>
+<Party-City>BARRY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>GB</Party-Country>
+<PartyLocation-ID>02150316</PartyLocation-ID>
+<Party-CountryName>UNITED KINGDOM</Party-CountryName>
+<Party-UnlocCode>GBBYG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>PALMYRA DO BRASIL INDUSTRIA E COMERCIO DE SILICIO METALICO E</Party-Name>
+<Party-Address>ROD BR 499 S/N </Party-Address>
+<Party-City>SANTOS DUMONT</Party-City>
+<Party-State-Prov>MG</Party-State-Prov>
+<Party-PostalCode>36240000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>BDP</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSDO</Party-UnlocCode><GovIDNumber>04872297001612</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>DOW SILICONES UK LIMITED</Party-Name>
+<Party-Address>CARDIFF RD  </Party-Address>
+<Party-City>BARRY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>GB</Party-Country>
+<PartyLocation-ID>02150316</PartyLocation-ID>
+<Party-CountryName>UNITED KINGDOM</Party-CountryName>
+<Party-UnlocCode>GBBYG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>DOW SILICONES UK LIMITED</Party-Name>
+<Party-Address>CARDIFF RD  </Party-Address>
+<Party-City>BARRY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>GB</Party-Country>
+<PartyLocation-ID>P000038093</PartyLocation-ID>
+<Party-CountryName>UNITED KINGDOM</Party-CountryName>
+<Party-UnlocCode>GBBYG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>DOW SILICONES UK LIMITED</Party-Name>
+<Party-Address>CARDIFF RD  </Party-Address>
+<Party-City>BARRY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>GB</Party-Country>
+<PartyLocation-ID>P000038093</PartyLocation-ID>
+<Party-CountryName>UNITED KINGDOM</Party-CountryName>
+<Party-UnlocCode>GBBYG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D - 12  ANDAR</Party-Address>
+<Party-City>SAO PAULO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>04726170</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<Party-ID type="PartnerID">BDPBRSAO</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>ANDERSON LIMA</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[anderson.lima@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP SOUTH AMERICA LTDA.</Party-Name>
+<Party-Address>AV.ALFREDO EGYDIO SOUZA ARANHA 100 BLOCO D - 12  ANDAR</Party-Address>
+<Party-City>SAO PAULO</Party-City>
+<Party-State-Prov>SP</Party-State-Prov>
+<Party-PostalCode>04726170</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>10017</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSAO</Party-UnlocCode><GovIDNumber>03706460000128</GovIDNumber>
+</Parties><Parties type="Buyer">
+<Party-Name>DOW SILICONES UK LIMITED</Party-Name>
+<Party-Address>CARDIFF RD  </Party-Address>
+<Party-City>BARRY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>GB</Party-Country>
+<PartyLocation-ID>02150316</PartyLocation-ID>
+<Party-CountryName>UNITED KINGDOM</Party-CountryName>
+<Party-UnlocCode>GBBYG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>DOW SILICONES UK LIMITED</Party-Name>
+<Party-Address>CARDIFF RD  </Party-Address>
+<Party-City>BARRY</Party-City>
+<Party-State-Prov>  </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>GB</Party-Country>
+<PartyLocation-ID>02150316</PartyLocation-ID>
+<Party-CountryName>UNITED KINGDOM</Party-CountryName>
+<Party-UnlocCode>GBBYG</Party-UnlocCode><GovIDNumber></GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>PALMYRA DO BRASIL INDUSTRIA E COMERCIO DE SILICIO METALICO E</Party-Name>
+<Party-Address>ROD BR 499 S/N </Party-Address>
+<Party-City>SANTOS DUMONT</Party-City>
+<Party-State-Prov>MG</Party-State-Prov>
+<Party-PostalCode>36240000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000038092</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSDO</Party-UnlocCode><GovIDNumber>04872297001612</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>PALMYRA DO BRASIL INDUSTRIA E COMERCIO DE SILICIO METALICO E</Party-Name>
+<Party-Address>ROD BR 499 S/N </Party-Address>
+<Party-City>SANTOS DUMONT</Party-City>
+<Party-State-Prov>MG</Party-State-Prov>
+<Party-PostalCode>36240000</Party-PostalCode>
+<Party-Country>BR</Party-Country>
+<PartyLocation-ID>P000038092</PartyLocation-ID>
+<Party-CountryName>Brazil</Party-CountryName>
+<Party-UnlocCode>BRSDO</Party-UnlocCode><GovIDNumber>04872297001612</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMCSR202002005BR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000038092</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>0034060308</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>0034060308</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[]]></ReferenceNumber></References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>4004104420</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>34060308</ReferenceNumber>
+<ReferenceDate>20200212</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INTER-COMPANY</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>206957-206956-206955-206954-206953-206952-206951-206950-206949-206948-202237-202237</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>34060308</ReferenceNumber>
+<ReferenceDate>20200212</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>BDP</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>05</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>BR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>0034060308</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>RJ123456</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>34060308</ReferenceNumber>
+<ReferenceDate>20200212</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMCSR202002005BR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber></ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>34060308</ReferenceNumber>
+<ReferenceDate>20200212</ReferenceDate>
+</References><References type='STOInd'><ReferenceNumber><![CDATA[N]]></ReferenceNumber> </References><CommercialInvoice>
+<InvoiceNumber></InvoiceNumber>
+<TermsofSaleCode>CFR</TermsofSaleCode>
+<TermsofSaleDesc>CFR</TermsofSaleDesc>
+<FinalTermsofSaleCode>CFR</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CFR</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>76507200</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20200212</CIDate><FOBAmount>76505390</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>2</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>3</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>4</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>5</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>6</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>7</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>8</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>9</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>10</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail><CIProductDetail action='Add'><LineItemNo>11</LineItemNo><ProductCode>4076910</ProductCode><BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName><InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc><BilledQuantity>25200.00</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit><Price>276.00</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>6955200.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'></Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>RIO DE JANEIRO</OriginName>
+</Origin>
+<OriginCodeType Type='UNLOCCode'>
+<OriginCode>BRRIO</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>BR</OriginCountryCode><OriginDate type='Estimated'>20200307</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>SOUTHAMPTON</DestinationName>
+</Destination>
+<DestinationCodeType Type='ScheduleK'>
+<DestinationCode>41374</DestinationCode>
+</DestinationCodeType><DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>GBSOU</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>GB</DestinationCountryCode>
+<DestinationDate type='Estimated'>20200330</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>HAPAG-LLOYD</CarrierName>
+<CarrierCode type='SCAC'>504772</CarrierCode>
+</Carrier><Vessel>
+<VesselName>HUNGARY</VesselName>
+<VesselCode type='Lloyds'>00000</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[NA009R]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>I932</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>1810.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>2245915</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>RJ123456</ReferenceNumber>
+</ReferenceType></Transportation><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks>
+N/I
+</Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20200229</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20200229</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BkngCnfrmtnRcvdSS'/>
+<StatusDate>20200221</StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingRetreivedDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20200307</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20200330</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='BilledDate'/>
+<StatusDate></StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20200221</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20200330</StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPermissionToExportReleaseDate'/>
+<StatusDate>20200220</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20200212</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20200305</StatusDate>
+<StatusTime>1500</StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20200305</StatusDate>
+<StatusTime>1500</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20200304</StatusDate>
+<StatusTime>1600</StatusTime>
+</Status>
+<Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20200229</StatusDate>
+</Status><Status>
+<StatusType type='EstDocumentDistributionSentDate'/>
+<StatusDate>20200311</StatusDate>
+</Status><Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20200220</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsReleaseDate'/>
+<StatusDate>20200220</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsEntryPermitReleaseDate'/>
+<StatusDate>20200220</StatusDate>
+</Status>
+<Status>
+<StatusType type='ActBookedDate'/>
+<StatusDate>20200221</StatusDate>
+</Status>
+<Status> <StatusType type='SDAPayDt'></StatusType><StatusDate>20131002</StatusDate></Status><Status> <StatusType type='WarehousePayDt'></StatusType><StatusDate>20040412</StatusDate></Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20210225</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20200220</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20200220</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[1810.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[1810.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[76505390.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[0]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[277200]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>RIO DE JANEIRO</LocationName>
+<LocationUnlocCode>BRRIO</LocationUnlocCode>
+<LocationCountryCode>BR</LocationCountryCode>
+<LocationCountryName>RIO DE JANEIRO</LocationCountryName><LocationCode></LocationCode>
+</Locations><Locations>
+<LocationType>PierTerminal</LocationType><LocationName>MULTRIO - RJ</LocationName>
+<LocationUnlocCode></LocationUnlocCode>
+<LocationCountryCode></LocationCountryCode>
+<LocationCountryName></LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>2</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>3</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>4</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>5</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>6</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>7</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>8</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>9</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>10</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>11</LineItemNo>
+<ProductCode>4076910</ProductCode>
+<BrandName><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></BrandName>
+<InvoiceDesc><![CDATA[DOW CORNING(TM) SILICON METAL4076910]]></InvoiceDesc>
+<BLDesc><![CDATA[]]></BLDesc>
+<Compliance>
+<ClassificationNumber>28046900</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>25200</BilledQuantity>
+<BilledQuantityUnit>KG</BilledQuantityUnit>
+<Price>276</Price>
+<ProductAmount>6955200</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>BR</CountryofOriginCode>
+<CountryofOriginName>BRASIL</CountryofOriginName>
+<Measurements type='GrsWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>25200</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>25200</PrimaryRptQty><PrimaryRptQtyUOM>KG</PrimaryRptQtyUOM><SecondaryRptQty>25200</SecondaryRptQty><SecondaryRptQtyUOM>KG</SecondaryRptQtyUOM><EnterValue>6955200</EnterValue></ProductDetail><ProductStatements><ProductStatement> <![CDATA[]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber>NH</UNNumber><Class type='UN'></Class><FlashPoint></FlashPoint><FlashPointUnit></FlashPointUnit>        <HazmatMaterialName><![CDATA[]]></HazmatMaterialName><HazmatDesc><![CDATA[]]></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>Y</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>1.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>6955200</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>OUTROS SILICIOS</ProductCodesNamesName><ProductCodesNamesCode>28046900</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF1</ProductCodesNamesName><ProductCodesNamesCode>PF1</ProductCodesNamesCode></ProductCodesNames><ProductCodesNames><ProductCodesNamesType>OGA</ProductCodesNamesType><ProductCodesNamesName>PF2</ProductCodesNamesName><ProductCodesNamesCode>PF2</ProductCodesNamesCode></ProductCodesNames><ProductDates><ProductDatesType>EstOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate>20200229</ProductDatesDate></ProductDates><ProductDates><ProductDatesType>ActOriginOfGoodsDepartureDate</ProductDatesType><ProductDatesDate></ProductDatesDate></ProductDates></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>277200</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>611115.12</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>277200</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>611115.12</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>1.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue></MeasurementValue>
+</Measurements>
+</Footer></Request>

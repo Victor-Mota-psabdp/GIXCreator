@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Request>
+<ControlNumber>6f9b4eb1-746e-42d1-91ca-b2171b95fbcf</ControlNumber>
+<UniqueMessageID>6f9b4eb1-746e-42d1-91ca-b2171b95fbcf</UniqueMessageID>
+<FromIdentifier>ATL</FromIdentifier>
+<ToIdentifier>Integration</ToIdentifier>
+<Customer>DOW</Customer>
+<Timestamp>20210217T205328</Timestamp>
+<PrimaryKey>38259452</PrimaryKey>
+<SecondaryKey>EMARG202101196AR</SecondaryKey>
+<Header RequestType="Shipment" Action="Original" Type="Export"><Parties type="Consignee">
+<Party-Name>NETAFIM SISTEMAS E EQUIPAMENTOS DE IRRIGACAO</Party-Name>
+<Party-Address>R SALVADOR SCAGLIONE 135   </Party-Address>
+<Party-City>JD ORESTES LOPES DE </Party-City>
+<Party-State-Prov>SA</Party-State-Prov>
+<Party-PostalCode>14066  </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00734507</PartyLocation-ID>
+<Party-CountryName>BRA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber>1</GovIDNumber>
+</Parties><Parties type="Exporter">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON  355  PISO 3 </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>D6WPG0001</PartyLocation-ID>
+<Party-GlobalCode>705997</Party-GlobalCode><Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><Parties type="ShipTo">
+<Party-Name>NETAFIM SISTEMAS E EQUIPAMENTOS DE IRRIGACAO</Party-Name>
+<Party-Address>R SALVADOR SCAGLIONE 135   </Party-Address>
+<Party-City>JD ORESTES LOPES DE </Party-City>
+<Party-State-Prov>SA</Party-State-Prov>
+<Party-PostalCode>14066  </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00734507</PartyLocation-ID>
+<Party-CountryName>BRA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber>1</GovIDNumber>
+</Parties><Parties type="SoldTo">
+<Party-Name>NETAFIM SISTEMAS E EQUIPAMENTOS DE IRRIGACAO</Party-Name>
+<Party-Address>R SALVADOR SCAGLIONE 135   </Party-Address>
+<Party-City>JD ORESTES LOPES DE </Party-City>
+<Party-State-Prov>SA</Party-State-Prov>
+<Party-PostalCode>14066  </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P000000205</PartyLocation-ID>
+<Party-CountryName>BRA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber>1</GovIDNumber>
+</Parties><Parties type="Notify">
+<Party-Name>NETAFIM SISTEMAS E EQUIPAMENTOS DE IRRIGACAO</Party-Name>
+<Party-Address>R SALVADOR SCAGLIONE 135   </Party-Address>
+<Party-City>JD ORESTES LOPES DE </Party-City>
+<Party-State-Prov>SA</Party-State-Prov>
+<Party-PostalCode>14066  </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>P000000205</PartyLocation-ID>
+<Party-CountryName>BRA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber>1</GovIDNumber>
+</Parties><Parties type="Partner">
+<Party-Name>BDP INTERNATIONAL SRL - ARGENTINA </Party-Name>
+<Party-Address>BOUCHARD  680 PISO 3</Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>C1106ABJ</Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<Party-ID type="PartnerID">BDPARBUE</Party-ID><Party-Contacts Action='Add' type="CSR">
+<Contact-Name>OMAR PEREZ</Contact-Name>
+<Contact-CommunicationAddress type="Email"><![CDATA[omar.perez@bdpint.com]]></Contact-CommunicationAddress>
+</Party-Contacts></Parties><Parties type="BDPRepresentative">
+<Party-Name>BDP INTERNATIONAL SRL - ARGENTINA </Party-Name>
+<Party-Address>BOUCHARD  680 PISO 3</Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>C1106ABJ</Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P15498</PartyLocation-ID>
+<Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30710500211</GovIDNumber>
+</Parties><Parties type="Buyer">
+<Party-Name>NETAFIM SISTEMAS E EQUIPAMENTOS DE IRRIGACAO</Party-Name>
+<Party-Address>R SALVADOR SCAGLIONE 135   </Party-Address>
+<Party-City>JD ORESTES LOPES DE </Party-City>
+<Party-State-Prov>SA</Party-State-Prov>
+<Party-PostalCode>14066  </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00734507</PartyLocation-ID>
+<Party-CountryName>BRA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber>1</GovIDNumber>
+</Parties><Parties type="Importer">
+<Party-Name>NETAFIM SISTEMAS E EQUIPAMENTOS DE IRRIGACAO</Party-Name>
+<Party-Address>R SALVADOR SCAGLIONE 135   </Party-Address>
+<Party-City>JD ORESTES LOPES DE </Party-City>
+<Party-State-Prov>SA</Party-State-Prov>
+<Party-PostalCode>14066  </Party-PostalCode>
+<Party-Country></Party-Country>
+<PartyLocation-ID>00734507</PartyLocation-ID>
+<Party-CountryName>BRA</Party-CountryName>
+<Party-UnlocCode></Party-UnlocCode><GovIDNumber>1</GovIDNumber>
+</Parties><Parties type="Seller">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON  355  PISO 3 </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000003507</PartyLocation-ID>
+<Party-GlobalCode>705997</Party-GlobalCode><Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><Parties type="Supplier">
+<Party-Name>PBBPOLISUR S.R.L.</Party-Name>
+<Party-Address>BOULEVARD CECILIA GRIERSON  355  PISO 3 </Party-Address>
+<Party-City>BUENOS AIRES</Party-City>
+<Party-State-Prov>C </Party-State-Prov>
+<Party-PostalCode>        </Party-PostalCode>
+<Party-Country>AR</Party-Country>
+<PartyLocation-ID>P000003507</PartyLocation-ID>
+<Party-CountryName>Argentina</Party-CountryName>
+<Party-UnlocCode>ARBUE</Party-UnlocCode><GovIDNumber>30560254195</GovIDNumber>
+</Parties><ProcessingInstructions>
+<Process>BRTP</Process>
+<Status/>
+<SystemCode Code ='BRTP'></SystemCode>
+<GlobalHubRoutingCode>SHIPMENT</GlobalHubRoutingCode>
+</ProcessingInstructions><References type= 'BDPJobNumber'>
+<ReferenceNumber>EMARG202101196AR</ReferenceNumber>
+</References><References type='OperatingUnitClassification'><ReferenceNumber>CHB</ReferenceNumber> </References><References type= 'SellerCode'>
+<ReferenceNumber>P000003507</ReferenceNumber>
+</References><References type= 'ShipmentNumber'>
+<ReferenceNumber>38259452</ReferenceNumber>
+</References><References type= 'SAPShipmentNumber'>
+<ReferenceNumber>38259452</ReferenceNumber>
+</References><References type= 'InvoiceNumber'>
+<ReferenceNumber>0110-00023364</ReferenceNumber>
+</References><References type = 'GeneralDescription'>
+<ReferenceNumber> <![CDATA[LOGIN]]></ReferenceNumber></References><References type= 'GovernmentPermissionToExportSubmissionNumber'>
+<ReferenceNumber>21003EC03000169D</ReferenceNumber>
+</References><References type= 'PurchaseOrderNumber'>
+<ReferenceNumber>0112074197</ReferenceNumber>
+</References><References type= 'OrderNumber'>
+<ReferenceNumber>38259452</ReferenceNumber>
+<ReferenceDate>20210126</ReferenceDate>
+</References><References type= 'OrderType'>
+<ReferenceNumber>INDENT</ReferenceNumber>
+</References><References type= 'DeliveryOrderNumber'>
+<ReferenceNumber>296537-296536-296254-296111-296111</ReferenceNumber>
+</References><References type= 'SellerReferenceNumber'>
+<ReferenceNumber>38259452</ReferenceNumber>
+<ReferenceDate>20210126</ReferenceDate>
+</References><References type='BDPClientCode'><ReferenceNumber>D6WPG0001</ReferenceNumber> </References><References type= 'CargoType'>
+<ReferenceNumber>05</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ManifestHoldIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type='CountryOfExportUNLOCCode'>
+<ReferenceNumber>AR</ReferenceNumber>
+</References><References type= 'BuyerReferenceNumber'>
+<ReferenceNumber>38259452</ReferenceNumber>
+</References><References type= 'DestinationControlIndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierRelatedNonrelatedUndYN'>
+<ReferenceNumber>N</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'ConsolIndicator'>
+<ReferenceNumber>D</ReferenceNumber>
+</References><References type= 'BDPTransportYN'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'ExpressMBOLInd'>
+<ReferenceNumber>N</ReferenceNumber>
+</References><References type= 'HouseBookingNumber'>
+<ReferenceNumber>LM0184346</ReferenceNumber>
+<ReferenceDate></ReferenceDate>
+</References><References type= 'SupplierReference'>
+<ReferenceNumber>38259452</ReferenceNumber>
+<ReferenceDate>20210126</ReferenceDate>
+</References><References type= 'ExportForwarderRefNbr'>
+<ReferenceNumber>EMARG202101196AR</ReferenceNumber>
+</References><References type= 'ShipmentStatus'>
+<ReferenceNumber>1-Origen</ReferenceNumber>
+</References><References type= 'SalesOrderNumber'>
+<ReferenceNumber>38259452</ReferenceNumber>
+<ReferenceDate>20210126</ReferenceDate>
+</References><CommercialInvoice>
+<InvoiceNumber>0110-00023364</InvoiceNumber>
+<TermsofSaleCode>CPT</TermsofSaleCode>
+<TermsofSaleDesc>CPT</TermsofSaleDesc>
+<FinalTermsofSaleCode>CPT</FinalTermsofSaleCode>
+<FinalTermsofSaleDesc>CPT</FinalTermsofSaleDesc>
+<TermsofPaymentCode>281</TermsofPaymentCode>
+<TermsofPaymentDescription>60 Days of Invoice Date</TermsofPaymentDescription><InvoiceAmount>3931700.00004</InvoiceAmount><CurrencyCode>USD</CurrencyCode><CIDate>20210125</CIDate><FOBAmount>3929668.00004</FOBAmount><FOBCurrency>USD</FOBCurrency><ChargeInd>N</ChargeInd>
+<CIProductDetail action='Add'><LineItemNo>1</LineItemNo><ProductCode>11037965</ProductCode><BrandName><![CDATA[MDPE NG 7525 POLYETHYLENE RESI     N-11037965]]></BrandName><InvoiceDesc><![CDATA[MDPE NG 7525 POLYETHYLENE RESI     N-11037965]]></InvoiceDesc><BilledQuantity>108000.00</BilledQuantity>
+<BilledQuantityUnit>BG</BilledQuantityUnit><Price>36.40</Price>
+<PriceCurrency>USD</PriceCurrency><Amount>3931700.00</Amount><AmountCurrency>USD</AmountCurrency></CIProductDetail></CommercialInvoice><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Secondary'></Transportation><Transportation Responsibility='Carrier' MethodofTransportation='Ocean' LegType='Primary'>
+<Origin Type='PortofLoad'>
+<OriginName>BUENOS AIRES</OriginName>
+</Origin>
+<OriginCodeType Type='ScheduleD'>
+<OriginCode>35701</OriginCode>
+</OriginCodeType><OriginCodeType Type='UNLOCCode'>
+<OriginCode>ARBUE</OriginCode>
+</OriginCodeType>
+<OriginCountryCode>AR</OriginCountryCode><OriginDate type='Estimated'>20210215</OriginDate>
+<OriginDate type='Actual'>20210216</OriginDate>
+<Destination LocationType='PortofDischarge'>
+<DestinationName>SANTOS</DestinationName>
+</Destination>
+<DestinationCodeType Type='ScheduleK'>
+<DestinationCode>35177</DestinationCode>
+</DestinationCodeType><DestinationCodeType Type='UNLOCCode'>
+<DestinationCode>BRSSZ</DestinationCode>
+</DestinationCodeType>
+<DestinationCountryCode>BR</DestinationCountryCode>
+<DestinationDate type='Estimated'>20210222</DestinationDate>
+<TypeofMoveDescription>DOOR TO PORT</TypeofMoveDescription>
+<Carrier>
+<CarrierName>LOGIN LOGISTICA</CarrierName>
+<CarrierCode type='SCAC'>1293321</CarrierCode>
+</Carrier><Vessel>
+<VesselName>MERCOSUL GUARANI</VesselName>
+<VesselCode type='Lloyds'>07817115</VesselCode></Vessel>
+<PrepaidorCollect>P</PrepaidorCollect>
+<ReferenceType type='MasterBillofLadingNumber'>
+<ReferenceNumber>901412717034N</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseBillofLadingNumber'>
+<ReferenceNumber></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='VoyageNumber'>
+<ReferenceNumber><![CDATA[034]]></ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='AdditionalShipPoint'><ReferenceNumber>D146</ReferenceNumber></ReferenceType><ReferenceType type='FreightAmount'><ReferenceNumber>2032.00</ReferenceNumber>
+</ReferenceType>
+<ReferenceType type='HouseCarrierSCAC'>
+<ReferenceNumber>1659372</ReferenceNumber>
+</ReferenceType><ReferenceType type= 'BookingNumber'>
+<ReferenceNumber>LM0184346</ReferenceNumber>
+</ReferenceType></Transportation><EquipmentSummary>
+<EquipmentQuantity>1</EquipmentQuantity>
+<EquipmentSize>40</EquipmentSize>
+<EquipmentContainerTypeRequest>ADD</EquipmentContainerTypeRequest>
+<EquipmentType>CONTAINER</EquipmentType>
+</EquipmentSummary><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>27540</MeasurementValue></Measurements>
+<EquipmentInitial>TCNU</EquipmentInitial>
+<EquipmentNumber>9618124</EquipmentNumber>
+<SealNumber>CQ92849</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>27540</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210227</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>27540</MeasurementValue></Measurements>
+<EquipmentInitial>TCLU</EquipmentInitial>
+<EquipmentNumber>8808523</EquipmentNumber>
+<SealNumber>CQ92848</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>27540</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210227</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>27540</MeasurementValue></Measurements>
+<EquipmentInitial>CAIU</EquipmentInitial>
+<EquipmentNumber>4836876</EquipmentNumber>
+<SealNumber>CQ92847</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>27540</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210227</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><Equipment>
+<Measurements type='GrossWeightKilograms'>
+<MeasurementValue>27540</MeasurementValue></Measurements>
+<EquipmentInitial>DFSU</EquipmentInitial>
+<EquipmentNumber>7532354</EquipmentNumber>
+<SealNumber>CR03577</SealNumber>
+<EquipmentType>44G0</EquipmentType><EquipmentSize>40</EquipmentSize><Events>
+<Code>REC</Code>
+<Location>BUENOS AIRES</Location>
+<LocationUnlocCd>ARBUE</LocationUnlocCd>
+<Description>In-gate</Description>
+<Date>20210213</Date>
+<DateInd />
+<Time></Time>
+</Events><Amounts><AmountType>EquipmentTotalWeightKG</AmountType><AmountValue>27540</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalVolumeMeter</AmountType><AmountValue>48.906</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Amounts><AmountType>EquipmentTotalPackages</AmountType><AmountValue>288.00</AmountValue></Amounts><Legs>
+<InterimPointDeptMOT></InterimPointDeptMOT>
+<InterimPointDeptVesselName></InterimPointDeptVesselName>
+<InterimPointDeptVesselCode></InterimPointDeptVesselCode>
+<InterimPointDeptVesFlghtNumber></InterimPointDeptVesFlghtNumber>
+<InterimPointDeptCarrierName></InterimPointDeptCarrierName><InterimPointDeptCarrierSCAC></InterimPointDeptCarrierSCAC><InterimPointDeptLocation></InterimPointDeptLocation><InterimPointDeptUNLOCCode></InterimPointDeptUNLOCCode><InterimPointEstDepartureDate>20210227</InterimPointEstDepartureDate><InterimPointEstDepartureTime></InterimPointEstDepartureTime><InterimPointActDepartureDate></InterimPointActDepartureDate><InterimPointActDepartureTime></InterimPointActDepartureTime><InterimPointArrvLocation></InterimPointArrvLocation><InterimPointArrvUNLOCCode></InterimPointArrvUNLOCCode><InterimPointEstArrivalDate></InterimPointEstArrivalDate><InterimPointEstArrivalTime></InterimPointEstArrivalTime><InterimPointActArrivalDate></InterimPointActArrivalDate><InterimPointActArrivalTime></InterimPointActArrivalTime><InterimPointBolAwbNumber></InterimPointBolAwbNumber><InterimPointRefNo></InterimPointRefNo><InterimPointStatusText></InterimPointStatusText><InterimPointStatusDate></InterimPointStatusDate></Legs></Equipment><LetterofCredit>
+<RequiredYN>N</RequiredYN>
+<IssueNumber></IssueNumber>
+</LetterofCredit><Marks>
+N/I
+</Marks><Status>
+<StatusType type='ActualPortofLoadDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='DateSailingConfirmed '/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='EstDomesticInlandDeliveryDate'/>
+<StatusDate>20210208</StatusDate>
+</Status><Status>
+<StatusType type='ActPlaceOfReceiptDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='EstPlaceOfReceiptDate'/>
+<StatusDate>20210209</StatusDate>
+</Status><Status>
+<StatusType type='ActUnloadedFromVesselDate'/>
+<StatusDate></StatusDate>
+</Status><Status>
+<StatusType type='ActPortOfExitDate '/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='ActVesselDepartureDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='EstPortOfExitDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='LoadedOnVessel'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPaymentStatementSubmissionDate'/>
+<StatusDate>20210204</StatusDate>
+</Status><Status>
+<StatusType type='ActPortofDepartureDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofLoadDate'/>
+<StatusDate>20210215</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPortofDischargeDate'/>
+<StatusDate>20210222</StatusDate>
+</Status><Status>
+<StatusType type='BolAwbIssueDate'/>
+<StatusDate>20210210</StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfExitDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='ActDocumentDistributionSentDate'/>
+<StatusDate>20210209</StatusDate>
+</Status><Status>
+<StatusType type='ActCityOfOriginDate'/>
+<StatusDate>20210216</StatusDate>
+</Status><Status>
+<StatusType type='BillofLadingActionDate'/>
+<StatusDate>20210210</StatusDate>
+</Status><Status>
+<StatusType type='ActBookingConfirmationDate'/>
+<StatusDate>20210205</StatusDate>
+</Status><Status>
+<StatusType type='RequestedETADestinationDate'/>
+<StatusDate>20210222</StatusDate>
+</Status><Status>
+<StatusType type='BLDate'/>
+<StatusDate>20210210</StatusDate>
+</Status><Status>
+<StatusType type='GovernmentPermissionToExportReleaseDate'/>
+<StatusDate>20210204</StatusDate>
+</Status><Status>
+<StatusType type='OrderReceiveDate'/>
+<StatusDate>20210125</StatusDate>
+</Status><Status>
+<StatusType type='LatestDeliveryDate'/>
+<StatusDate>20210212</StatusDate>
+<StatusTime></StatusTime>
+</Status><Status>
+<StatusType type='SolasVrfdGrMassCutDt'/>
+<StatusDate>20210213</StatusDate>
+<StatusTime>0000</StatusTime>
+</Status>
+<Status>
+<StatusType type='CarrierDocCutoffDate'/>
+<StatusDate>20210210</StatusDate>
+<StatusTime>2200</StatusTime>
+</Status>
+<Status>
+<StatusType type='BookingConfirmationDate'/>
+<StatusDate>20210304</StatusDate>
+</Status><Status>
+<StatusType type='RequestedPlantShipDate'/>
+<StatusDate>20210208</StatusDate>
+</Status><Status>
+<StatusType type='EstimatedPlaceofDeliveryDate'/>
+<StatusDate>20210215</StatusDate>
+</Status><Status>
+<StatusType type='TransETDDate'/>
+<StatusDate>20210227</StatusDate>
+</Status><Status>
+<StatusType type='TransETADate'/>
+<StatusDate>20210225</StatusDate>
+</Status><Status>
+<StatusType type='BookingDate'/>
+<StatusDate>20210125</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsReleaseDate'/>
+<StatusDate>20210204</StatusDate>
+</Status>
+<Status>
+<StatusType type='CustomsEntryPermitReleaseDate'/>
+<StatusDate>20210204</StatusDate>
+</Status>
+<Status>
+<StatusType type='ClosedDate'/>
+<StatusDate>20210209</StatusDate>
+</Status>
+<Status>
+<StatusType type='BOLReceivedDate'/>
+<StatusDate>20210210</StatusDate>
+</Status>
+<Status>
+<StatusType type='BOLBackDate'/>
+<StatusDate>20210210</StatusDate>
+</Status>
+<Status>
+<StatusType type='GovernmentPermissionToExportSubmissionDate'/>
+<StatusDate>20210204</StatusDate>
+</Status><Status>
+<StatusType type='CertOriginApplied' />
+<StatusDate>20210209</StatusDate>
+</Status><Status>
+<StatusType type='LastModifiedByDate'/>
+<StatusDate>20210217</StatusDate>
+</Status><Status>
+<StatusType type='LoggedDate'/>
+<StatusDate>20210126</StatusDate>
+</Status><Status>
+<StatusType type='FileCreationDate'/>
+<StatusDate>20210126</StatusDate>
+</Status><Amounts><AmountType><![CDATA[BaseFreightBolAwbAmountPrepaid]]></AmountType><AmountValue><![CDATA[2032.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalFreightBolAwbPrepaidAmount]]></AmountType><AmountValue><![CDATA[2032.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[BaseFreightDomesticInlandAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[DomesticInlandTotalFreightAmount]]></AmountType><AmountValue><![CDATA[0.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Amounts><AmountType><![CDATA[ReportableValueAmount]]></AmountType><AmountValue><![CDATA[3929668.00]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCurrency><![CDATA[USD]]></AmountCurrency><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[NumberOfTEUs]]></AmountType><AmountValue><![CDATA[8]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode></Amounts><Amounts><AmountType><![CDATA[TotalWeightKG]]></AmountType><AmountValue><![CDATA[110160]]></AmountValue><AmountUnit><![CDATA[]]></AmountUnit><AmountCode><![CDATA[]]></AmountCode><AmountIndicator><![CDATA[KG]]></AmountIndicator></Amounts><Locations>
+<LocationType>DomesticInland</LocationType><LocationName>BAHIA BLANCA</LocationName>
+<LocationUnlocCode>ARBHI</LocationUnlocCode>
+<LocationCountryCode>AR</LocationCountryCode>
+<LocationCountryName>BAHIA BLANCA</LocationCountryName><LocationCode></LocationCode>
+</Locations><CodesNames>  <CodesNamesType>CargoDescription</CodesNamesType><CodesNamesName><![CDATA[]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames><CodesNames>  <CodesNamesType>SalesPerson</CodesNamesType><CodesNamesName><![CDATA[Fernando Rossi]]></CodesNamesName><CodesNamesCode></CodesNamesCode></CodesNames></Header><Detail>
+<ProductDetail action='Add'>
+<LineItemNo>1</LineItemNo>
+<ProductCode>11037965</ProductCode>
+<BrandName><![CDATA[MDPE NG 7525 POLYETHYLENE RESI     N-11037965]]></BrandName>
+<InvoiceDesc><![CDATA[MDPE NG 7525 POLYETHYLENE RESI     N-11037965]]></InvoiceDesc>
+<BLDesc>N/I</BLDesc>
+<Compliance>
+<ClassificationNumber>39011092</ClassificationNumber> 
+ <Domestic-Foreign>D</Domestic-Foreign> <DrawbackInd>N</DrawbackInd></Compliance><BilledQuantity>4320</BilledQuantity>
+<BilledQuantityUnit>BG</BilledQuantityUnit>
+<Price>36.40462963</Price>
+<ProductAmount>157268.0000016</ProductAmount><CurrencyCode>USD</CurrencyCode>
+<CountryofOriginCode>AR</CountryofOriginCode>
+<CountryofOriginName>ARGENTINA</CountryofOriginName>
+<NoOfPkgs>172.8</NoOfPkgs><TypePkgCode>BG</TypePkgCode>
+<TypePkgDesc>Bags</TypePkgDesc>
+<NoOfPlts>172.8</NoOfPlts><Measurements type='GrsWtKgs'>
+<MeasurementValue>110160</MeasurementValue>
+</Measurements>
+<Measurements type='NetWtKgs'>
+<MeasurementValue>108000</MeasurementValue>
+</Measurements>
+<PrimaryRptQty>4320</PrimaryRptQty><PrimaryRptQtyUOM>BG</PrimaryRptQtyUOM><SecondaryRptQty>4320</SecondaryRptQty><SecondaryRptQtyUOM>BG</SecondaryRptQtyUOM><EnterValue>157268.0000016</EnterValue></ProductDetail><ProductReferences type='SBU'>
+<ProductReferenceNumber>00009995</ProductReferenceNumber></ProductReferences><ProductStatements><ProductStatement> <![CDATA[LOGIN]]></ProductStatement></ProductStatements><HazardousDetail><UNNumber></UNNumber><FlashPoint></FlashPoint><HazmatMaterialName></HazmatMaterialName><HazmatDesc></HazmatDesc><HazmatContact></HazmatContact><HighTemp></HighTemp><LowTemp></LowTemp><Indicator>N</Indicator></HazardousDetail><ProductAmounts><ProductAmountType>CubicMeterMeasurement</ProductAmountType><ProductAmountValue>0.000</ProductAmountValue></ProductAmounts><ProductAmounts><ProductAmountType>ReportableValueAmount</ProductAmountType><ProductAmountValue>157268.0000016</ProductAmountValue><ProductAmountCurrency>USD</ProductAmountCurrency></ProductAmounts><ProductCodesNames><ProductCodesNamesType>TariffClassification</ProductCodesNamesType><ProductCodesNamesName>POLIMEROS DE ETILENO EN FORMAS PRIMARIAS.-POLIETILENO DE DENSIDAD INFERIOR A 0,94-LOS DEMAS-SIN CARGA-LOS DEMAS</ProductCodesNamesName><ProductCodesNamesCode>39011092</ProductCodesNamesCode></ProductCodesNames></Detail><Footer>
+<Measurements item='GrossWeightKilograms'>
+<MeasurementValue>110160</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='GrossWeightPounds'>
+<MeasurementValue>242858.736</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightKilograms'>
+<MeasurementValue>108000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NetWeightPounds'>
+<MeasurementValue>238096.8</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='VolumeCubicFeet'>
+<MeasurementValue>0.000</MeasurementValue>
+</Measurements>
+</Footer><Footer>
+<Measurements item='NumberofPalletPackages'>
+<MeasurementValue>72</MeasurementValue>
+</Measurements>
+</Footer></Request>
