@@ -14,6 +14,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+Write-Host "Export-DatabaseDDL versao 3 | arquivo: $PSCommandPath" -ForegroundColor DarkGray
 
 if (-not $OutputPath) {
     $OutputPath = Join-Path (Get-Location).Path "DDL_$Database"
