@@ -1,0 +1,27 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Emix_Retorno_Item](
+	[ID] [bigint] NULL,
+	[ID_Item] [int] NULL,
+	[Campo] [varchar](40) COLLATE Latin1_General_CI_AI NULL,
+	[Valor] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Insert_Dt] [datetime] NULL,
+	[Read_Dt] [datetime] NULL,
+	[Dt_Create_ZIP] [datetime] NULL,
+	[Dt_SendToPDF2ATL] [datetime] NULL,
+	[Valor_ATL] [varchar](max) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE NONCLUSTERED INDEX [1] ON [dbo].[Emix_Retorno_Item]
+(
+	[ID] ASC,
+	[ID_Item] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO

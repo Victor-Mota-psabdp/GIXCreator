@@ -1,0 +1,24 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Marcacao_Ponto](
+	[ID] [bigint] NOT NULL,
+	[NSR] [varchar](9) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Tipo_Registro] [varchar](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Data] [varchar](8) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Hora] [varchar](4) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PIS] [varchar](12) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Arquivo] [varchar](100) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Ins] [datetime] NOT NULL,
+ CONSTRAINT [PK_Marcacao_Ponto] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

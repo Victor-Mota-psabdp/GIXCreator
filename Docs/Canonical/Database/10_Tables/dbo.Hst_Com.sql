@@ -1,0 +1,25 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Hst_Com](
+	[Cd_Pes] [varchar](10) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Hist] [datetime] NOT NULL,
+	[Refer_Hist] [varchar](12) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Usuario] [varchar](6) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Tp_Ocor] [int] NOT NULL,
+	[Descr_Hist] [varchar](4000) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Follow_Up] [datetime] NULL,
+ CONSTRAINT [PK_Hst_Com] PRIMARY KEY CLUSTERED 
+(
+	[Cd_Pes] ASC,
+	[Dt_Hist] ASC,
+	[Refer_Hist] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

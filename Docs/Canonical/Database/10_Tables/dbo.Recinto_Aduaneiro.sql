@@ -1,0 +1,25 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Recinto_Aduaneiro](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[Cd_Recinto] [varchar](10) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Nome_Recinto] [varchar](max) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Local] [varchar](3) COLLATE Latin1_General_CI_AI NULL,
+	[Ativo] [bit] NULL,
+	[Cd_Usuario] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[dt_ins] [datetime] NULL,
+ CONSTRAINT [PK_Recinto_Aduaneiro] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Recinto_Aduaneiro] ADD  DEFAULT (getdate()) FOR [dt_ins]
+GO

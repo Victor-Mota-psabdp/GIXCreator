@@ -1,0 +1,15 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Exchange_Excim](
+	[Num_Proc] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[ExcId] [bigint] NOT NULL,
+	[Dt_Envio] [datetime] NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

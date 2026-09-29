@@ -1,0 +1,33 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tipo_Embalagem](
+	[Cd_Tp_Embal] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Nome_Tp_Embal] [varchar](30) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Embal_Ofc] [char](10) COLLATE Latin1_General_CI_AI NULL,
+	[ISO_CODE] [varchar](3) COLLATE Latin1_General_CI_AI NULL,
+	[Ativo] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Data] [datetime] NULL,
+	[Cd_Usuario] [char](6) COLLATE Latin1_General_CI_AI NULL,
+	[Cd_Smart] [varchar](3) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK__Tipo_Embalagem__05D8E0BE] PRIMARY KEY CLUSTERED 
+(
+	[Cd_Tp_Embal] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+ CONSTRAINT [UQ__Tipo_Embalagem__74794A92] UNIQUE NONCLUSTERED 
+(
+	[Nome_Tp_Embal] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Tipo_Embalagem]  WITH CHECK ADD  CONSTRAINT [FK_Tipo_Embalagem_Aux_Embalagem] FOREIGN KEY([Cd_Embal_Ofc])
+REFERENCES [dbo].[Aux_Embalagem] ([Cd_Embal_Ofc])
+GO
+ALTER TABLE [dbo].[Tipo_Embalagem] CHECK CONSTRAINT [FK_Tipo_Embalagem_Aux_Embalagem]
+GO

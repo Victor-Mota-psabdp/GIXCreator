@@ -1,0 +1,24 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[ATL_Interfaces_Log](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[ID_Interface] [int] NULL,
+	[Descr_Interface] [varchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Fluxo] [varchar](5) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Arquivo] [varchar](100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Integrado] [bit] NULL,
+	[Mensagem] [varchar](500) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[Data] [datetime] NULL,
+ CONSTRAINT [PK_ATL_Interfaces_Log] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

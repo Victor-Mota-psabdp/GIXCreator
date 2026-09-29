@@ -1,0 +1,25 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Base_Nota_Fiscal_QR_Code](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Imagem] [image] NULL,
+	[QRcode_Url] [varchar](max) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Nota_Fiscal] [varchar](8) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ref_Acesso] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Ins] [datetime] NULL,
+	[Cd_Usuario] [varchar](10) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Status] [bit] NOT NULL,
+	[Used] [bit] NULL,
+ CONSTRAINT [PK_Base_Nota_Fiscal_QR_Code] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

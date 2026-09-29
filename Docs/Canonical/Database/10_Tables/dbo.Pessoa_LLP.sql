@@ -1,0 +1,28 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Pessoa_LLP](
+	[Cd_Pes] [varchar](10) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Planta] [varchar](20) COLLATE Latin1_General_CI_AI NULL,
+	[Cd_Pes_Grupo] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[Cd_Vendor] [varchar](20) COLLATE Latin1_General_CI_AI NULL,
+	[Planta_Nome] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[RGLNumber] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[InvoiceGRP] [varchar](1) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_Pessoa_LLP] PRIMARY KEY CLUSTERED 
+(
+	[Cd_Pes] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Pessoa_LLP]  WITH CHECK ADD  CONSTRAINT [FK_Pessoa_LLP_Pessoa] FOREIGN KEY([Cd_Pes])
+REFERENCES [dbo].[Pessoa] ([Cd_Pes])
+GO
+ALTER TABLE [dbo].[Pessoa_LLP] CHECK CONSTRAINT [FK_Pessoa_LLP_Pessoa]
+GO

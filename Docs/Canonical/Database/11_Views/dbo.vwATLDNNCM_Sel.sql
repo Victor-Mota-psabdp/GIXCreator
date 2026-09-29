@@ -1,0 +1,10 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE VIEW [dbo].[vwATLDNNCM_Sel]
+AS
+SELECT     NCM, Descricao_NCM AS [NCM Description]
+FROM         dbo.NCM WITH (nolock)
+
+GO

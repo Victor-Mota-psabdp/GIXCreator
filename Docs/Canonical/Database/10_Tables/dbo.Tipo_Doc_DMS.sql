@@ -1,0 +1,33 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tipo_Doc_DMS](
+	[ID_TP_DC] [bigint] IDENTITY(1,1) NOT NULL,
+	[DMS_Code] [varchar](5) COLLATE Latin1_General_CI_AI NOT NULL,
+	[ID_DC] [int] NULL,
+	[Document_Type_Name] [varchar](250) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Role] [varchar](250) COLLATE Latin1_General_CI_AI NULL,
+	[Comment] [varchar](250) COLLATE Latin1_General_CI_AI NULL,
+	[Ativo] [bit] NULL,
+	[Cd_Usuario] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[Dt_Ins] [datetime] NULL,
+ CONSTRAINT [PK_Tipo_Doc_DMS] PRIMARY KEY CLUSTERED 
+(
+	[ID_TP_DC] ASC,
+	[DMS_Code] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Tipo_Doc_DMS] ADD  DEFAULT (getdate()) FOR [Dt_Ins]
+GO
+ALTER TABLE [dbo].[Tipo_Doc_DMS]  WITH NOCHECK ADD  CONSTRAINT [FK_Tipo_Doc_DMS_Tipo_Doc_Cliente] FOREIGN KEY([ID_DC])
+REFERENCES [dbo].[Tipo_Doc_Cliente] ([ID_DC])
+GO
+ALTER TABLE [dbo].[Tipo_Doc_DMS] CHECK CONSTRAINT [FK_Tipo_Doc_DMS_Tipo_Doc_Cliente]
+GO

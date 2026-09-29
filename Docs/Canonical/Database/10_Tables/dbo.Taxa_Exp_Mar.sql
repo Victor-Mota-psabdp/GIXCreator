@@ -1,0 +1,37 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Taxa_Exp_Mar](
+	[Cd_Tp_Grupo] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Tp_Tx] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Peso_Tx] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Tp_Moeda] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Vlr_Tx_TEM] [decimal](10, 2) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Cd_Tp_Grupo] ASC,
+	[Cd_Tp_Tx] ASC,
+	[Cd_Peso_Tx] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Taxa_Exp_Mar]  WITH CHECK ADD FOREIGN KEY([Cd_Peso_Tx])
+REFERENCES [dbo].[Peso_Taxa] ([Cd_Peso_Tx])
+GO
+ALTER TABLE [dbo].[Taxa_Exp_Mar]  WITH CHECK ADD FOREIGN KEY([Cd_Tp_Grupo])
+REFERENCES [dbo].[Tipo_Grupo] ([Cd_Tp_Grupo])
+GO
+ALTER TABLE [dbo].[Taxa_Exp_Mar]  WITH CHECK ADD FOREIGN KEY([Cd_Tp_Moeda])
+REFERENCES [dbo].[Tipo_Moeda] ([Cd_Tp_Moeda])
+GO
+ALTER TABLE [dbo].[Taxa_Exp_Mar]  WITH CHECK ADD  CONSTRAINT [FK__Taxa_Exp___Cd_Tp__4589517F] FOREIGN KEY([Cd_Tp_Tx])
+REFERENCES [dbo].[Tipo_Taxa] ([Cd_Tp_Tx])
+GO
+ALTER TABLE [dbo].[Taxa_Exp_Mar] CHECK CONSTRAINT [FK__Taxa_Exp___Cd_Tp__4589517F]
+GO

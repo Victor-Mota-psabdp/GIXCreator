@@ -1,0 +1,24 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tipo_Doc_AX](
+	[ID_DOC_AX] [int] NOT NULL,
+	[Descricao_DOC] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[Descricao_DOC_Ingles] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[Nome_Arquivo_Interface] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[Prefixo_Numero_AX] [varchar](15) COLLATE Latin1_General_CI_AI NULL,
+	[Nome_Journal_AX] [varchar](25) COLLATE Latin1_General_CI_AI NULL,
+	[Account_Type] [varchar](25) COLLATE Latin1_General_CI_AI NULL,
+	[Ativo] [bit] NULL,
+ CONSTRAINT [PK_Tipo_Doc_AX] PRIMARY KEY CLUSTERED 
+(
+	[ID_DOC_AX] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

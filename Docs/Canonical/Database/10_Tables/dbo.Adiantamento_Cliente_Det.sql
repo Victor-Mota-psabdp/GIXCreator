@@ -1,0 +1,23 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Adiantamento_Cliente_Det](
+	[ID] [int] NOT NULL,
+	[Cd_Tp_tx] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_tp_moeda] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Valor] [float] NOT NULL,
+	[Paridade] [float] NULL,
+	[Conta] [char](1) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_Adiantamento_Cliente_Det] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC,
+	[Cd_Tp_tx] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

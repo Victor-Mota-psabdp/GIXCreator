@@ -1,0 +1,16 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[tmp_relatorio_Custo_campos_select](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[CAMPOS_SELECT] [varchar](300) COLLATE Latin1_General_CI_AI NULL,
+	[CAMPOS_PIVOT] [varchar](100) COLLATE Latin1_General_CI_AI NULL,
+	[NOME_TP_TX] [varchar](100) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

@@ -1,0 +1,15 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Fatura_Consolidada_Det](
+	[Id] [int] NOT NULL,
+	[FatCod] [varchar](17) COLLATE Latin1_General_CI_AI NULL,
+	[Vlr_org] [float] NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

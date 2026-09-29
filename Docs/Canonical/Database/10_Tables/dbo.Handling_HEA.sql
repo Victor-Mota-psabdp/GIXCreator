@@ -1,0 +1,16 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Handling_HEA](
+	[Num_Proc_HEA] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Hand_HEA_1] [varchar](300) COLLATE Latin1_General_CI_AI NULL,
+	[Hand_HEA_2] [varchar](300) COLLATE Latin1_General_CI_AI NULL,
+	[Hand_HEA_3] [varchar](300) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

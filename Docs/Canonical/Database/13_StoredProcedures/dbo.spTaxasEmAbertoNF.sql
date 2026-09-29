@@ -1,0 +1,465 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE Procedure spTaxasEmAbertoNF
+		@DataInicial 	Varchar(10),
+		@DataFinal	Varchar(10)
+
+AS
+
+
+
+select 
+	'NF' Tipo, cta.num_proc_hia,cta.cd_tp_Tx,dt_ins_hia, nome_tp_tx, cta.dc_hia,cta.cd_tp_moeda, vlr_pgto_nf_hia, 0 Par_Moeda
+from 
+	ctA_CtE_hou_imp_aer CTA
+	Left Join Caixa_hou_imp_aer CXA on CTA.num_proc_hia=CXA.num_proc_hia and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_hia=cxa.dc_hia and convert(datetime,dt_pgto_rcto_hia,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_hia and  ref_acesso=ref_acesso_nf_hia
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_hia,105)>=@DataInicial
+	AND DESP_ORG_HIA='N'
+
+UNION ALL
+
+
+select 
+	'NF' Tipo, cta.num_proc_mia,cta.cd_tp_Tx,dt_ins_mia, nome_tp_tx, cta.dc_mia,cta.cd_tp_moeda, vlr_pgto_nf_mia, 0 
+from 
+	ctA_CtE_mas_imp_aer CTA
+	Left Join Caixa_mas_imp_aer CXA on CTA.num_proc_mia=CXA.num_proc_mia and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_mia=cxa.dc_mia and convert(datetime,dt_pgto_rcto_mia,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_mia and  ref_acesso=ref_acesso_nf_mia
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_mia,105)>=@DataInicial
+	AND DESP_ORG_MIA='N'
+
+union all
+
+
+select 
+	'NF' Tipo, cta.num_proc_HEA,cta.cd_tp_Tx,dt_ins_HEA, nome_tp_tx, cta.dc_HEA,cta.cd_tp_moeda, vlr_pgto_nf_HEA, 0 
+from 
+	ctA_CtE_hou_EXP_aer CTA
+	Left Join Caixa_hou_EXP_aer CXA on CTA.num_proc_HEA=CXA.num_proc_HEA and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_HEA=cxa.dc_HEA and convert(datetime,dt_pgto_rcto_HEA,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_HEA and  ref_acesso=ref_acesso_nf_HEA
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_HEA,105)>=@DataInicial
+	AND DESP_DST_HEA='N'
+
+UNION ALL
+
+
+select 
+	'NF' Tipo, cta.num_proc_MEA,cta.cd_tp_Tx,dt_ins_MEA, nome_tp_tx, cta.dc_MEA,cta.cd_tp_moeda, vlr_pgto_nf_MEA, 0 
+from 
+	ctA_CtE_mas_EXP_aer CTA
+	Left Join Caixa_mas_EXP_aer CXA on CTA.num_proc_MEA=CXA.num_proc_MEA and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_MEA=cxa.dc_MEA and convert(datetime,dt_pgto_rcto_MEA,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_MEA and  ref_acesso=ref_acesso_nf_MEA
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_MEA,105)>=@DataInicial
+	AND DESP_DST_MEA='N'
+
+
+UNION ALL
+
+
+
+select 
+	'NF' Tipo, cta.num_proc_HIM,cta.cd_tp_Tx,dt_ins_HIM, nome_tp_tx, cta.dc_HIM,cta.cd_tp_moeda, vlr_pgto_nf_HIM, 0 
+from 
+	ctA_CtE_hou_imp_MAR CTA
+	Left Join Caixa_hou_imp_MAR CXA on CTA.num_proc_HIM=CXA.num_proc_HIM and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_HIM=cxa.dc_HIM and convert(datetime,dt_pgto_rcto_HIM,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_HIM and  ref_acesso=ref_acesso_nf_HIM
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_HIM,105)>=@DataInicial
+	AND DESP_ORG_HIM='N'
+
+UNION ALL
+
+
+select 
+	'NF' Tipo, cta.num_proc_MIM,cta.cd_tp_Tx,dt_ins_MIM, nome_tp_tx, cta.dc_MIM,cta.cd_tp_moeda, vlr_pgto_nf_MIM, 0 
+from 
+	ctA_CtE_mas_imp_MAR CTA
+	Left Join Caixa_mas_imp_MAR CXA on CTA.num_proc_MIM=CXA.num_proc_MIM and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_MIM=cxa.dc_MIM and convert(datetime,dt_pgto_rcto_MIM,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_MIM and  ref_acesso=ref_acesso_nf_MIM
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_MIM,105)>=@DataInicial
+	AND DESP_ORG_MIM='N'
+
+union all
+
+
+select 
+	'NF' Tipo, cta.num_proc_HEM,cta.cd_tp_Tx,dt_ins_HEM, nome_tp_tx, cta.dc_HEM,cta.cd_tp_moeda, vlr_pgto_nf_HEM, 0 
+from 
+	ctA_CtE_hou_EXP_MAR CTA
+	Left Join Caixa_hou_EXP_MAR CXA on CTA.num_proc_HEM=CXA.num_proc_HEM and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_HEM=cxa.dc_HEM and convert(datetime,dt_pgto_rcto_HEM,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_HEM and  ref_acesso=ref_acesso_nf_HEM
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_HEM,105)>=@DataInicial
+	AND DESP_DST_HEM='N'
+
+UNION ALL
+
+
+select 
+	'NF' Tipo, cta.num_proc_MEM,cta.cd_tp_Tx,dt_ins_MEM, nome_tp_tx, cta.dc_MEM,cta.cd_tp_moeda, vlr_pgto_nf_MEM, 0 
+from 
+	ctA_CtE_mas_EXP_MAR CTA
+	Left Join Caixa_mas_EXP_MAR CXA on CTA.num_proc_MEM=CXA.num_proc_MEM and cta.cd_tp_Tx=cxa.cd_tP_Tx and cta.dc_MEM=cxa.dc_MEM and convert(datetime,dt_pgto_rcto_MEM,105)<=@DataFinal and num_lcto <> 'PROVISÓRIO'
+	Join Base_nota_Fiscal NF on Nota_fiscal=CTA.num_nf_MEM and  ref_acesso=ref_acesso_nf_MEM
+	Join Tipo_Taxa TT on tt.cd_tp_Tx=cta.cd_tp_TX
+Where 
+	emissao between @DataInicial  and @DataFinal
+	and num_lcto is null and 
+	convert(datetime,dt_ins_MEM,105)>=@DataInicial
+	AND DESP_DST_MEM='N'
+
+union all
+
+
+select 
+	'Cta' Tipo,Cta.Num_proc_HEA, cta.cd_tp_tx,dt_ins_HEA, nome_Tp_tx, cta.dc_hea,cta.cd_tp_moeda, 
+	vlr_org_HEA, Tx_Refer_MEA
+from 
+	ctA_cte_hou_EXP_aer CTA
+	Left Join Caixa_hou_EXP_aer CXA on CTA.num_proc_HEA=CXA.num_proc_HEA and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_HEA=cxa.dc_HEA and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_HEA,105) <= @DataFinal 
+	Join master_EXP_aer MAS on MAS.num_proc_MEA=left(cta.num_proc_HEA,14)
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_hea and ref_acesso=ref_Acesso_nf_hea and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+	Left Join Paridade PAR on PAR.cd_tp_moeda=cta.cd_tp_moeda and dt_par=dt_saida_mea and PAR.cd_tp_par='OFC'
+Where
+	convert(datetime,dt_ins_HEA,105) between @DataInicial and @DataFinal
+	and Desp_DST_HEA='N' and Emissao is null
+	-- and cxa.num_proC_HEA is null  and Desp_DST_HEA='N' and emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')	
+	and pg.num_lcto is null
+
+UNION ALL
+
+
+select 
+	'Cta' Tipo,Cta.Num_proc_MEA, cta.cd_tp_tx,dt_ins_MEA, nome_Tp_tx,cta.dc_mea, cta.cd_tp_moeda, 
+	vlr_org_MEA, Tx_Refer_MEA 
+from 
+	ctA_cte_MAS_EXP_AER CTA
+	Left Join Caixa_MAS_EXP_aer CXA on CTA.num_proc_MEA=CXA.num_proc_MEA and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_MEA=cxa.dc_MEA and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_MEA,105) <= @DataFinal
+	Join master_EXP_aer MAS on MAS.num_proc_MEA=cta.num_proc_MEA
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mea and ref_acesso=ref_Acesso_nf_mea and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_MEA,105) between @DataInicial and @DataFinal
+	and Desp_DST_MEA='N' and Emissao is null
+	--and cxa.num_proC_MEA is null and  Desp_DST_MEA='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+	
+UNION ALL
+
+select 
+	'Cta' Tipo,Cta.Num_proc_hia, cta.cd_tp_tx,dt_ins_hia, nome_Tp_tx, cta.dc_hia,cta.cd_tp_moeda, 
+	vlr_org_hia, par_moeda 
+from 
+	ctA_cte_hou_imp_aer CTA
+	Left Join Caixa_hou_imp_aer CXA on CTA.num_proc_hia=CXA.num_proc_hia and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_hia=cxa.dc_hia and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_hia,105) <=@DataFinal
+	Join master_imp_aer MAS on MAS.num_proc_mia=left(cta.num_proc_hia,14)
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMA' and dt_par=dt_ins_hia
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_hia and ref_acesso=ref_Acesso_nf_hia and emissao <=@DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_hia,105) between @DataInicial and @DataFinal
+	and cxa.num_proC_hia is null and Desp_Org_HIA='N' and Emissao is null
+	--and Desp_Org_HIA='N' and emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+union all
+
+select 
+	'Cta' Tipo,Cta.Num_proc_him, cta.cd_tp_tx,dt_ins_him, nome_Tp_tx, cta.dc_him, cta.cd_tp_moeda, 
+	vlr_org_him, par_moeda 
+from 
+	ctA_cte_hou_imp_mar CTA
+	Left Join Caixa_hou_imp_mar CXA on CTA.num_proc_him=CXA.num_proc_him and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_him=cxa.dc_him and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_him,105) <= @Datafinal
+	Join master_imp_mar MAS on MAS.num_proc_mim=left(cta.num_proc_him,14)
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMM' and dt_par=dt_ins_him
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_him and ref_acesso=ref_Acesso_nf_him and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_him,105) between @DataInicial and @DataFinal
+	and Desp_Org_him='N' and Emissao is null
+	--and Desp_Org_him='N' and emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null 
+
+UNION ALL
+
+select 
+	'Cta' Tipo,Cta.Num_proc_Mia, cta.cd_tp_tx,dt_ins_Mia, nome_Tp_tx, cta.dc_mia ,cta.cd_tp_moeda, 
+	vlr_org_Mia, par_moeda 
+from 
+	ctA_cte_MAS_imp_AER CTA
+	Left Join Caixa_MAS_imp_aer CXA on CTA.num_proc_Mia=CXA.num_proc_Mia and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_Mia=cxa.dc_Mia and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_Mia,105) <=@DataFinal
+	Join master_imp_aer MAS on MAS.num_proc_mia=cta.num_proc_Mia
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMA' and dt_par=dt_ins_Mia
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mia and ref_acesso=ref_Acesso_nf_mia and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_Mia,105) between @DataInicial and @DataFinal
+	and Desp_Org_MIA='N' and Emissao is null
+	--and Desp_Org_MIA='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+union all
+
+select 
+	'Cta' Tipo,Cta.Num_proc_MIM, cta.cd_tp_tx,dt_ins_MIM, nome_Tp_tx, cta.dc_mim, cta.cd_tp_moeda, 
+	vlr_org_MIM, par_moeda 
+from 
+	ctA_cte_MAS_imp_MAR CTA
+	Left Join Caixa_MAS_imp_MAR CXA on CTA.num_proc_MIM=CXA.num_proc_MIM and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_MIM=cxa.dc_MIM and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_MIM,105) <= @DataFinal
+	Join master_imp_MAR MAS on MAS.num_proc_MIM=cta.num_proc_MIM
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMM' and dt_par=dt_ins_MIM
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mim and ref_acesso=ref_Acesso_nf_mim and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_MIM,105) between @DataInicial and @DataFinal
+	and Desp_Org_MIM='N' and Emissao is null
+	--and Desp_Org_MIM='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+UNION ALL
+
+select 
+	'Cta' Tipo,Cta.Num_proc_MEM, cta.cd_tp_tx,dt_ins_MEM, nome_Tp_tx, cta.dc_mem, cta.cd_tp_moeda, 
+	vlr_org_MEM, par_moeda 
+from 
+	ctA_cte_MAS_EXP_MAR CTA
+	Left Join Caixa_MAS_EXP_MAR CXA on CTA.num_proc_MEM=CXA.num_proc_MEM and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_MEM=cxa.dc_MEM and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_MEM,105) between @DataInicial and @DataFinal
+	Join master_EXP_MAR MAS on MAS.num_proc_MEM=cta.num_proc_MEM
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='OFC' and dt_par=dt_ins_MEM
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mem and ref_acesso=ref_Acesso_nf_mem and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto and num_ctA_cte <> '005'
+Where
+	convert(datetime,dt_ins_MEM,105) between @DataInicial and @DataFinal
+	and Desp_dst_MEM='N' and Emissao is null
+	--and Desp_dst_MEM='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')	
+	and pg.num_lcto is null 
+
+UNION ALL
+
+select 
+	'Cta' Tipo,Cta.Num_proc_hem, cta.cd_tp_tx,dt_ins_hem, nome_Tp_tx, cta.dc_hem, cta.cd_tp_moeda, 
+	vlr_org_hem, Par_moeda
+from 
+	ctA_cte_hou_EXP_mar CTA
+	Left Join Caixa_hou_EXP_mar CXA on CTA.num_proc_hem=CXA.num_proc_hem and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_hem=cxa.dc_hem and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_hem,105) between @DataInicial and @DataFinal
+	Join master_EXP_mar MAS on MAS.num_proc_mem=left(cta.num_proc_hem,14)
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='OFC' and dt_par=dt_ins_hem
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_hem and ref_acesso=ref_Acesso_nf_hem and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto and num_CtA_cte <> '005'
+Where
+	convert(datetime,dt_ins_hem,105) between @DataInicial and @DataFinal
+	and Desp_DST_hem='N' and Emissao is null
+	--and Desp_DST_hem='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+
+UNION ALL
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_HEA, cta.cd_tp_tx,dt_ins_HEA, nome_Tp_tx, cta.dc_hea,cta.cd_tp_moeda, 
+	vlr_org_HEA, Tx_Refer_MEA
+from 
+	ctA_cte_hou_EXP_aer CTA
+	Left Join Caixa_hou_EXP_aer CXA on CTA.num_proc_HEA=CXA.num_proc_HEA and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_HEA=cxa.dc_HEA and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_HEA,105) <= @DataFinal 
+	Join master_EXP_aer MAS on MAS.num_proc_MEA=left(cta.num_proc_HEA,14)
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_hea and ref_acesso=ref_Acesso_nf_hea and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+	Left Join Paridade PAR on PAR.cd_tp_moeda=cta.cd_tp_moeda and dt_par=dt_saida_mea and PAR.cd_tp_par='OFC'
+Where
+	convert(datetime,dt_ins_HEA,105) between @DataInicial and @DataFinal
+	and Desp_DST_HEA='N' and Emissao is null
+	-- and cxa.num_proC_HEA is null  and Desp_DST_HEA='N' and emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')	
+	and pg.num_lcto is null
+
+UNION ALL
+
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_MEA, cta.cd_tp_tx,dt_ins_MEA, nome_Tp_tx,cta.dc_mea, cta.cd_tp_moeda, 
+	vlr_org_MEA, Tx_Refer_MEA 
+from 
+	ctA_cte_MAS_EXP_AER CTA
+	Left Join Caixa_MAS_EXP_aer CXA on CTA.num_proc_MEA=CXA.num_proc_MEA and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_MEA=cxa.dc_MEA and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_MEA,105) <= @DataFinal
+	Join master_EXP_aer MAS on MAS.num_proc_MEA=cta.num_proc_MEA
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mea and ref_acesso=ref_Acesso_nf_mea and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_MEA,105) between @DataInicial and @DataFinal
+	and Desp_DST_MEA='N' and Emissao is null
+	--and cxa.num_proC_MEA is null and  Desp_DST_MEA='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+	
+UNION ALL
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_hia, cta.cd_tp_tx,dt_ins_hia, nome_Tp_tx, cta.dc_hia,cta.cd_tp_moeda, 
+	vlr_org_hia, par_moeda 
+from 
+	ctA_cte_hou_imp_aer CTA
+	Left Join Caixa_hou_imp_aer CXA on CTA.num_proc_hia=CXA.num_proc_hia and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_hia=cxa.dc_hia and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_hia,105) <=@DataFinal
+	Join master_imp_aer MAS on MAS.num_proc_mia=left(cta.num_proc_hia,14)
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMA' and dt_par=dt_ins_hia
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_hia and ref_acesso=ref_Acesso_nf_hia and emissao <=@DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_hia,105) between @DataInicial and @DataFinal
+	and cxa.num_proC_hia is null and Desp_Org_HIA='N' and Emissao is null
+	--and Desp_Org_HIA='N' and emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+union all
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_him, cta.cd_tp_tx,dt_ins_him, nome_Tp_tx, cta.dc_him, cta.cd_tp_moeda, 
+	vlr_org_him, par_moeda 
+from 
+	ctA_cte_hou_imp_mar CTA
+	Left Join Caixa_hou_imp_mar CXA on CTA.num_proc_him=CXA.num_proc_him and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_him=cxa.dc_him and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_him,105) <= @Datafinal
+	Join master_imp_mar MAS on MAS.num_proc_mim=left(cta.num_proc_him,14)
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMM' and dt_par=dt_ins_him
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_him and ref_acesso=ref_Acesso_nf_him and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_him,105) between @DataInicial and @DataFinal
+	and Desp_Org_him='N' and Emissao is null
+	--and Desp_Org_him='N' and emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null 
+
+UNION ALL
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_Mia, cta.cd_tp_tx,dt_ins_Mia, nome_Tp_tx, cta.dc_mia ,cta.cd_tp_moeda, 
+	vlr_org_Mia, par_moeda 
+from 
+	ctA_cte_MAS_imp_AER CTA
+	Left Join Caixa_MAS_imp_aer CXA on CTA.num_proc_Mia=CXA.num_proc_Mia and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_Mia=cxa.dc_Mia and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_Mia,105) <=@DataFinal
+	Join master_imp_aer MAS on MAS.num_proc_mia=cta.num_proc_Mia
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMA' and dt_par=dt_ins_Mia
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mia and ref_acesso=ref_Acesso_nf_mia and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_Mia,105) between @DataInicial and @DataFinal
+	and Desp_Org_MIA='N' and Emissao is null
+	--and Desp_Org_MIA='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+union all
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_MIM, cta.cd_tp_tx,dt_ins_MIM, nome_Tp_tx, cta.dc_mim, cta.cd_tp_moeda, 
+	vlr_org_MIM, par_moeda 
+from 
+	ctA_cte_MAS_imp_MAR CTA
+	Left Join Caixa_MAS_imp_MAR CXA on CTA.num_proc_MIM=CXA.num_proc_MIM and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_MIM=cxa.dc_MIM and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_MIM,105) <= @DataFinal
+	Join master_imp_MAR MAS on MAS.num_proc_MIM=cta.num_proc_MIM
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='IMM' and dt_par=dt_ins_MIM
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mim and ref_acesso=ref_Acesso_nf_mim and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto 
+Where
+	convert(datetime,dt_ins_MIM,105) between @DataInicial and @DataFinal
+	and Desp_Org_MIM='N' and Emissao is null
+	--and Desp_Org_MIM='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+UNION ALL
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_MEM, cta.cd_tp_tx,dt_ins_MEM, nome_Tp_tx, cta.dc_mem, cta.cd_tp_moeda, 
+	vlr_org_MEM, par_moeda 
+from 
+	ctA_cte_MAS_EXP_MAR CTA
+	Left Join Caixa_MAS_EXP_MAR CXA on CTA.num_proc_MEM=CXA.num_proc_MEM and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_MEM=cxa.dc_MEM and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_MEM,105) between @DataInicial and @DataFinal
+	Join master_EXP_MAR MAS on MAS.num_proc_MEM=cta.num_proc_MEM
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='OFC' and dt_par=dt_ins_MEM
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_mem and ref_acesso=ref_Acesso_nf_mem and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto and num_ctA_cte <> '005'
+Where
+	convert(datetime,dt_ins_MEM,105) between @DataInicial and @DataFinal
+	and Desp_dst_MEM='N' and Emissao is null
+	--and Desp_dst_MEM='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')	
+	and pg.num_lcto is null 
+
+UNION ALL
+
+select 
+	'TRAN' Tipo,Cta.Num_proc_hem, cta.cd_tp_tx,dt_ins_hem, nome_Tp_tx, cta.dc_hem, cta.cd_tp_moeda, 
+	vlr_org_hem, Par_moeda
+from 
+	ctA_cte_hou_EXP_mar CTA
+	Left Join Caixa_hou_EXP_mar CXA on CTA.num_proc_hem=CXA.num_proc_hem and cta.cd_tp_tx=cxa.cd_tp_Tx and cta.dc_hem=cxa.dc_hem and num_lcto <> 'PROVISÓRIO' and convert(datetime,dt_pgto_rcto_hem,105) between @DataInicial and @DataFinal
+	Join master_EXP_mar MAS on MAS.num_proc_mem=left(cta.num_proc_hem,14)
+	Left Join Paridade PAR on cta.cd_tp_moeda=par.cd_tp_moeda and par.cd_tp_par='OFC' and dt_par=dt_ins_hem
+	Join Tipo_Taxa TT on TT.cd_tp_tx=CTA.cd_tp_Tx
+	Left Join Base_Nota_Fiscal NF on NF.Nota_Fiscal=cta.num_nf_hem and ref_acesso=ref_Acesso_nf_hem and emissao <= @DataFinal
+	lEFT jOIN pgto_Rcto PG on CXA.num_lcto=PG.num_lcto and num_CtA_cte <> '005'
+Where
+	convert(datetime,dt_ins_hem,105) between @DataInicial and @DataFinal
+	and Desp_DST_hem='N' and Emissao is null
+	--and Desp_DST_hem='N' and Emissao is null
+	and cta.cd_tp_tx not in ('135','142','ADT','143','149','125')
+	and pg.num_lcto is null
+
+
+
+
+GO

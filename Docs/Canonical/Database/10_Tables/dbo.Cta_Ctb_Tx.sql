@@ -1,0 +1,15 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[Cta_Ctb_Tx](
+	[Cd_Cta_Ctb] [varchar](13) COLLATE Latin1_General_CI_AI NULL,
+	[Cd_Tp_Tx] [char](3) COLLATE Latin1_General_CI_AI NULL,
+	[Descricao] [varchar](60) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

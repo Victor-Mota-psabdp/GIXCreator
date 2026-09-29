@@ -1,0 +1,26 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Mensagem](
+	[MnsID] [int] NOT NULL,
+	[MnsOrigem] [varchar](6) COLLATE Latin1_General_CI_AI NOT NULL,
+	[MnsProc] [varchar](16) COLLATE Latin1_General_CI_AI NULL,
+	[MnsCliente] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[MnsSis] [bit] NOT NULL,
+	[MnsMail] [bit] NOT NULL,
+	[MnsDtEnv] [datetime] NOT NULL,
+	[MnsTexto] [varchar](2000) COLLATE Latin1_General_CI_AI NOT NULL,
+ CONSTRAINT [PK_Mensagem] PRIMARY KEY CLUSTERED 
+(
+	[MnsID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Mensagem] ADD  CONSTRAINT [DF_Mensagem_MnsSis]  DEFAULT (0) FOR [MnsSis]
+GO

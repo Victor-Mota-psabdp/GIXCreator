@@ -1,0 +1,10 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Tabela1](
+	[s] [int] IDENTITY(1,1) NOT NULL,
+	[desd] [int] NULL
+) ON [PRIMARY]
+
+GO

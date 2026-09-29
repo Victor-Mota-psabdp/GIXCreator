@@ -1,0 +1,72 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[HBL](
+	[Num_Proc] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Shipper_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Shipper_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Shipper_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Shipper_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Notify_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Notify_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Notify_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Notify_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Consignee_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Consignee_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Consignee_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Consignee_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[BLNumber] [varchar](30) COLLATE Latin1_General_CI_AI NOT NULL,
+	[DateofIssue] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+	[ForwardAgt] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[CargoCtt_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[CargoCtt_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[CargoCtt_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[CargoCtt_04] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PlaceRcpt] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[ExpCarrier] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PortLoading] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PortDisc] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PlaceDeliv] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_04] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_05] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_06] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_07] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Marks_08] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Pkgs_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Pkgs_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_04] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_05] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_06] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_07] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_08] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_09] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_10] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Desc_11] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[GWeight_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[GWeight_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[GWeight_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[GWeight_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[GWeight_04] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Measur_00] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Measur_01] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Measur_02] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Measur_03] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Measur_04] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Originais] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dated] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

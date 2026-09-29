@@ -1,0 +1,24 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[ATL_Lancamento_Contabil](
+	[lctNumero] [int] NOT NULL,
+	[Mes] [int] NOT NULL,
+	[Ano] [int] NOT NULL,
+	[lctData] [datetime] NULL,
+	[Cd_Usuario] [nchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[Status] [char](1) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_ATL_Lancamento_Contabil_1] PRIMARY KEY CLUSTERED 
+(
+	[lctNumero] ASC,
+	[Mes] ASC,
+	[Ano] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

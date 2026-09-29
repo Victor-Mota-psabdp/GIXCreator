@@ -1,0 +1,23 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Log_Diversos](
+	[LvdID] [int] IDENTITY(1,1) NOT NULL,
+	[LvdProcesso] [varchar](16) COLLATE Latin1_General_CI_AI NULL,
+	[LvdEvento] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[LvdIdent] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+	[LvdHistorico] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[LvdData] [datetime] NOT NULL,
+	[Cd_Usuario] [varchar](6) COLLATE Latin1_General_CI_AI NOT NULL,
+ CONSTRAINT [PK_Log_Diversos] PRIMARY KEY CLUSTERED 
+(
+	[LvdID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

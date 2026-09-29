@@ -1,0 +1,462 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE procedure [dbo].[spNFF2SAP_Solenis_Teste_Rel]--.[spNFF2SAP_Solenis_Rel] 'IMSOL202111027BR','5362'
+	@Num_Proc varchar(16),
+	@nNF varchar(20)
+as
+		
+		Declare @TabelaHeader Table
+	(
+			[ITMTYP]							varchar (200),
+			[MATNR]								varchar (200),
+			[MAKTX]								varchar (200),
+			[WERKS]								varchar (200),
+			[MENGE]								varchar (200),
+			[MEINS]								varchar (200),
+			[NETPR]								varchar (200),
+			[NETDIS]							varchar (200),
+			[NETINS]							varchar (200),
+			[NETOTH]							varchar (200),
+			[NETFRE]							varchar (200),
+			[CFOP_10]							varchar (200),
+			[MATORG]							varchar (200),
+			[MATUSE]							varchar (200),
+			[STEUC]								varchar (200),
+			[MATKL]								varchar (200),
+			[BASE_II]							varchar (200),
+			[OTHBAS_II]							varchar (200),
+			[EXCBAS_II]							varchar (200),
+			[RATE_II]							varchar (200),
+			[TAXVAL_II]							varchar (200),
+			[BASE_ICMS]							varchar (200),
+			[OTHBAS_ICMS]						varchar (200),
+			[EXCBAS_ICMS]						varchar (200),
+			[RATE_ICMS]							varchar (200),
+			[TAXVAL_ICMS]						varchar (200),
+			[TAXLW1]							varchar	(200),
+			[BASE_IPI]							varchar (200),
+			[OTHBAS_IPI]						varchar (200),
+			[EXCBAS_IPI]						varchar (200),
+			[RATE_IPI]							varchar (200),
+			[TAXVAL_IPI]						varchar (200),
+			[TAXLW2]							varchar	(200),
+			[BASE_COFINS]						varchar (200),
+			[OTHBAS_COFINS]						varchar (200),
+			[EXCBAS_COFINS]						varchar (200),
+			[RATE_COFINS]						varchar (200),
+			[TAXVAL_COFINS]						varchar (200),
+			[TAXLW4]							varchar (200),
+			[BASE_PIS]							varchar (200),
+			[OTHBAS_PIS]						varchar (200),
+			[EXCBAS_PIS]						varchar (200),
+			[RATE_PIS]							varchar (200),
+			[TAXVAL_PIS]						varchar (200),
+			[TAXLW5]							varchar (200),
+			--LEANDRO 20/01/2026 - 100-563090
+			[BASE_IBS]                          varchar (200),
+			[OTHBAS_IBS]						varchar (200),
+			[EXCBAS_IBS]						varchar (200),
+			[RATE_IBS]							varchar (200),
+			[TAXVAL_IBS]						varchar (200),
+			[BASE_IBSM]							varchar (200),
+			[OTHBAS_IBSM]						varchar (200),
+			[EXCBAS_IBSM]						varchar (200),
+			[RATE_IBSM]							varchar (200),
+			[TAXVAL_IBSM]						varchar (200),
+			[BASE_CBS]							varchar (200),
+			[OTHBAS_CBS]						varchar (200),
+			[EXCBAS_CBS]						varchar (200),
+			[RATE_CBS]							varchar (200),
+			[TAXVAL_CBS]						varchar (200),
+			[TAXSITUATION]						varchar (200),
+			[CST]								varchar (200),
+			[CCLASSTRIB]						varchar (200),
+			[NDI]								varchar (200),
+			[NADICAO]							varchar (200),
+			[NSEQADIC]							varchar (200),
+			[CFABRICANTE]						varchar (200),
+			[VDESCDI]							varchar (200),
+			[DRAW_BACK]							varchar (200),
+			[NDI_ADIC]							varchar (200),
+			[DDI]								varchar	(200),
+			[XLOCDESEMB]						varchar (200),
+			[UFDESEMB]							varchar (200),
+			[DDESEMB]							varchar (200),
+			[CEXPORTADOR]						varchar	(200),
+			[COD_DOC_IMP]						varchar (200),
+			[NUM_ACDRAW]						varchar (200),
+			[TRANSPORT_MODE]					varchar (200),
+			[MARITIME_FREIGHT]					varchar (200),
+			[INTERMEDIATE_MODE]					varchar (200),
+			[CNPJ]								varchar (200),
+			[REGIO]								varchar (200),
+			[PARVW]								varchar (200),
+			[PARID]								varchar (200),
+			[TRATY]								varchar	(200),
+			[TRAID]								varchar	(200),
+			[INCO1]								varchar	(200),
+			[INCO2]								varchar	(200),
+			[VSTEL]								varchar	(200),
+			[ANZPK]								varchar	(200),
+			[SHPUNT]							varchar	(200),
+			[SHPMRK]							varchar	(200),
+			[SHPNUM]							varchar	(200),
+			[NTGEW]								varchar (200),
+			[BRGEW]								varchar (200),
+			[MODFRETE]							varchar (200),
+			[XPED]								varchar	(200),
+			[NITEMPED]							varchar	(2000)
+	)
+
+	insert into @TabelaHeader
+		
+		select
+			'1'																		[ITMTYP],			--[Tipo de Item NFe],
+			IP.cProd																[MATNR],			--[N° do Material],
+			NULL																	[MAKTX],			--[Descrição do item],
+			(Case when e.CNPJ = '55720908000242' then '6103' else
+			(Case when e.CNPJ = '55720908001303' then '6113' else
+			(Case when e.CNPJ = '55720908001133' then '6111'  End) End) End)		[WERKS],			--[CENTRO],
+			format(IP.qCom, 'N3', 'PT-BR')											[MENGE],			--[Qtd],
+			IP.uCOM																	[MEINS],			--[UM],
+			convert(varchar(20), convert(decimal(18,6),T.vBC / TRV.PesoL ))			[NETPR],			--[Preço Líquido],
+			NULL																	[NETDIS],			--[Desconto],
+			NULL																	[NETINS],			--[Seguro],
+			'0,00'																	[NETOTH],			--[Despesas],
+			NULL																	[NETFRE],			--[Frete],
+			IP.CFOP + '/AA'															[CFOP_10],			--[CFOP],
+			'1'																		[MATORG],			--[Origem do Material],
+			NULL																	[MATUSE],			--[Origem do material],
+			NULL																	[STEUC],			--[NCM],
+			NULL																	[MATKL],			--[Grupo de mercadoria],
+			'0,00'																	[BASE_II],			--[Base de II],T.vProd
+			NULL																	[OTHBAS_II],		--[Outra Base II],
+			NULL																	[EXCBAS_II],		--[Base Excl. II],
+			'0,00'																	[RATE_II],			--[Alíquota de II],
+			'0,00'																	[TAXVAL_II],		--[Valor de II],
+			'0,00'																	[BASE_ICMS],		--[Base de ICMS],
+			format(T.vBC, 'N2', 'pt-br')											[OTHBAS_ICMS],		--[Outra Base ICMS],
+			NULL																	[EXCBAS_ICMS],		--[Base Excl. ICMS],
+			'0,00'																	[RATE_ICMS],		--[Alíquota de ICMS],
+			'0,00'																	[TAXVAL_ICMS],		--[Valor de ICMS],
+			'IC4'																	[TAXLW1],			--[Direito Fiscal ICMS],
+			NULL																	[BASE_IPI],			--[Base de IPI],
+			format(T.vBC, 'N2', 'pt-br')											[OTHBAS_IPI],		--[Outra Base IPI],
+			NULL																	[EXCBAS_IPI],		--[Base Excl. IPI],
+			'0,00'																	[RATE_IPI],			--[Alíquota de IPI],
+			'0,00'																	[TAXVAL_IPI],		--[Valor de IPI],
+			'I03'																	[TAXLW2],			--[Direito Fiscal IPI],
+			'0,00'																	[BASE_COFINS],		--[Base Cofins],
+			NULL																	[OTHBAS_COFINS],	--[Outra Base Cofins],
+			NULL																	[EXCBAS_COFINS],	--[Base Excl. Confins],
+			'0,00'																	[RATE_COFINS],		--[Alíquota de Cofins],
+			'0,00'																	[TAXVAL_COFINS],	--[Valor de Cofins],
+			'C98'																	[TAXLW4],			--[Leis Cofins],
+			'0,00'																	[BASE_PIS],			--[Base PIS],
+			NULL																	[OTHBAS_PIS],		--[Outra Base PIS],
+			NULL																	[EXCBAS_PIS],		--[Base Excl. PIS],
+			'0,00'																	[RATE_PIS],			--[Alíquota de PIS],
+			'0,00'																	[TAXVAL_PIS],		--[Valor de PIS],
+			'P98'																	[TAXLW5],			--[Leis PIS],
+
+			--LEANDRO 20/01/2026 - 100-563090
+			NULL																	[BASE_IBS], --Base IBS
+			NULL																	[OTHBAS_IBS], --Outra Base IBS
+			NULL																	[EXCBAS_IBS], --Base Excl. Confins
+			NULL																	[RATE_IBS], --Alíquota de IBS
+			NULL																	[TAXVAL_IBS], --Valor de IBS
+			NULL																	[BASE_IBSM], --Base IBSM
+			NULL																	[OTHBAS_IBSM], --Outra Base IBSM
+			NULL																	[EXCBAS_IBSM], --Base Excl. Confins
+			NULL																	[RATE_IBSM], --Alíquota de IBSM
+			NULL																	[TAXVAL_IBSM], --Valor de IBSM
+			NULL																	[BASE_CBS], --Base CBS
+			NULL																	[OTHBAS_CBS], --Outra Base CBS
+			NULL																	[EXCBAS_CBS], --Base Excl. Confins
+			NULL																	[RATE_CBS], --Alíquota de CBS
+			NULL																	[TAXVAL_CBS], --Valor de CBS
+			'000'																	[TAXSITUATION], --TAXSITUATION
+			'000'																	[CST], --CST
+			'000001'																[CCLASSTRIB], --CCLASSTRIB
+
+			DI.nDI																	[NDI],				--[No DI],
+			IPDA.nAdicao															[NADICAO],			--[No Suplemento <nAdicao>],
+			IPDA.nSeqAdic															[NSEQADIC],			--[No Item Supl. <nSeqAdic>],
+			llp.Cd_Vendor															[CFABRICANTE],		--[Cód. Fab. <cFabricante>],
+			NULL																	[VDESCDI],			--[Valor Red.Item Supl.<vDescDI>],
+			--CP44.Campo_Dados														[DRAW_BACK],		--[No Benefício DRAW_BACK],
+			vp.numero_po															[DRAW_BACK],		--[No Benefício DRAW_BACK],
+			DI.nDI																	[NDI_ADIC],			--[No DI],
+			convert(varchar (10),DI.dDI,103)										[DDI],				--[Data Reg.(DI/DSI/DA)/tag <dDI>],
+			(case when DI.xLocDesemb = 'SANTOS' then 'PORTO DE SANTOS' else
+			(case when DI.xLocDesemb = 'CAMPINAS' then 'VIRACOPOS' end) end)		[XLOCDESEMB],		--[Local Desemb. <xLocDesemb>],
+			DI.UFDesemb																[UFDESEMB],			--[Reg. Fiscal Desemb <UFDesemb>],
+			convert(varchar (10),DI.dDesemb,103)									[DDESEMB],			--[Data Desemb <dDesemb>],
+			llp.Cd_Vendor															[CEXPORTADOR],		--[Cód. Exportador <cExportador>],
+			'1'																		[COD_DOC_IMP],		--[Tipo Decl. Import.],
+			'001'																	[NUM_ACDRAW],		--[No Proc. Reembolso alfand.],
+			(case when left (hg.Num_Proc,2) = 'IM' then '1' else
+			(case when left (hg.Num_Proc,2) = 'IA' then '4' else '7' end) end)		[TRANSPORT_MODE],	--[Meio de transporte],
+			format(IP.vFrete, 'N2','pt-BR')											[MARITIME_FREIGHT],	--[Frete marítimo],
+			'1'																		[INTERMEDIATE_MODE],--[Modo intermediário],
+			e.CNPJ																	[CNPJ],				--[CNPJ do Comprador],
+			'SP'																	[REGIO],			--[Região Terceiro],
+			'SP'																	[PARVW],			--[NF Funçãoparc.],
+			DP.Cd_Dst																[PARID],			--[ID Parceiro],
+			(case when hg.Tp_Carga = 1 then '0002' else
+			(case when hg.Tp_Carga = 2 then '0001' else
+			(case when hg.tp_carga = 3 then '0004' end) end) end)					[TRATY],			--[TP Veículo Transporte],
+			TRV.esp																	[TRAID],			--[ID veíc.transp.],
+			HG.Cd_Tp_Oper															[INCO1],			--[Incoterms],
+			TR.xMun																	[INCO2],			--[Local],
+			NULL																	[VSTEL],			--[71],
+			TRV.qVol																[ANZPK],			--[VOLUME],
+			IP.uCOM																	[SHPUNT],			--[73],
+			TRV.Marca																[SHPMRK],			--[Código elem Exp],
+			TRV.nVol																[SHPNUM],			--[Nº elemento exp],
+			format(TRV.PesoL, 'n3', 'pt-br')										[NTGEW],			--[Peso líquido],
+			format(TRV.PesoB,'n3','pt-br')											[BRGEW],			--[Peso bruto],
+			'1'																		[MODFRETE],			--[Modalid. frete],
+			atlantis.dbo.fBusca_TipoDocCliente('N',@Num_Proc,1)						[XPED],	--[Número do Pedido],
+			''																		[NITEMPED]			--[Linha do pedido]
+
+		from 
+			ATL_BR.dbo.Danfe_Base D with(nolock)
+			join ATL_BR.dbo.Danfe_Item I with(nolock) on I.Id_Danfe = i.id_Item
+			join ATL_BR.dbo.Danfe_Item_Produto IP with(nolock) on IP.Id_Danfe = D.Id_Danfe
+			join ATL_BR.dbo.Danfe_Item_Prod_DI DI with(nolock) on DI.Id_Danfe = D.Id_Danfe and DI.id_item=IP.id_Item and Ip.cProd = Di.cProd
+			join ATL_BR.dbo.Danfe_Totais T with(nolock) on T.Id_Danfe = D.Id_Danfe
+			join vwHouse_Imp HG	with(nolock) on HG.Num_Proc = D.Num_Proc
+
+			
+
+			left join ATL_BR.dbo.Danfe_Cia E with(nolock) on e.Id_Danfe = D.Id_Danfe and e.Tipo = 'E'
+			left join ATL_BR.dbo.Danfe_Cia DC with(nolock) on DC.Id_Danfe = D.Id_Danfe and DC.Tipo = 'D'
+			left Join ATL_BR.dbo.Danfe_Item_Impostos II with(nolock) on II.id_danfe = D.id_danfe and II.id_item=IP.id_Item and II.cImpostos='II'
+			left Join ATL_BR.dbo.Danfe_Item_Impostos ICMS with(nolock) on ICMS.id_danfe = D.id_danfe and ICMS.id_item=IP.id_Item and ICMS.cImpostos='ICMS'
+			left Join ATL_BR.dbo.Danfe_Item_Impostos IPI with(nolock) on IPI.id_danfe = D.id_danfe and IPI.id_item=IP.id_Item and IPI.cImpostos='IPI'
+			left Join ATL_BR.dbo.Danfe_Item_Impostos COFINS with(nolock) on COFINS.id_danfe = D.id_danfe and COFINS.id_item=IP.id_Item and COFINS.cImpostos='COFINS'
+			left Join ATL_BR.dbo.Danfe_Item_Impostos PIS with(nolock) on PIS.id_danfe = D.id_danfe and PIS.id_item=IP.id_Item and PIS.cImpostos='PIS'
+			left join ATL_BR.dbo.Danfe_Item_Prod_DI_Adicao IPDA with(nolock) on IPDA.nDI = DI.nDI and IPDA.Id_Danfe = DI.Id_Danfe and IPDA.id_item=DI.id_Item
+			left join ATL_BR.dbo.Danfe_Transp TR with(nolock) on TR.id_danfe = D.id_danfe
+			left join ATL_BR.dbo.Danfe_Transp_Vol TRV with(nolock) on TRV.id_danfe = D.id_danfe
+			left join Campo_Processo CP44 with(nolock)  on CP44.Num_Proc = HG.Num_Proc and CP44.Id_Campo = 44  
+			left join Pessoa IT With(Nolock) on IT.Cd_pes = HG.Cd_Transportadora
+			left join DE_PARA DP With(Nolock) on DP.Cd_Tipo = 11 and dp.Cd_Cliente = 'P000030340' and dp.Cd_Org = IT.Apelido
+			left join Pessoa_LLP LLP with(nolock) on LLP.Cd_Pes = HG.Cd_Export 
+			Left Join vwPO_ALL  vp on vp.num_proc=HG.num_proc and vp.ID_DC=24
+			Left Outer Join Tarefas_processos	T24	on HG.Num_Proc = T24.Num_proc and T24.ID_Task = 24
+
+		where
+			--D.num_proc = 'IMSOL201810017BR'
+			D.num_proc = @Num_Proc
+			and ( @nNF = '' or nNF = @nNF )
+
+
+			select
+		'ITMTYP'[Tipo de Item NFe],
+		'MATNR'[N° do material],
+		'MAKTX'[Descrição do item],
+		'WERKS'[CENTRO],
+		'MENGE'[Qtd],
+		'MEINS'[UM],
+		'NETPR'[Preço Líquido],
+		'NETDIS'[Desconto],
+		'NETINS'[Seguro],
+		'NETOTH'[Despesas],
+		'NETFRE'[Frete],
+		'CFOP_10'[CFOP],
+		'MATORG'[Origem do Material],
+		'MATUSE'[Origem do material],
+		'STEUC'[NCM],
+		'MATKL'[Grupo de mercadoria],
+		'BASE_II'[Base de II],
+		'OTHBAS_II'[Outra Base II],
+		'EXCBAS_II'[Base Excl. II],
+		'RATE_II'[Alíquota de II],
+		'TAXVAL_II'[Valor de II],
+		'BASE_ICMS'[Base de ICMS],
+		'OTHBAS_ICMS'[Outra Base ICMS],
+		'EXCBAS_ICMS'[Base Excl. ICMS],
+		'RATE_ICMS'[Alíquota de ICMS],
+		'TAXVAL_ICMS'[Valor de ICMS],
+		'TAXLW1'[Direito Fiscal ICMS],
+		'BASE_IPI'[Base de IPI],
+		'OTHBAS_IPI'[Outra Base IPI],
+		'EXCBAS_IPI'[Base Excl. IPI],
+		'RATE_IPI'[Alíquota de IPI],
+		'TAXVAL_IPI'[Valor de IPI],
+		'TAXLW2'[Direito Fiscal IPI],
+		'BASE_COFINS'[Base Cofins],
+		'OTHBAS_COFINS'[Outra Base Cofins],
+		'EXCBAS_COFINS'[Base Excl. Confins],
+		'RATE_COFINS'[Alíquota de Cofins],
+		'TAXVAL_COFINS'[Valor de Cofins],
+		'TAXLW4'[Leis Cofins],
+		'BASE_PIS'[Base PIS],
+		'OTHBAS_PIS'[Outra Base PIS],
+		'EXCBAS_PIS'[Base Excl. PIS],
+		'RATE_PIS'[Alíquota de PIS],
+		'TAXVAL_PIS'[Valor de PIS],
+		'TAXLW5'[Leis PIS],
+		--LEANDRO 20/01/2026 - 100-563090
+		'OTHBAS_IBS'[Outra Base IBS],
+		'EXCBAS_IBS'[Base Excl. Confins],
+		'RATE_IBS'[Alíquota de IBS],
+		'TAXVAL_IBS'[Valor de IBS],
+		'BASE_IBSM'[Base IBSM],
+		'OTHBAS_IBSM'[Outra Base IBSM],
+		'EXCBAS_IBSM'[Base Excl. Confins],
+		'RATE_IBSM'[Alíquota de IBSM],
+		'TAXVAL_IBSM'[Valor de IBSM],
+		'BASE_CBS'[Base CBS],
+		'OTHBAS_CBS'[Outra Base CBS],
+		'EXCBAS_CBS'[Base Excl. Confins],
+		'RATE_CBS'[Alíquota de CBS],
+		'TAXVAL_CBS'[Valor de CBS],
+		'TAXSITUATION'[TAXSITUATION],
+		'CST'[CST],
+		'CCLASSTRIB'[CCLASSTRIB],
+		'NDI'[No DI],
+		'NADICAO'[No Suplemento <nAdicao>],
+		'NSEQADIC'[No Item Supl. <nSeqAdic>],
+		'CFABRICANTE'[Cód. Fab. <cFabricante>],
+		'VDESCDI'[Valor Red.Item Supl.<vDescDI>],
+		'DRAW_BACK'[No Benefício DRAW_BACK],
+		'NDI_ADIC'[No DI],
+		'DDI'[Data Reg.(DI/DSI/DA)/tag <dDI>],
+		'XLOCDESEMB'[Local Desemb. <xLocDesemb>],
+		'UFDESEMB'[Reg. Fiscal Desemb <UFDesemb>],
+		'DDESEMB'[Data Desemb <dDesemb>],
+		'CEXPORTADOR'[Cód. Exportador <cExportador>],
+		'COD_DOC_IMP'[Tipo Decl. Import.],
+		'NUM_ACDRAW'[No Proc. Reembolso alfand.],
+		'TRANSPORT_MODE'[Meio de transporte],
+		'MARITIME_FREIGHT'[Frete marítimo],
+		'INTERMEDIATE_MODE'[Modo intermediário],
+		'CNPJ'[CNPJ do Comprador],
+		'REGIO'[Região Terceiro],
+		'PARVW'[NF Funçãoparc.],
+		'PARID'[ID Parceiro],
+		'TRATY'[TP Veículo Transporte],
+		'TRAID'[ID veíc.transp.],
+		'INCO1'[Incoterms],
+		'INCO2'[Local],
+		'VSTEL'[71],
+		'ANZPK'[VOLUME],
+		'SHPUNT'[73],
+		'SHPMRK'[Código elem Exp],
+		'SHPNUM'[Nº elemento exp],
+		'NTGEW'[Peso líquido],
+		'BRGEW'[Peso bruto],
+		'MODFRETE'[Modalid. frete],
+		'XPED'[Número do Pedido],
+		'NITEMPED'[Linha do pedido]
+
+union all
+			select 
+			[ITMTYP],
+			[MATNR],
+			[MAKTX],
+			[WERKS],
+			[MENGE],
+			[MEINS],
+			replace([NETPR],'.',','),
+			
+			[NETDIS],
+			replace([NETINS],'.',','),
+			[NETOTH],
+			replace([NETFRE],'.',','),
+			[CFOP_10],
+			[MATORG],
+			[MATUSE],
+			[STEUC],
+			[MATKL],
+			--replace([BASE_II],'.',','),
+			[BASE_II],
+			[OTHBAS_II],
+			[EXCBAS_II],
+			[RATE_II],
+			[TAXVAL_II],
+			[BASE_ICMS],
+			[OTHBAS_ICMS],
+			[EXCBAS_ICMS],
+			[RATE_ICMS],
+			[TAXVAL_ICMS],
+			[TAXLW1],
+			[BASE_IPI],
+			[OTHBAS_IPI],
+			[EXCBAS_IPI],
+			[RATE_IPI],
+			[TAXVAL_IPI],
+			[TAXLW2],
+			[BASE_COFINS],
+			[OTHBAS_COFINS],
+			[EXCBAS_COFINS],
+			[RATE_COFINS],
+			[TAXVAL_COFINS],
+			[TAXLW4],
+			[BASE_PIS],
+			[OTHBAS_PIS],
+			[EXCBAS_PIS],
+			[RATE_PIS],
+			[TAXVAL_PIS],
+			[TAXLW5],
+			--LEANDRO 20/01/2026 - 100-563090
+			[OTHBAS_IBS],
+			[EXCBAS_IBS],
+			[RATE_IBS],
+			[TAXVAL_IBS],
+			[BASE_IBSM],
+			[OTHBAS_IBSM],
+			[EXCBAS_IBSM],
+			[RATE_IBSM],
+			[TAXVAL_IBSM],
+			[BASE_CBS],
+			[OTHBAS_CBS],
+			[EXCBAS_CBS],
+			[RATE_CBS],
+			[TAXVAL_CBS],
+			[TAXSITUATION],
+			[CST],
+			[CCLASSTRIB],
+			[NDI],
+			[NADICAO],
+			[NSEQADIC],
+			[CFABRICANTE],
+			[VDESCDI],
+			[DRAW_BACK],
+			[NDI_ADIC],
+			replace([DDI],'/',''),
+			[XLOCDESEMB],
+			[UFDESEMB],
+			replace([DDESEMB],'/',''),
+			[CEXPORTADOR],
+			[COD_DOC_IMP],
+			[NUM_ACDRAW],
+			[TRANSPORT_MODE],
+			[MARITIME_FREIGHT],
+			[INTERMEDIATE_MODE],
+			[CNPJ],
+			[REGIO],
+			[PARVW],
+			[PARID],
+			[TRATY],
+			[TRAID],
+			[INCO1],
+			[INCO2],
+			[VSTEL],
+			[ANZPK],
+			[SHPUNT],
+			[SHPMRK],
+			[SHPNUM],
+			[NTGEW],
+			[BRGEW],
+			[MODFRETE],
+			[XPED],
+			[NITEMPED]							
+
+		from @TabelaHeader
+GO

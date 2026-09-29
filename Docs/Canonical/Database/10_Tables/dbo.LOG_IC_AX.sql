@@ -1,0 +1,15 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LOG_IC_AX](
+	[Num_Proc] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[Cd_Tp_TX] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[DC] [varchar](50) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

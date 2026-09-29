@@ -1,0 +1,22 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[attrep_truncation_safeguard](
+	[latchTaskName] [varchar](128) COLLATE Latin1_General_CI_AI NOT NULL,
+	[latchMachineGUID] [varchar](40) COLLATE Latin1_General_CI_AI NOT NULL,
+	[LatchKey] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[latchLocker] [datetime] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[latchTaskName] ASC,
+	[latchMachineGUID] ASC,
+	[LatchKey] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

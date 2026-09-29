@@ -1,0 +1,21 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tipo_Data_Controle_Fatura](
+	[ID_Tipo_Data] [int] NOT NULL,
+	[Descricao_Tp_Data] [varchar](40) COLLATE Latin1_General_CI_AI NULL,
+	[Ativo] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Dt_Criacao] [datetime] NULL,
+	[id_labels] [int] NULL,
+ CONSTRAINT [PK_Tipo_Data_Controle_Fatura] PRIMARY KEY CLUSTERED 
+(
+	[ID_Tipo_Data] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

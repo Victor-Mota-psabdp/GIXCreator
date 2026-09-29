@@ -1,0 +1,44 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Cta_Ctb](
+	[Cd_Cta_Ctb] [varchar](13) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Cta_Ctb_Red] [varchar](5) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Nome_Cta_Ctb] [varchar](60) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Nome_Cta_Ctb_Red] [varchar](30) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ref_Ctb] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_Lanc] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_CM] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_Red] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_CC] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_Conv] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_Conc] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_Ativo] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ck_Plano_06] [char](1) COLLATE Latin1_General_CI_AI NOT NULL
+) ON [PRIMARY]
+SET ANSI_PADDING OFF
+ALTER TABLE [dbo].[Cta_Ctb] ADD [cd_FluxodeCaixa] [varchar](3) COLLATE Latin1_General_CI_AI NULL
+PRIMARY KEY CLUSTERED 
+(
+	[Cd_Cta_Ctb] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+SET ANSI_PADDING ON
+
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [IX_Cta_Ctb] ON [dbo].[Cta_Ctb]
+(
+	[Cd_Cta_Ctb] ASC,
+	[Ck_Ativo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Cta_Ctb] ADD  CONSTRAINT [DF_Cta_Ctb_Ck_Ativo]  DEFAULT ('N') FOR [Ck_Ativo]
+GO
+ALTER TABLE [dbo].[Cta_Ctb] ADD  CONSTRAINT [DF_Cta_Ctb_Ck_Plano_06]  DEFAULT ('S') FOR [Ck_Plano_06]
+GO

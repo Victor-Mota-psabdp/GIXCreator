@@ -1,0 +1,27 @@
+﻿SET ANSI_NULLS OFF
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[CPT](
+	[Titular] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Prev] [varchar](10) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Nome_Credor] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Num_Lcto] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Item_Lcto] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cta_Cte] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[Vlr_Lcto] [decimal](10, 2) NULL,
+PRIMARY KEY NONCLUSTERED 
+(
+	[Titular] ASC,
+	[Dt_Prev] ASC,
+	[Nome_Credor] ASC,
+	[Num_Lcto] ASC,
+	[Item_Lcto] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

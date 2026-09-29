@@ -1,0 +1,26 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Usuario_Manif](
+	[Cd_Usuario] [varchar](6) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Modal] [char](2) COLLATE Latin1_General_CI_AI NOT NULL,
+	[CPF] [varchar](11) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cartao_Cred] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+ CONSTRAINT [PK_Usuario_Manif] PRIMARY KEY CLUSTERED 
+(
+	[Cd_Usuario] ASC,
+	[Modal] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Usuario_Manif]  WITH CHECK ADD  CONSTRAINT [FK_Usuario_Manif_Usuario] FOREIGN KEY([Cd_Usuario])
+REFERENCES [dbo].[Usuario] ([Cd_Usuario])
+GO
+ALTER TABLE [dbo].[Usuario_Manif] CHECK CONSTRAINT [FK_Usuario_Manif_Usuario]
+GO

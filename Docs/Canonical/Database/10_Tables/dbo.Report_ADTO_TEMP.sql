@@ -1,0 +1,23 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Report_ADTO_TEMP](
+	[Job] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Valor_Adto] [float] NULL,
+	[Valor_Despesas] [float] NULL,
+	[Dt_Desembaraço] [datetime] NULL,
+	[Dt_Adto] [datetime] NULL,
+	[Dt_Fatura] [datetime] NULL,
+	[Encerrado] [bit] NULL,
+ CONSTRAINT [PK_Report_ADTO_TEMP] PRIMARY KEY CLUSTERED 
+(
+	[Job] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

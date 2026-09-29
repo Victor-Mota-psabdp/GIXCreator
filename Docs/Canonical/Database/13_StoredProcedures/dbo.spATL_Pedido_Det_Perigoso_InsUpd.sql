@@ -1,0 +1,68 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- SP_HELp Pedido_Det_Perigoso
+Create Procedure [dbo].[spATL_Pedido_Det_Perigoso_InsUpd] 
+(	
+    @Cd_Pedido			int,
+	@Cd_Produto			int,
+	@Lote				varchar(30),
+	@Item				varchar(6),
+	@HAZMAT_CD			varchar(7),
+	@HAZMAT_CLASS_CD	varchar(4),
+	@HAZMAT_DESC		varchar(300),
+	@HAZMAT_CONTACT		varchar(24),
+	@HAZMAT_PAGE		varchar(6),
+	@HAZMAT_FPOINT		varchar(3),
+	@HAZMAT_FPOINT_CD	varchar(2),
+	@HAZMAT_PULL_DESC_FRM_BDP	varchar(1),
+	@HAZMAT_ORG_DESC	varchar(1),
+	@HAZMAT_DESC_QUAL	varchar(3)
+)
+as
+
+BEGIN TRANSACTION
+	IF NOT EXISTS(SELECT CD_PEDIDO FROM Pedido_Det_Perigoso Where cd_pedido=@cd_pedido and item=@item and lote=@lote and Cd_Produto=@Cd_Produto)
+		BEGIN
+			INSERT INTO Pedido_Det_Perigoso
+			(
+				Cd_Pedido,Cd_Produto,Lote,Item,
+				HAZMAT_CD,HAZMAT_CLASS_CD,HAZMAT_DESC,HAZMAT_CONTACT,HAZMAT_PAGE,HAZMAT_FPOINT,
+				HAZMAT_FPOINT_CD,HAZMAT_PULL_DESC_FRM_BDP,HAZMAT_ORG_DESC,HAZMAT_DESC_QUAL
+			)
+			VALUES
+			(
+				@Cd_Pedido,@Cd_Produto,@Lote,@Item,
+				@HAZMAT_CD,@HAZMAT_CLASS_CD,@HAZMAT_DESC,@HAZMAT_CONTACT,@HAZMAT_PAGE,@HAZMAT_FPOINT,
+				@HAZMAT_FPOINT_CD,@HAZMAT_PULL_DESC_FRM_BDP,@HAZMAT_ORG_DESC,@HAZMAT_DESC_QUAL
+			) 
+		END
+
+	ELSE
+		BEGIN
+			UPDATE	
+				Pedido_Det_Perigoso
+			SET					
+				HAZMAT_CD=@HAZMAT_CD,
+				HAZMAT_CLASS_CD=@HAZMAT_CLASS_CD,
+				HAZMAT_DESC=@HAZMAT_DESC,
+				HAZMAT_CONTACT=@HAZMAT_CONTACT,
+				HAZMAT_PAGE=@HAZMAT_PAGE,
+				HAZMAT_FPOINT=@HAZMAT_FPOINT,
+				HAZMAT_FPOINT_CD=@HAZMAT_FPOINT_CD,
+				HAZMAT_PULL_DESC_FRM_BDP=@HAZMAT_PULL_DESC_FRM_BDP,
+				HAZMAT_ORG_DESC=@HAZMAT_ORG_DESC,
+				HAZMAT_DESC_QUAL=@HAZMAT_DESC_QUAL
+			WHERE
+				Cd_Pedido=@Cd_Pedido and Item=@Item and lote=@lote and Cd_Produto=@Cd_Produto
+		END
+	IF @@ERROR <> 0 
+		BEGIN
+			ROLLBACK TRANSACTION
+			RETURN -2
+		END
+
+COMMIT TRANSACTION
+
+GO

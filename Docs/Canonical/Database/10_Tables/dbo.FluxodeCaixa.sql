@@ -1,0 +1,14 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[FluxodeCaixa](
+	[cd_FluxodeCaixa] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[nomeFluxodeCaixa] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

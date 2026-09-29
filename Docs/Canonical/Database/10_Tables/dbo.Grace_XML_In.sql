@@ -1,0 +1,18 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[Grace_XML_In](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[Nome_Arquivo] [varchar](500) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Ins] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[MESTYP] [varchar](200) COLLATE Latin1_General_CI_AI NULL,
+	[SNDPOR] [varchar](200) COLLATE Latin1_General_CI_AI NULL,
+	[SHPID] [varchar](200) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

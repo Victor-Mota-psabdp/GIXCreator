@@ -1,0 +1,26 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[SETS_Dates_Container](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[ReferenceNumber] [varchar](16) COLLATE Latin1_General_CI_AI NULL,
+	[Equipment] [varchar](25) COLLATE Latin1_General_CI_AI NULL,
+	[ID_Event] [bigint] NULL,
+	[EventCode] [varchar](200) COLLATE Latin1_General_CI_AI NULL,
+	[EventDescription] [varchar](200) COLLATE Latin1_General_CI_AI NULL,
+	[EventDate] [datetime] NULL,
+	[Dt_Ins] [datetime] NULL,
+	[Dt_Upd] [datetime] NULL,
+	[Status] [varchar](500) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_SETS_Dates_Container] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

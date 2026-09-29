@@ -1,0 +1,70 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tracking_IMP_CHB](
+	[Modal] [varchar](5) COLLATE Latin1_General_CI_AI NOT NULL,
+	[BDP Ref.] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Consol. Ref.] [varchar](14) COLLATE Latin1_General_CI_AI NULL,
+	[Group] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Consignee] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+	[CNPJ] [varchar](15) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Master] [varchar](25) COLLATE Latin1_General_CI_AI NULL,
+	[House] [varchar](25) COLLATE Latin1_General_CI_AI NULL,
+	[P.O.] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Product] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Origin] [varchar](30) COLLATE Latin1_General_CI_AI NULL,
+	[Destination] [varchar](30) COLLATE Latin1_General_CI_AI NULL,
+	[Carrier] [varchar](100) COLLATE Latin1_General_CI_AI NULL,
+	[Vessel / Flight #] [varchar](100) COLLATE Latin1_General_CI_AI NULL,
+	[Containers / Volumes] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Necessidade LI?] [varchar](3) COLLATE Latin1_General_CI_AI NULL,
+	[L.I.] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Data Solic. L.I.] [datetime] NULL,
+	[Data Def. L.I.] [datetime] NULL,
+	[Data Vcto.] [datetime] NULL,
+	[ETD Date] [datetime] NULL,
+	[ATD Date] [datetime] NULL,
+	[Data Aprov. Draft] [datetime] NULL,
+	[Data Abertura Pasta] [datetime] NULL,
+	[Data Digitação] [datetime] NULL,
+	[Data Cheg. Docs.] [datetime] NULL,
+	[Data Sol. Numerario] [datetime] NULL,
+	[Data Redest. Container] [datetime] NULL,
+	[ETA Date] [datetime] NULL,
+	[Saldo Processo Valor] [float] NULL,
+	[ATA Date] [datetime] NULL,
+	[Data Pgto. AFRMM] [datetime] NULL,
+	[Terminal] [varchar](30) COLLATE Latin1_General_CI_AI NULL,
+	[Data Entr. Terminal] [datetime] NULL,
+	[Data Desova] [datetime] NULL,
+	[Data Presença Carga] [datetime] NULL,
+	[Data Liberação BL] [datetime] NULL,
+	[D.I.] [varchar](80) COLLATE Latin1_General_CI_AI NULL,
+	[Data D.I.] [datetime] NULL,
+	[Data Desembaraço] [datetime] NULL,
+	[Data Pgto Armazenagem] [datetime] NULL,
+	[Data Pgto SDA] [datetime] NULL,
+	[Data Averbação] [datetime] NULL,
+	[Channel] [varchar](20) COLLATE Latin1_General_CI_AI NULL,
+	[Data Env Draft NFe] [datetime] NULL,
+	[Data Entr Docs Transp] [datetime] NULL,
+	[Data Env Draft NF Compl] [datetime] NULL,
+	[Data Env Docs Faturamento] [datetime] NULL,
+	[Data Env. Faturamento SP] [datetime] NULL,
+	[Data Receb. Faturamento] [datetime] NULL,
+	[Data Prev Entrega] [datetime] NULL,
+	[Data Entrega Planta] [datetime] NULL,
+	[Histórico] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Notes (OBS)] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Urgente] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Localidade] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Certificado de Origem] [varchar](max) COLLATE Latin1_General_CI_AI NULL,
+	[Drawback - Ato Concess.] [varchar](max) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

@@ -1,0 +1,8 @@
+﻿SET ANSI_NULLS OFF
+GO
+SET QUOTED_IDENTIFIER OFF
+GO
+CREATE PROCEDURE pPessoa_Idx 
+ AS
+	Select  Apelido  From Pessoa Order by Apelido
+GO

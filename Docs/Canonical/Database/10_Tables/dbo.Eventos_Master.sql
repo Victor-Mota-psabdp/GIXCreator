@@ -1,0 +1,14 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Eventos_Master](
+	[Arquivo_EVE] [varchar](25) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Num_Proc] [varchar](14) COLLATE Latin1_General_CI_AI NOT NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

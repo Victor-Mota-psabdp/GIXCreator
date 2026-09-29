@@ -1,0 +1,29 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Taxas_CP](
+	[Cd_Tp_Tx] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Modal] [varchar](2) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Tp_Carga] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Vlr_Taxa] [float] NULL,
+	[Moeda] [varchar](3) COLLATE Latin1_General_CI_AI NULL,
+	[IVA] [char](1) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_Taxas_CP] PRIMARY KEY CLUSTERED 
+(
+	[Cd_Tp_Tx] ASC,
+	[Modal] ASC,
+	[Cd_Tp_Carga] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Taxas_CP]  WITH CHECK ADD  CONSTRAINT [FK_Taxas_CP_Taxas_CP] FOREIGN KEY([Cd_Tp_Tx], [Modal], [Cd_Tp_Carga])
+REFERENCES [dbo].[Taxas_CP] ([Cd_Tp_Tx], [Modal], [Cd_Tp_Carga])
+GO
+ALTER TABLE [dbo].[Taxas_CP] CHECK CONSTRAINT [FK_Taxas_CP_Taxas_CP]
+GO

@@ -1,0 +1,168 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE procedure [dbo].[spBDPINT_Localidade_Sel]
+(	
+	@ISO_2_LTR_CNTRY_CD		[varchar](2),
+	@UN_LOCTN_CD			[varchar](6),
+	@UN_LOCTN_NM			[varchar](100),
+	@Nome_Pais				[Varchar](50),
+	@Tipo					char(1)
+)
+as
+
+/*
+A, /// Todos os registros - Existentes
+B, /// Todos os registros - Ativos
+C, /// Busca pelo Codigo - Existentes
+D, /// Busca pelo Codigo - Ativos
+N, /// Busca pelo Nome - Existentes
+O /// Busca pelo Nome - Ativos
+*/
+
+if @Tipo = 'A'  or @Tipo = 'B' 
+	Begin
+		select 			
+			B.UN_LOCTN_CHNG_CD,
+			B.ISO_2_LTR_CNTRY_CD,
+			B.ISO_2_LTR_CNTRY_CD	[Country Code],
+			P.Nome_Pais				[Country Name],
+			B.UN_LOCTN_CD,
+			B.UN_LOCTN_NM,
+			B.UN_LOCTN_WO_DIACRITICS_NM,
+			B.UN_LOCTN_SUBDIV_CD,
+			B.UN_LOCTN_STATUS_CD,
+			B.UN_LOCTN_FNCTN_POS_1_CD,
+			B.UN_LOCTN_FNCTN_POS_2_CD,
+			B.UN_LOCTN_FNCTN_POS_3_CD,
+			B.UN_LOCTN_FNCTN_POS_4_CD,
+			B.UN_LOCTN_FNCTN_POS_5_CD,
+			B.UN_LOCTN_FNCTN_POS_6_CD,
+			B.UN_LOCTN_FNCTN_POS_7_CD,
+			B.UN_LOCTN_FNCTN_POS_8_CD,
+			B.UN_LOCTN_LAST_MODFD_DT,
+			B.UN_LOCTN_IATA_CD,
+			B.UN_LOCTN_LATITUDE_CD,
+			B.UN_LOCTN_LONGITUDE_CD,
+			B.IATA_3_LTR_CITY_CD,
+			B.IATA_3_LTR_AIRPORT_CD,
+			B.SCHED_D_K_CD,
+			B.CREATED_BY,
+			B.CREATED_ON,
+			B.LAST_MODFD_BY,
+			B.LAST_MODFD_DT,
+			B.TEMP_CD_IND,
+			B.LGCLLY_DELTD_IND,
+			B.BDP_SMART_AIRPORT_NM,
+			B.BDP_SMART_CITY_NM,
+			B.CMNT_TXT,
+			B.GIF_CNTRY_UNLOC_CD,
+			B.CNTRY_NM,
+			B.RGN_CD,
+			B.RGN_NM,
+			B.UN_LOCTN_LATITUDE_DEC_CD,
+			B.UN_LOCTN_LONGITUDE_DEC_CD
+		from BDPINT_Localidade B with(nolock)
+			LEFT jOIN Pais P with(nolock) ON P.cd_pais = B. ISO_2_LTR_CNTRY_CD	
+	End
+
+if @Tipo = 'C'  or @Tipo = 'D'
+	Begin
+		select
+			B.UN_LOCTN_CHNG_CD,
+			B.ISO_2_LTR_CNTRY_CD,
+			B.ISO_2_LTR_CNTRY_CD	[Country Code],
+			P.Nome_Pais				[Country Name],
+			B.UN_LOCTN_CD,
+			B.UN_LOCTN_NM,
+			B.UN_LOCTN_WO_DIACRITICS_NM,
+			B.UN_LOCTN_SUBDIV_CD,
+			B.UN_LOCTN_STATUS_CD,
+			B.UN_LOCTN_FNCTN_POS_1_CD,
+			B.UN_LOCTN_FNCTN_POS_2_CD,
+			B.UN_LOCTN_FNCTN_POS_3_CD,
+			B.UN_LOCTN_FNCTN_POS_4_CD,
+			B.UN_LOCTN_FNCTN_POS_5_CD,
+			B.UN_LOCTN_FNCTN_POS_6_CD,
+			B.UN_LOCTN_FNCTN_POS_7_CD,
+			B.UN_LOCTN_FNCTN_POS_8_CD,
+			B.UN_LOCTN_LAST_MODFD_DT,
+			B.UN_LOCTN_IATA_CD,
+			B.UN_LOCTN_LATITUDE_CD,
+			B.UN_LOCTN_LONGITUDE_CD,
+			B.IATA_3_LTR_CITY_CD,
+			B.IATA_3_LTR_AIRPORT_CD,
+			B.SCHED_D_K_CD,
+			B.CREATED_BY,
+			B.CREATED_ON,
+			B.LAST_MODFD_BY,
+			B.LAST_MODFD_DT,
+			B.TEMP_CD_IND,
+			B.LGCLLY_DELTD_IND,
+			B.BDP_SMART_AIRPORT_NM,
+			B.BDP_SMART_CITY_NM,
+			B.CMNT_TXT,
+			B.GIF_CNTRY_UNLOC_CD,
+			B.CNTRY_NM,
+			B.RGN_CD,
+			B.RGN_NM,
+			B.UN_LOCTN_LATITUDE_DEC_CD,
+			B.UN_LOCTN_LONGITUDE_DEC_CD
+		from BDPINT_Localidade B with(nolock)
+			LEFT jOIN Pais P with(nolock) ON P.cd_pais = B. ISO_2_LTR_CNTRY_CD
+		Where
+			ISO_2_LTR_CNTRY_CD = @ISO_2_LTR_CNTRY_CD AND UN_LOCTN_CD = @UN_LOCTN_CD
+	End
+
+if @Tipo = 'N'  or @Tipo = 'O'
+	Begin
+		select 
+			B.UN_LOCTN_CHNG_CD,
+			B.ISO_2_LTR_CNTRY_CD,
+			B.ISO_2_LTR_CNTRY_CD	[Country Code],
+			P.Nome_Pais				[Country Name],
+			B.UN_LOCTN_CD,
+			B.UN_LOCTN_NM,
+			B.UN_LOCTN_WO_DIACRITICS_NM,
+			B.UN_LOCTN_SUBDIV_CD,
+			B.UN_LOCTN_STATUS_CD,
+			B.UN_LOCTN_FNCTN_POS_1_CD,
+			B.UN_LOCTN_FNCTN_POS_2_CD,
+			B.UN_LOCTN_FNCTN_POS_3_CD,
+			B.UN_LOCTN_FNCTN_POS_4_CD,
+			B.UN_LOCTN_FNCTN_POS_5_CD,
+			B.UN_LOCTN_FNCTN_POS_6_CD,
+			B.UN_LOCTN_FNCTN_POS_7_CD,
+			B.UN_LOCTN_FNCTN_POS_8_CD,
+			B.UN_LOCTN_LAST_MODFD_DT,
+			B.UN_LOCTN_IATA_CD,
+			B.UN_LOCTN_LATITUDE_CD,
+			B.UN_LOCTN_LONGITUDE_CD,
+			B.IATA_3_LTR_CITY_CD,
+			B.IATA_3_LTR_AIRPORT_CD,
+			B.SCHED_D_K_CD,
+			B.CREATED_BY,
+			B.CREATED_ON,
+			B.LAST_MODFD_BY,
+			B.LAST_MODFD_DT,
+			B.TEMP_CD_IND,
+			B.LGCLLY_DELTD_IND,
+			B.BDP_SMART_AIRPORT_NM,
+			B.BDP_SMART_CITY_NM,
+			B.CMNT_TXT,
+			B.GIF_CNTRY_UNLOC_CD,
+			B.CNTRY_NM,
+			B.RGN_CD,
+			B.RGN_NM,
+			B.UN_LOCTN_LATITUDE_DEC_CD,
+			B.UN_LOCTN_LONGITUDE_DEC_CD
+		from BDPINT_Localidade B with(nolock)
+			LEFT jOIN Pais P with(nolock) ON P.cd_pais = B. ISO_2_LTR_CNTRY_CD
+		Where
+			P.nome_pais = @Nome_Pais  and UN_LOCTN_NM = @UN_LOCTN_NM
+	End
+		
+
+GO

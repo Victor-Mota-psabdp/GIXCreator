@@ -1,0 +1,28 @@
+﻿SET ANSI_NULLS OFF
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[CFL](
+	[CFL_Nome_Pessoa] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL,
+	[CFL_Num_Proc] [varchar](16) COLLATE Latin1_General_CI_AI NULL,
+	[CFL_Nome_Tp_Tx] [varchar](30) COLLATE Latin1_General_CI_AI NULL,
+	[CFL_Vlr_Parid] [decimal](10, 6) NULL,
+	[CFL_Vlr_D1] [decimal](10, 2) NULL,
+	[CFL_Vlr_C1] [decimal](10, 2) NULL,
+	[CFL_Vlr_D2] [decimal](10, 2) NULL,
+	[CFL_Vlr_C2] [decimal](10, 2) NULL,
+	[CFL_Vlr_D3] [decimal](10, 2) NULL,
+	[CFL_Vlr_C3] [decimal](10, 2) NULL,
+	[CFL_Vlr_D4] [decimal](10, 2) NULL,
+	[CFL_Vlr_C4] [decimal](10, 2) NULL,
+PRIMARY KEY NONCLUSTERED 
+(
+	[CFL_Nome_Pessoa] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

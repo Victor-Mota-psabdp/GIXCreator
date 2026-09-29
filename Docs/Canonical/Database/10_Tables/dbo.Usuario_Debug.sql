@@ -1,0 +1,27 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Usuario_Debug](
+	[Cd_usuario] [varchar](6) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ativo] [bit] NOT NULL,
+	[Caminho_Gravacao] [varchar](2000) COLLATE Latin1_General_CI_AI NULL,
+	[Email_Responsavel] [varchar](2000) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_Usuario_Debug] PRIMARY KEY CLUSTERED 
+(
+	[Cd_usuario] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Usuario_Debug] ADD  DEFAULT ((0)) FOR [Ativo]
+GO
+ALTER TABLE [dbo].[Usuario_Debug]  WITH CHECK ADD  CONSTRAINT [FK_Usuario_Debug] FOREIGN KEY([Cd_usuario])
+REFERENCES [dbo].[Usuario] ([Cd_Usuario])
+GO
+ALTER TABLE [dbo].[Usuario_Debug] CHECK CONSTRAINT [FK_Usuario_Debug]
+GO

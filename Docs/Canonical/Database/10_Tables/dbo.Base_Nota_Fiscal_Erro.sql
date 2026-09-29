@@ -1,0 +1,26 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Base_Nota_Fiscal_Erro](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[Nota_Fiscal] [varchar](8) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Ref_Acesso] [char](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[XML_DOC] [nvarchar](max) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Nome_Arquivo] [varchar](500) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Codigo] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[Mensagem] [nvarchar](max) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Correcao] [nvarchar](max) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Ins] [datetime] NOT NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE UNIQUE NONCLUSTERED INDEX [NonClusteredIndex-20240602-215741] ON [dbo].[Base_Nota_Fiscal_Erro]
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+GO

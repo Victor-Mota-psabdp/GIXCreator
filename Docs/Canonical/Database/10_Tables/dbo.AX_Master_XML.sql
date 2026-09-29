@@ -1,0 +1,25 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[AX_Master_XML](
+	[ID_AX] [bigint] NOT NULL,
+	[Num_Proc] [varchar](16) COLLATE Latin1_General_CI_AI NULL,
+	[Tipo] [varchar](1) COLLATE Latin1_General_CI_AI NULL,
+	[Dt_Envio] [datetime] NULL,
+	[XML_DOC] [xml] NULL,
+	[Nome_Arquivo] [varchar](100) COLLATE Latin1_General_CI_AI NULL,
+	[MessageId] [varchar](500) COLLATE Latin1_General_CI_AI NULL,
+	[Verificado] [bit] NULL,
+	[Dt_Reenvio] [datetime] NULL,
+ CONSTRAINT [PK_AX_Master_XML] PRIMARY KEY CLUSTERED 
+(
+	[ID_AX] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

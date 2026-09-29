@@ -1,0 +1,14 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tipo_Reason_Code](
+	[cd_Reason] [varchar](25) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Reason_Descr] [varchar](100) COLLATE Latin1_General_CI_AI NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

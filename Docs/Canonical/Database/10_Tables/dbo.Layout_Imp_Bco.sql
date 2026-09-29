@@ -1,0 +1,15 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Layout_Imp_Bco](
+	[Cd_Layout_Bco] [int] IDENTITY(1,1) NOT NULL,
+	[Desc_Layout] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[DLL_Name] [varchar](20) COLLATE Latin1_General_CI_AI NOT NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

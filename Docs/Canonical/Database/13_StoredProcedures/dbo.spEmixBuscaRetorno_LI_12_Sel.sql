@@ -1,0 +1,38 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE Procedure [dbo].[spEmixBuscaRetorno_LI_12_Sel]  
+  
+AS  
+  
+select C.id_consulta_tipo,C.id_parametro_grupo,upper(C.num_proc) num_proc,XML_DOC2,E.ID ID_XML,C.id ID_Envio ,E.Retorno_Erro
+from E_MIX_XML E with(nolock)  
+Join E_Mix_Consulta C with(nolock) on C.id=E.ID   
+--left join vwALL_JOBs V on V.Num_Proc = C.num_proc  
+  
+Where 
+(
+(Dt_retorno is null and Dt_Envio is not null)
+or 
+(Dt_retorno is not null and Dt_Envio > '2019-06-01' and Retorno_Erro like 'Sua consulta foi criada%')
+or 
+(Dt_retorno is not null and Dt_Envio > '2019-06-01' and Retorno_Erro like 'Sua consulta não constou registros!')
+or 
+(Dt_retorno is not null and Dt_Envio > '2019-06-01' and Retorno_Erro like 'Desculpe, ocorreu um erro no sistema!%')
+or 
+(Dt_retorno is not null and Dt_Envio > '2019-06-01' and Retorno_Erro like '%Sua consulta já foi retornada dentro do%')
+)
+
+--and isnull(V.ID_Status,0) < 5   
+and C.num_proc not in ('IMIFB201603038BR')  
+and C.id_consulta_tipo in (12)  
+order by 3  
+   
+OPTION(HASH JOIN)  
+  
+  
+  
+  
+GO

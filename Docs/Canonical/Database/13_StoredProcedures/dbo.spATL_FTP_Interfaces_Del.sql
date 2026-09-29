@@ -1,0 +1,23 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE   procedure [dbo].[spATL_FTP_Interfaces_Del]
+(
+	@ID_FTP	int
+)
+AS  
+  
+BEGIN TRANSACTION
+  
+	--IF EXISTS (SELECT ID_FTP FROM FTP_Interfaces WHERE ID_FTP = @ID_FTP)  
+	--	BEGIN  
+	--		DELETE FTP_Interfaces WHERE ID_FTP = @ID_FTP
+	--	END
+	
+  
+COMMIT TRANSACTION
+
+
+GO

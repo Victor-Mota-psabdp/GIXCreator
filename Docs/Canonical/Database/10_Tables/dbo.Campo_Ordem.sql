@@ -1,0 +1,25 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Campo_Ordem](
+	[Cd_Pedido] [int] NOT NULL,
+	[Id_Campo] [int] NOT NULL,
+	[Campo_Dados] [varchar](500) COLLATE Latin1_General_CI_AI NULL,
+	[Cd_Usuario] [varchar](6) COLLATE Latin1_General_CI_AI NULL,
+	[Dt_Ins_Upd] [datetime] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Cd_Pedido] ASC,
+	[Id_Campo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Campo_Ordem]  WITH CHECK ADD FOREIGN KEY([Cd_Pedido])
+REFERENCES [dbo].[Pedido] ([Cd_pedido])
+GO

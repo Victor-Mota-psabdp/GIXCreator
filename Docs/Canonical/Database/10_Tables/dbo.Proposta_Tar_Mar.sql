@@ -1,0 +1,32 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Proposta_Tar_Mar](
+	[PROCOD] [varchar](12) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PRMID] [int] NOT NULL,
+	[Cd_Tp_Cont] [varchar](3) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PTMValor] [float] NOT NULL,
+ CONSTRAINT [PK_Proposta_Tar_Mar] PRIMARY KEY CLUSTERED 
+(
+	[PROCOD] ASC,
+	[PRMID] ASC,
+	[Cd_Tp_Cont] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Proposta_Tar_Mar]  WITH CHECK ADD  CONSTRAINT [FK_Proposta_Tar_Mar_Proposta_Rot_Mar] FOREIGN KEY([PROCOD], [PRMID])
+REFERENCES [dbo].[Proposta_Rot_Mar] ([PROCOD], [PRMID])
+GO
+ALTER TABLE [dbo].[Proposta_Tar_Mar] CHECK CONSTRAINT [FK_Proposta_Tar_Mar_Proposta_Rot_Mar]
+GO
+ALTER TABLE [dbo].[Proposta_Tar_Mar]  WITH CHECK ADD  CONSTRAINT [FK_Proposta_Tar_Mar_Tipo_Cont_Tar] FOREIGN KEY([Cd_Tp_Cont])
+REFERENCES [dbo].[Tipo_Cont_Tar] ([Cd_Tp_Cont])
+GO
+ALTER TABLE [dbo].[Proposta_Tar_Mar] CHECK CONSTRAINT [FK_Proposta_Tar_Mar_Tipo_Cont_Tar]
+GO

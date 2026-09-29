@@ -1,0 +1,25 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Exchange_Cta_Cte](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL,
+	[Num_Proc] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[IC] [bigint] NOT NULL,
+	[Tipo_Oper] [varchar](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Dt_Ins] [datetime] NOT NULL,
+	[Dt_Envio] [datetime] NULL,
+	[Dt_Retorno] [datetime] NULL,
+	[Cd_Tp_Tx] [varchar](3) COLLATE Latin1_General_CI_AI NULL,
+	[DC] [varchar](1) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_Exchange_Cta_Cte] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

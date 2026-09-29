@@ -1,0 +1,31 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Recibo_Item](
+	[ID] [bigint] NOT NULL,
+	[ID_Item] [int] NOT NULL,
+	[Cd_Tp_Tx] [varchar](50) COLLATE Latin1_General_CI_AI NOT NULL,
+	[DC] [varchar](1) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Cd_Tp_Moeda] [varchar](10) COLLATE Latin1_General_CI_AI NULL,
+	[Vlr_Ref] [decimal](18, 4) NULL,
+	[Par_Moeda] [decimal](18, 4) NULL,
+	[Vlr_Ref_Total] [decimal](18, 2) NULL,
+ CONSTRAINT [PK_Recibo_Item] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC,
+	[Cd_Tp_Tx] ASC,
+	[DC] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Recibo_Item]  WITH CHECK ADD  CONSTRAINT [FK_Recibo_Item_Recibo] FOREIGN KEY([ID])
+REFERENCES [dbo].[Recibo] ([ID])
+GO
+ALTER TABLE [dbo].[Recibo_Item] CHECK CONSTRAINT [FK_Recibo_Item_Recibo]
+GO

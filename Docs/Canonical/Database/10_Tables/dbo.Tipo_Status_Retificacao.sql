@@ -1,0 +1,22 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[Tipo_Status_Retificacao](
+	[ID_Status] [bigint] IDENTITY(1,1) NOT NULL,
+	[Status_Descricao] [varchar](50) COLLATE Latin1_General_CI_AI NULL,
+	[Ativo] [bit] NULL
+) ON [PRIMARY]
+SET ANSI_PADDING ON
+ALTER TABLE [dbo].[Tipo_Status_Retificacao] ADD [Cd_Usuario] [varchar](10) COLLATE Latin1_General_CI_AI NULL
+ALTER TABLE [dbo].[Tipo_Status_Retificacao] ADD [dt_ins] [datetime] NULL
+ CONSTRAINT [PK_Tipo_Status_Retificacao] PRIMARY KEY CLUSTERED 
+(
+	[ID_Status] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

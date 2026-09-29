@@ -1,0 +1,17 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[LOG_JOB_SFDC](
+	[ID_LOG] [bigint] IDENTITY(1,1) NOT NULL,
+	[Num_Proc] [varchar](16) COLLATE Latin1_General_CI_AI NULL,
+	[Dt_Ins] [datetime] NULL,
+	[ID_Status] [int] NULL,
+	[ID_Status_old] [int] NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

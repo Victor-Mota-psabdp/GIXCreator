@@ -1,0 +1,25 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[Doc_Anexos_Emix](
+	[Item_Doc] [int] NOT NULL,
+	[Num_Proc] [varchar](16) COLLATE Latin1_General_CI_AI NOT NULL,
+	[Id_DC] [int] NOT NULL,
+	[Nome_Arquivo] [varchar](30) COLLATE Latin1_General_CI_AI NULL,
+	[Status] [varchar](200) COLLATE Latin1_General_CI_AI NULL,
+	[Dt_Envio] [datetime] NULL,
+	[Cd_Usuario] [varchar](6) COLLATE Latin1_General_CI_AI NULL,
+	[Dt_Ins] [datetime] NULL,
+ CONSTRAINT [PK_Doc_Anexos_Emix] PRIMARY KEY CLUSTERED 
+(
+	[Item_Doc] ASC,
+	[Num_Proc] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, FILLFACTOR = 90, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

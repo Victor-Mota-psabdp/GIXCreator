@@ -1,0 +1,17 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Param_AeKContabil](
+	[PkcID] [smallint] NOT NULL,
+	[PkcMes] [varchar](7) COLLATE Latin1_General_CI_AI NOT NULL,
+	[PkcLote] [int] NOT NULL
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+ALTER TABLE [dbo].[Param_AeKContabil] ADD  CONSTRAINT [DF_Param_AeKContabil_PkcLote]  DEFAULT (1601) FOR [PkcLote]
+GO

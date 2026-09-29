@@ -1,0 +1,38 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE Procedure [dbo].[spBALANCE REPORT_PROFIT_Sel]
+	@Group			varchar(50),
+	@DataInicial	Datetime,
+	@DataFinal		Datetime
+	
+	
+as
+--THE FINANCIAL AREA NEEDS A REPORT WITH THE FOLLOWING INFORMATION BY JOB:
+--JOB NUMBER / TRANSACTION TEXT / CURRENCY / SALES / SALES TAX OVER / COST / (G) / P /
+--ADVANCED PAYMENT / PT COST / REVENUE EN / EN EXPENSE / TOTAL-BALANCE.
+--WHO SHOULD HAVE ACCESS TO THIS REPORT? FINANCIAL MANAGER.
+--SEE ATTACHED AN EXAMPLE. (THERE ARE TWO EXMPLOS OF REPORTS BUT THE REPORT TO BE CREATED HAS TO BE ONLY ONE).
+
+--select * from report
+
+select 
+	CTa.Num_Proc_HIA [JOB NUMBER], 
+	CTa.Num_Proc_HIA + ' - ' + TT.Nome_Tp_Tx [TRANSACTION TEXT],
+	CTA.Cd_Tp_Moeda [CURRENCY],
+	'?' [SALES],
+	'?' [SALES TAX OVER],
+	'?' [COST],
+	'?' [(G) / P],
+	'?' [ADVANCED PAYMENT],
+	cxa.Vlr_Pgto_Rcto_HIA [PT COST],
+	'?' [REVENUE EN],
+	'?' [EN EXPENSE],
+	'?' [TOTAL-BALANCE]
+from vwcta_Cte CTA
+	join Tipo_Taxa TT on TT.Cd_Tp_Tx = CTA.Cd_Tp_Tx
+	left join vwCXAS CXA on CXA.Num_Proc_HIA = CTA.Num_Proc_HIA and CXA.Cd_Tp_Tx = CTA.Cd_Tp_Tx and CXA.DC_HIA = CTA.DC_HIA
+where
+	CTa.Num_Proc_HIA in ('EAKRY201511001BR')
+GO

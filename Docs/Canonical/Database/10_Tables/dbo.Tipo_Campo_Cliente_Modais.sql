@@ -1,0 +1,24 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[Tipo_Campo_Cliente_Modais](
+	[Id_Campo] [int] NOT NULL,
+	[House] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Master] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Export] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Import] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Air] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Ocean] [char](1) COLLATE Latin1_General_CI_AI NULL,
+	[Other] [char](1) COLLATE Latin1_General_CI_AI NULL,
+ CONSTRAINT [PK_Tipo_Campo_Cliente_Modais] PRIMARY KEY CLUSTERED 
+(
+	[Id_Campo] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO

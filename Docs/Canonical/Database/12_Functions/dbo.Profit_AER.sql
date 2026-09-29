@@ -1,0 +1,22 @@
+﻿SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+
+CREATE   function Profit_AER(
+				@Processo varchar(16)
+
+)
+RETURNS float
+	BEGIN
+ RETURN isnull((SELECT SUM(VLR_ORG_HEA) FROM CTa_CTE_HOU_EXP_AER WHERE NUM_PROC_HEA=@PROCESSO AND cd_tp_tx in ('DVC','PBD','PSA','SAF')),0)
+	end
+
+
+
+
+
+
+GO
